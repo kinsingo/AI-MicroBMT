@@ -108,9 +108,9 @@ OUTPUT_CSV_RES = 'UDS_scores_detailed_resolution.csv'
 OUTPUT_SUMMARY_CSV = 'UDS_scores_summary.csv'
 
 
-# ============================================================================
+# ===========================================================================
 # HELPER FUNCTIONS
-# ============================================================================
+# ===========================================================================
 
 def extract_resolution_from_model(model_name: str) -> Optional[int]:
     """Extract input resolution from model name (e.g., 'inputres_224' -> 224)"""
