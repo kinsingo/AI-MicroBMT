@@ -1,0 +1,37 @@
+\begin{table}[tb]
+\caption{Case breakdown vs.\ Apple M4 CPU (67 models, Single-Stream).
+We classify each (model, NPU) outcome by latency vs.\ CPU and relative accuracy degradation $\Delta_{\%}$:
+Case~1 (accurate \& faster): $\Delta_{\%}<4\%$ and latency $\leq$ CPU;
+Case~2 (accurate but slower): $\Delta_{\%}<4\%$ and latency $>$ CPU;
+Case~3 (accuracy low): $\Delta_{\%}\geq 4\%$ (parenthesis shows \#(latency $\leq$ CPU / latency $>$ CPU));
+Case~4 (coverage failure): compilation/runtime failure or absolute accuracy $<15\%$.}
+\label{tab:case_breakdown_67}
+\centering
+\small
+\setlength{\tabcolsep}{4pt} 
+\begin{tabular}{lrrcr}
+\toprule
+NPU & Case~1 & Case~2 & Case~3 & Case~4 \\
+\midrule
+DeepX M1 & 48 & 5 & 3 (3/0) & 11 \\
+Mobilint-ARIES & 63 & 0 & 4 (4/0) & 0 \\
+Hailo-8 & 48 & 1 & 6 (6/0) & 12 \\
+Qualcomm QCS6490 & 44 & 9 & 12 (4/8) & 2 \\
+Apple M4 ANE & 54 & 13 & 0 (0/0) & 0 \\
+RTX PRO 6000 Max-Q & 67 & 0 & 0 (0/0) & 0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+
+% Summary Statistics:
+% Coverage = models successfully evaluated / 67 total
+% Accurate = (Case 1 + Case 2) / evaluated (accuracy_drop < 4%)
+% Faster = (Case 1 + Case 3 faster) / evaluated (latency <= CPU)
+%
+% DeepX M1: Coverage 67/67 (100.0%), Accurate 53/67 (79.1%), Faster 51/67 (76.1%)
+% Mobilint-ARIES: Coverage 67/67 (100.0%), Accurate 63/67 (94.0%), Faster 67/67 (100.0%)
+% Hailo-8: Coverage 67/67 (100.0%), Accurate 49/67 (73.1%), Faster 54/67 (80.6%)
+% Qualcomm QCS6490: Coverage 67/67 (100.0%), Accurate 53/67 (79.1%), Faster 48/67 (71.6%)
+% Apple M4 ANE: Coverage 67/67 (100.0%), Accurate 67/67 (100.0%), Faster 54/67 (80.6%)
+% RTX PRO 6000 Max-Q: Coverage 67/67 (100.0%), Accurate 67/67 (100.0%), Faster 67/67 (100.0%)

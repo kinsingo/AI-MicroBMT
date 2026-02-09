@@ -1,0 +1,11 @@
+Activation,Degradation_Percentage_mean,Degradation_Percentage_std,Degradation_Percentage_min,Degradation_Percentage_max,NPU_Accuracy_mean,NPU_Accuracy_min,Baseline_Accuracy_mean
+ELU,1.56,2.71,0.0,8.44,66.23,60.3,67.27
+GELU,3.79,6.7,-0.06,21.63,68.64,55.19,71.32
+HARDSWISH,7.82,13.88,-0.06,46.62,64.83,36.86,70.24
+LEAKYRELU,1.23,1.82,-0.06,5.47,69.09,64.6,69.94
+MISH,2.24,3.72,-0.01,12.45,69.34,61.16,70.91
+PRELU,17.41,38.43,-0.07,99.86,57.22,0.1,69.29
+RELU,0.31,0.45,-0.21,1.18,69.21,67.01,69.42
+RELU6,0.3,0.37,-0.09,1.05,69.24,66.94,69.45
+SELU,6.15,13.41,-0.03,41.78,60.89,36.52,64.76
+SILU,4.08,8.75,0.0,31.21,68.21,47.86,71.05

@@ -1,0 +1,69 @@
+task,scenario,accuracy,epoch_samples_per_second_min,samples_per_second,epoch_samples_per_second_max,cpu_type,accelerator_type,submitter,benchmark_model
+Image Classification,Offline,63.4,8003.692254,8003.692254,8003.692254,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_elu_w1_0
+Image Classification,Offline,61.65,8069.054345,8069.054345,8069.054345,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_gelu_w1_0
+Image Classification,Offline,63.2,8047.17458,8047.17458,8047.17458,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_hardswish_w1_0
+Image Classification,Offline,67.76,8141.329711,8141.329711,8141.329711,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,68,7986.073014,7986.073014,7986.073014,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_mish_w1_0
+Image Classification,Offline,67.16,8311.735145,8311.735145,8311.735145,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_prelu_w1_0
+Image Classification,Offline,67.16,8221.459473,8221.459473,8221.459473,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_relu_w1_0
+Image Classification,Offline,66.94,8109.030151,8109.030151,8109.030151,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_relu6_w1_0
+Image Classification,Offline,36.52,8230.697404,8230.697404,8230.697404,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_selu_w1_0
+Image Classification,Offline,66.3,8095.83651,8095.83651,8095.83651,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",mobilenetv2_silu_w1_0
+Image Classification,Offline,67.74,2849.603634,2849.603634,2849.603634,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_gelu_w1_0
+Image Classification,Offline,58.84,2887.600411,2887.600411,2887.600411,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_hardswish_w1_0
+Image Classification,Offline,64.6,2844.417465,2844.417465,2844.417465,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,66.95,2883.251735,2883.251735,2883.251735,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_mish_w1_0
+Image Classification,Offline,0.39,228.16788,228.16788,228.16788,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_prelu_w1_0
+Image Classification,Offline,67.41,2798.68304,2798.68304,2798.68304,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_relu6_w1_0
+Image Classification,Offline,67.22,2855.545835,2855.545835,2855.545835,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_relu_w1_0
+Image Classification,Offline,62.61,12.60119964,12.60119964,12.60119964,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_selu_w1_0
+Image Classification,Offline,67.28,2900.152868,2900.152868,2900.152868,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",mobilenetv2_silu_w1_0
+Image Classification,Offline,65.26,2156.57464,2166.968568,2172.321804,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_elu_w1_0
+Image Classification,Offline,66.72,2156.031366,2164.960302,2174.621198,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_gelu_w1_0
+Image Classification,Offline,55.53,2160.069053,2163.829582,2165.951044,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_hardswish_w1_0
+Image Classification,Offline,67.78,2121.364245,2138.538521,2154.244589,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,65.97,2161.710385,2170.096497,2178.944367,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_mish_w1_0
+Image Classification,Offline,68.38,726.0971752,726.4304168,726.6705065,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_prelu_w1_0
+Image Classification,Offline,67.44,2243.380809,2257.498391,2266.944602,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_relu6_w1_0
+Image Classification,Offline,67.7,2237.883379,2270.82561,2289.57937,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_relu_w1_0
+Image Classification,Offline,65.78,2125.375239,2132.17012,2140.505109,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",mobilenetv2_silu_w1_0
+Image Classification,Offline,69.57,1455.804388,1455.804388,1455.804388,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_silu_w1_0
+Image Classification,Offline,62.68,85.31482879,85.31482879,85.31482879,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_selu_w1_0
+Image Classification,Offline,67.71,2231.107909,2231.107909,2231.107909,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_relu6_w1_0
+Image Classification,Offline,67.83,2485.563346,2485.563346,2485.563346,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_relu_w1_0
+Image Classification,Offline,68.67,2466.828259,2466.828259,2466.828259,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_prelu_w1_0
+Image Classification,Offline,69.8,100.2824927,100.2824927,100.2824927,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_mish_w1_0
+Image Classification,Offline,68.38,2469.063702,2469.063702,2469.063702,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,69.09,1225.695387,1225.695387,1225.695387,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_hardswish_w1_0
+Image Classification,Offline,70.46,68.31757094,68.31757094,68.31757094,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_gelu_w1_0
+Image Classification,Offline,65.84,80.98189021,80.98189021,80.98189021,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),mobilenetv2_elu_w1_0
+Image Classification,Offline,69.57,373.8770602,373.8770602,373.8770602,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_silu_w1_0
+Image Classification,Offline,62.73,360.9973858,360.9973858,360.9973858,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_selu_w1_0
+Image Classification,Offline,67.65,469.3726612,469.3726612,469.3726612,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_relu6_w1_0
+Image Classification,Offline,67.81,471.968372,471.968372,471.968372,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_relu_w1_0
+Image Classification,Offline,68.62,430.3748377,430.3748377,430.3748377,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_prelu_w1_0
+Image Classification,Offline,69.86,107.3952555,107.3952555,107.3952555,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_mish_w1_0
+Image Classification,Offline,68.34,469.2128576,469.2128576,469.2128576,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,69.05,357.1834397,357.1834397,357.1834397,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_hardswish_w1_0
+Image Classification,Offline,70.42,309.8449066,309.8449066,309.8449066,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_gelu_w1_0
+Image Classification,Offline,65.86,366.0109852,366.0109852,366.0109852,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),mobilenetv2_elu_w1_0
+Image Classification,Offline,69.57,3259.521472,3741.406001,4034.558624,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_silu_w1_0
+Image Classification,Offline,62.73,3268.046496,3761.113787,4040.345818,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_selu_w1_0
+Image Classification,Offline,67.65,3179.419585,3686.864271,3947.38713,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_relu6_w1_0
+Image Classification,Offline,67.81,3344.388709,3848.748603,4189.337893,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_relu_w1_0
+Image Classification,Offline,68.62,3266.756358,3743.176637,4043.467457,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_prelu_w1_0
+Image Classification,Offline,69.86,2761.708656,3162.364553,3399.057138,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_mish_w1_0
+Image Classification,Offline,68.34,3183.268995,3723.040783,4018.597193,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,69.05,2638.447308,2973.648594,3145.151033,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_hardswish_w1_0
+Image Classification,Offline,70.42,3188.820668,3682.271524,3942.212541,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_gelu_w1_0
+Image Classification,Offline,65.86,3258.649303,3741.208389,4032.57468,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),mobilenetv2_elu_w1_0
+Image Classification,Offline,55.19,19.36307486,19.36307486,19.36307486,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_gelu_w1_0
+Image Classification,Offline,36.86,43.86555437,43.86555437,43.86555437,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_hardswish_w1_0
+Image Classification,Offline,61.16,9.862829742,9.862829742,9.862829742,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_mish_w1_0
+Image Classification,Offline,47.99,612.0941754,612.0941754,612.0941754,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_silu_w1_0
+Image Classification,Offline,64.87,615.4906339,615.4906339,615.4906339,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,65.69,44.66147512,44.66147512,44.66147512,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_prelu_w1_0
+Image Classification,Offline,60.05,295.9858103,295.9858103,295.9858103,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_elu_w1_0
+Image Classification,Offline,53.02,43.13322073,43.13322073,43.13322073,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_selu_w1_0
+Image Classification,Offline,66.97,803.6876192,803.6876192,803.6876192,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_relu6_w1_0
+Image Classification,Offline,67.15,794.8050104,794.8050104,794.8050104,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,mobilenetv2_relu_w1_0

@@ -1,0 +1,16 @@
+task,scenario,accuracy,epoch_sample_latency_average_min,sample_latency_average,epoch_sample_latency_average_max,cpu_type,accelerator_type,submitter,benchmark_model
+Image Classification,Single-Stream,75.93,2.899873834,2.899873834,2.899873834,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",densenet121
+Image Classification,Single-Stream,77.32,4.33646539,4.33646539,4.33646539,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",densenet169
+Image Classification,Single-Stream,78,6.982814855,6.982814855,6.982814855,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",densenet201
+Image Classification,Single-Stream,74.85,191.6736077,191.6736077,191.6736077,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,densenet201
+Image Classification,Single-Stream,75.92,135.5391514,135.5391514,135.5391514,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,densenet169
+Image Classification,Single-Stream,71.7,96.07934996,96.07934996,96.07934996,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,densenet121
+Image Classification,Single-Stream,77.97,2.902063145,2.902063145,2.902063145,Apple M4,Apple M4 ANE,N/A,densenet201
+Image Classification,Single-Stream,77.84,2.273896649,2.273896649,2.273896649,Apple M4,Apple M4 ANE,N/A,densenet169
+Image Classification,Single-Stream,76.18,1.865539633,1.865539633,1.865539633,Apple M4,Apple M4 ANE,N/A,densenet121
+Image Classification,Single-Stream,77.94,50.27842971,50.27842971,50.27842971,Apple M4,Apple M4 CPU,N/A,densenet201
+Image Classification,Single-Stream,77.77,40.7588258,40.7588258,40.7588258,Apple M4,Apple M4 CPU,N/A,densenet169
+Image Classification,Single-Stream,76.19,33.43113103,33.43113103,33.43113103,Apple M4,Apple M4 CPU,N/A,densenet121
+Image Classification,Single-Stream,77.94,10.89107685,10.94228603,10.97112346,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),densenet201
+Image Classification,Single-Stream,77.77,7.630360476,7.631466035,7.633135287,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),densenet169
+Image Classification,Single-Stream,76.19,5.012397563,5.013381785,5.013969001,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),densenet121

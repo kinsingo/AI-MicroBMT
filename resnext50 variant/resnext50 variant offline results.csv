@@ -1,0 +1,28 @@
+task,scenario,accuracy,epoch_samples_per_second_min,samples_per_second,epoch_samples_per_second_max,cpu_type,accelerator_type,submitter,benchmark_model
+Image Classification,Offline,76.78,1748.885395,1748.885395,1748.885395,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",resnext50_c8_w1_0
+Image Classification,Offline,79.14,716.3998896,716.3998896,716.3998896,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",resnext50_c16_w1_0
+Image Classification,Offline,79.59,185.449033,185.449033,185.449033,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",resnext50_c32_w1_0
+Image Classification,Offline,79.07,26.14693606,26.14693606,26.14693606,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",resnext50_c64_w1_0
+Image Classification,Offline,76.94,979.6319129,979.6319129,979.6319129,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnext50_c8_w1_0
+Image Classification,Offline,79.17,463.3616926,463.3616926,463.3616926,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnext50_c16_w1_0
+Image Classification,Offline,79.49,146.4927926,146.4927926,146.4927926,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnext50_c32_w1_0
+Image Classification,Offline,78.84,797.5831445,798.3447551,798.8332065,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",resnext50_c16_w1_0
+Image Classification,Offline,79.36,305.3311253,305.6278833,305.9721858,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",resnext50_c32_w1_0
+Image Classification,Offline,78.56,127.0946716,127.1885485,127.326125,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",resnext50_c64_w1_0
+Image Classification,Offline,77.1,1648.40009,1650.093186,1652.209222,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",resnext50_c8_w1_0
+Image Classification,Offline,79.06,153.6888687,153.6888687,153.6888687,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),resnext50_c64_w1_0
+Image Classification,Offline,79.83,445.2293872,445.2293872,445.2293872,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),resnext50_c32_w1_0
+Image Classification,Offline,79.28,736.8135844,736.8135844,736.8135844,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),resnext50_c16_w1_0
+Image Classification,Offline,77.06,1103.419767,1103.419767,1103.419767,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),resnext50_c8_w1_0
+Image Classification,Offline,79.1,15.45510779,15.45510779,15.45510779,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),resnext50_c64_w1_0
+Image Classification,Offline,79.9,29.86807304,29.86807304,29.86807304,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),resnext50_c32_w1_0
+Image Classification,Offline,79.25,55.5725367,55.5725367,55.5725367,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),resnext50_c16_w1_0
+Image Classification,Offline,77.07,97.99222354,97.99222354,97.99222354,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),resnext50_c8_w1_0
+Image Classification,Offline,79.1,641.5746945,665.8079392,678.1151825,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnext50_c64_w1_0
+Image Classification,Offline,79.9,1108.366408,1150.98413,1172.536028,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnext50_c32_w1_0
+Image Classification,Offline,79.25,1629.029246,1675.965986,1704.788707,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnext50_c16_w1_0
+Image Classification,Offline,77.07,2157.413431,2228.401127,2269.29567,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnext50_c8_w1_0
+Image Classification,Offline,78.85,90.55563303,90.55563303,90.55563303,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,resnext50_c64_w1_0
+Image Classification,Offline,79.75,166.2922079,166.2922079,166.2922079,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,resnext50_c32_w1_0
+Image Classification,Offline,79.2,300.3448908,300.3448908,300.3448908,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,resnext50_c16_w1_0
+Image Classification,Offline,77.03,462.7585835,462.7585835,462.7585835,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,resnext50_c8_w1_0

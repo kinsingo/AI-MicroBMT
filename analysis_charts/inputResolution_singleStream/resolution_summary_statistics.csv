@@ -1,0 +1,71 @@
+model,resolution,accelerator,latency_ms,speedup_vs_cpu,relative_flops
+MobileNetV2,112,Hailo-8,1.35,2.74,0.25
+MobileNetV2,112,Apple M4 ANE,0.25,15.03,0.25
+MobileNetV2,112,Apple M4 CPU,3.71,1.0,0.25
+MobileNetV2,112,DeepX M1,1.11,3.35,0.25
+MobileNetV2,112,Mobilint-ARIES,0.39,9.5,0.25
+MobileNetV2,112,Qualcomm QCS6490,2.11,1.75,0.25
+MobileNetV2,112,RTX PRO 6000 Max-Q,0.88,4.23,0.25
+MobileNetV2,160,Hailo-8,1.91,3.1,0.51
+MobileNetV2,160,Apple M4 ANE,0.3,19.75,0.51
+MobileNetV2,160,Apple M4 CPU,5.9,1.0,0.51
+MobileNetV2,160,DeepX M1,1.27,4.65,0.51
+MobileNetV2,160,Mobilint-ARIES,0.53,11.2,0.51
+MobileNetV2,160,Qualcomm QCS6490,1.09,5.44,0.51
+MobileNetV2,160,RTX PRO 6000 Max-Q,0.92,6.42,0.51
+MobileNetV2,224,Hailo-8,2.06,4.85,1.0
+MobileNetV2,224,Apple M4 ANE,0.44,22.68,1.0
+MobileNetV2,224,Apple M4 CPU,10.0,1.0,1.0
+MobileNetV2,224,DeepX M1,1.71,5.87,1.0
+MobileNetV2,224,Mobilint-ARIES,0.81,12.34,1.0
+MobileNetV2,224,Qualcomm QCS6490,1.26,7.97,1.0
+MobileNetV2,224,RTX PRO 6000 Max-Q,0.93,10.75,1.0
+MobileNetV2,320,Hailo-8,3.29,4.99,2.04
+MobileNetV2,320,Apple M4 ANE,0.79,20.72,2.04
+MobileNetV2,320,Apple M4 CPU,16.44,1.0,2.04
+MobileNetV2,320,DeepX M1,2.5,6.58,2.04
+MobileNetV2,320,Mobilint-ARIES,1.24,13.24,2.04
+MobileNetV2,320,Qualcomm QCS6490,1.62,10.18,2.04
+MobileNetV2,320,RTX PRO 6000 Max-Q,1.06,15.44,2.04
+MobileNetV2,448,Hailo-8,4.58,5.97,4.0
+MobileNetV2,448,Apple M4 ANE,1.58,17.34,4.0
+MobileNetV2,448,Apple M4 CPU,27.35,1.0,4.0
+MobileNetV2,448,DeepX M1,3.74,7.31,4.0
+MobileNetV2,448,Mobilint-ARIES,2.45,11.18,4.0
+MobileNetV2,448,Qualcomm QCS6490,2.69,10.16,4.0
+MobileNetV2,448,RTX PRO 6000 Max-Q,1.51,18.09,4.0
+ResNet-50,112,Hailo-8,2.5,5.77,0.25
+ResNet-50,112,Apple M4 ANE,0.96,15.06,0.25
+ResNet-50,112,Apple M4 CPU,14.4,1.0,0.25
+ResNet-50,112,DeepX M1,2.0,7.19,0.25
+ResNet-50,112,Mobilint-ARIES,0.96,14.99,0.25
+ResNet-50,112,Qualcomm QCS6490,4.02,3.58,0.25
+ResNet-50,112,RTX PRO 6000 Max-Q,3.2,4.5,0.25
+ResNet-50,160,Hailo-8,3.41,7.58,0.51
+ResNet-50,160,Apple M4 ANE,1.06,24.43,0.51
+ResNet-50,160,Apple M4 CPU,25.83,1.0,0.51
+ResNet-50,160,DeepX M1,2.3,11.23,0.51
+ResNet-50,160,Mobilint-ARIES,1.22,21.1,0.51
+ResNet-50,160,Qualcomm QCS6490,2.62,9.86,0.51
+ResNet-50,160,RTX PRO 6000 Max-Q,3.38,7.63,0.51
+ResNet-50,224,Hailo-8,4.22,11.4,1.0
+ResNet-50,224,Apple M4 ANE,1.25,38.46,1.0
+ResNet-50,224,Apple M4 CPU,48.11,1.0,1.0
+ResNet-50,224,DeepX M1,3.14,15.32,1.0
+ResNet-50,224,Mobilint-ARIES,1.97,24.41,1.0
+ResNet-50,224,Qualcomm QCS6490,2.97,16.18,1.0
+ResNet-50,224,RTX PRO 6000 Max-Q,3.53,13.63,1.0
+ResNet-50,320,Hailo-8,5.85,15.35,2.04
+ResNet-50,320,Apple M4 ANE,2.33,38.5,2.04
+ResNet-50,320,Apple M4 CPU,89.71,1.0,2.04
+ResNet-50,320,DeepX M1,4.67,19.22,2.04
+ResNet-50,320,Mobilint-ARIES,3.86,23.23,2.04
+ResNet-50,320,Qualcomm QCS6490,4.81,18.64,2.04
+ResNet-50,320,RTX PRO 6000 Max-Q,3.85,23.3,2.04
+ResNet-50,448,Hailo-8,15.22,10.87,4.0
+ResNet-50,448,Apple M4 ANE,3.79,43.63,4.0
+ResNet-50,448,Apple M4 CPU,165.35,1.0,4.0
+ResNet-50,448,DeepX M1,7.92,20.89,4.0
+ResNet-50,448,Mobilint-ARIES,7.79,21.24,4.0
+ResNet-50,448,Qualcomm QCS6490,9.31,17.77,4.0
+ResNet-50,448,RTX PRO 6000 Max-Q,5.01,32.98,4.0

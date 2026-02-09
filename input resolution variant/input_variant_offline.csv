@@ -1,0 +1,547 @@
+task,scenario,accuracy,epoch_samples_per_second_min,samples_per_second,epoch_samples_per_second_max,cpu_type,accelerator_type,submitter,input_resolution,benchmark_model
+Image Classification,Offline,59.23,601.495807,601.495807,601.495807,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:448,mobilenetv2_w1_0
+Image Classification,Offline,73.5,106.1414268,106.1414268,106.1414268,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:448,resnet101_w1_0
+Image Classification,Offline,71.98,138.3758548,138.3758548,138.3758548,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:448,resnet50_w1_0
+Image Classification,Offline,59.22,640.5538299,640.5538299,640.5538299,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:432,mobilenetv2_w1_0
+Image Classification,Offline,74.42,121.4289796,121.4289796,121.4289796,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:432,resnet101_w1_0
+Image Classification,Offline,72.32,132.6138199,132.6138199,132.6138199,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:432,resnet50_w1_0
+Image Classification,Offline,61.09,656.7933803,656.7933803,656.7933803,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:416,mobilenetv2_w1_0
+Image Classification,Offline,75.6,127.8351271,127.8351271,127.8351271,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:416,resnet101_w1_0
+Image Classification,Offline,73.04,131.5135185,131.5135185,131.5135185,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:416,resnet50_w1_0
+Image Classification,Offline,61.71,688.3059081,688.3059081,688.3059081,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:400,mobilenetv2_w1_0
+Image Classification,Offline,75.89,125.5166735,125.5166735,125.5166735,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:400,resnet101_w1_0
+Image Classification,Offline,73.25,184.1810095,184.1810095,184.1810095,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:400,resnet50_w1_0
+Image Classification,Offline,63.24,812.9958353,812.9958353,812.9958353,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:384,mobilenetv2_w1_0
+Image Classification,Offline,76.45,110.2334569,110.2334569,110.2334569,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:384,resnet101_w1_0
+Image Classification,Offline,73.94,216.5935006,216.5935006,216.5935006,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:384,resnet50_w1_0
+Image Classification,Offline,63.48,857.4979812,857.4979812,857.4979812,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:368,mobilenetv2_w1_0
+Image Classification,Offline,76.27,172.1222837,172.1222837,172.1222837,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:368,resnet101_w1_0
+Image Classification,Offline,74.13,236.4356758,236.4356758,236.4356758,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:368,resnet50_w1_0
+Image Classification,Offline,64.7,916.805872,916.805872,916.805872,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:352,mobilenetv2_w1_0
+Image Classification,Offline,77.19,174.7164097,174.7164097,174.7164097,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:352,resnet101_w1_0
+Image Classification,Offline,74.71,255.1238514,255.1238514,255.1238514,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:352,resnet50_w1_0
+Image Classification,Offline,64.37,958.511626,958.511626,958.511626,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:336,mobilenetv2_w1_0
+Image Classification,Offline,77.06,184.8142273,184.8142273,184.8142273,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:336,resnet101_w1_0
+Image Classification,Offline,74.87,274.3359454,274.3359454,274.3359454,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:336,resnet50_w1_0
+Image Classification,Offline,65.56,1060.265668,1060.265668,1060.265668,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:320,mobilenetv2_w1_0
+Image Classification,Offline,77.69,197.1535366,197.1535366,197.1535366,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:320,resnet101_w1_0
+Image Classification,Offline,75.21,532.1249774,532.1249774,532.1249774,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:320,resnet50_w1_0
+Image Classification,Offline,65.8,1142.98369,1142.98369,1142.98369,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:304,mobilenetv2_w1_0
+Image Classification,Offline,78.1,209.1023579,209.1023579,209.1023579,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:304,resnet101_w1_0
+Image Classification,Offline,75.37,334.5130122,334.5130122,334.5130122,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:304,resnet50_w1_0
+Image Classification,Offline,66.54,1252.996366,1252.996366,1252.996366,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:288,mobilenetv2_w1_0
+Image Classification,Offline,77.75,228.6282543,228.6282543,228.6282543,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:288,resnet101_w1_0
+Image Classification,Offline,75.29,402.9748771,402.9748771,402.9748771,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:288,resnet50_w1_0
+Image Classification,Offline,66.13,1353.773289,1353.773289,1353.773289,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:272,mobilenetv2_w1_0
+Image Classification,Offline,78.05,222.5893694,222.5893694,222.5893694,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:272,resnet101_w1_0
+Image Classification,Offline,75.55,418.7854213,418.7854213,418.7854213,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:272,resnet50_w1_0
+Image Classification,Offline,66.54,1761.957139,1761.957139,1761.957139,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:256,mobilenetv2_w1_0
+Image Classification,Offline,78.33,294.7569047,294.7569047,294.7569047,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:256,resnet101_w1_0
+Image Classification,Offline,76.06,798.887881,798.887881,798.887881,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:256,resnet50_w1_0
+Image Classification,Offline,66.52,1974.971392,1974.971392,1974.971392,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:240,mobilenetv2_w1_0
+Image Classification,Offline,78.29,307.0536416,307.0536416,307.0536416,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:240,resnet101_w1_0
+Image Classification,Offline,75.78,860.6905751,860.6905751,860.6905751,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:240,resnet50_w1_0
+Image Classification,Offline,67.78,2278.63136,2278.63136,2278.63136,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:224,mobilenetv2_w1_0
+Image Classification,Offline,79.21,321.6487007,321.6487007,321.6487007,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:224,resnet101_w1_0
+Image Classification,Offline,76.94,923.2832946,923.2832946,923.2832946,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:224,resnet50_w1_0
+Image Classification,Offline,65.1,2318.713184,2318.713184,2318.713184,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:208,mobilenetv2_w1_0
+Image Classification,Offline,77.41,371.2191904,371.2191904,371.2191904,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:208,resnet101_w1_0
+Image Classification,Offline,75.38,1226.123474,1226.123474,1226.123474,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:208,resnet50_w1_0
+Image Classification,Offline,64.82,2562.621237,2562.621237,2562.621237,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:192,mobilenetv2_w1_0
+Image Classification,Offline,77.13,379.0971686,379.0971686,379.0971686,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:192,resnet101_w1_0
+Image Classification,Offline,74.54,1468.144503,1468.144503,1468.144503,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:192,resnet50_w1_0
+Image Classification,Offline,63.93,2811.654124,2811.654124,2811.654124,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:176,mobilenetv2_w1_0
+Image Classification,Offline,72.02,1763.89766,1763.89766,1763.89766,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:160,resnet50_w1_0
+Image Classification,Offline,58.79,3788.192907,3788.192907,3788.192907,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:144,mobilenetv2_w1_0
+Image Classification,Offline,48.42,5648.662426,5648.662426,5648.662426,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:112,mobilenetv2_w1_0
+Image Classification,Offline,39.5,7319.195985,7319.195985,7319.195985,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:96,mobilenetv2_w1_0
+Image Classification,Offline,43.62,4794.542593,4794.542593,4794.542593,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:80,resnet50_w1_0
+Image Classification,Offline,65.02,612.8091851,612.8091851,612.8091851,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:112,resnet101_w1_0
+Image Classification,Offline,62.18,3046.106079,3046.106079,3046.106079,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:112,resnet50_w1_0
+Image Classification,Offline,29.25,7920.336391,7920.336391,7920.336391,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:80,mobilenetv2_w1_0
+Image Classification,Offline,16.59,11515.29304,11515.29304,11515.29304,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:64,mobilenetv2_w1_0
+Image Classification,Offline,15.65,759.1666093,759.1666093,759.1666093,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:48,resnet101_w1_0
+Image Classification,Offline,73.47,1399.465001,1399.465001,1399.465001,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:176,resnet50_w1_0
+Image Classification,Offline,61.53,3281.257274,3281.257274,3281.257274,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:160,mobilenetv2_w1_0
+Image Classification,Offline,74.85,420.2394503,420.2394503,420.2394503,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:160,resnet101_w1_0
+Image Classification,Offline,53.96,5357.754094,5357.754094,5357.754094,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:128,mobilenetv2_w1_0
+Image Classification,Offline,69.76,588.283017,588.283017,588.283017,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:128,resnet101_w1_0
+Image Classification,Offline,66.47,3216.499905,3216.499905,3216.499905,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:128,resnet50_w1_0
+Image Classification,Offline,56.67,663.9214128,663.9214128,663.9214128,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:96,resnet101_w1_0
+Image Classification,Offline,53.84,4084.923879,4084.923879,4084.923879,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:96,resnet50_w1_0
+Image Classification,Offline,6.78,12528.882,12528.882,12528.882,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:48,mobilenetv2_w1_0
+Image Classification,Offline,13.8,8464.28477,8464.28477,8464.28477,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:48,resnet50_w1_0
+Image Classification,Offline,75.97,396.2645883,396.2645883,396.2645883,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:176,resnet101_w1_0
+Image Classification,Offline,72.54,439.4433921,439.4433921,439.4433921,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:144,resnet101_w1_0
+Image Classification,Offline,69.76,1941.117063,1941.117063,1941.117063,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:144,resnet50_w1_0
+Image Classification,Offline,46.29,736.9393329,736.9393329,736.9393329,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:80,resnet101_w1_0
+Image Classification,Offline,31.39,729.8884277,729.8884277,729.8884277,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:64,resnet101_w1_0
+Image Classification,Offline,28.43,7449.273532,7449.273532,7449.273532,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",inputResolution:64,resnet50_w1_0
+Image Classification,Offline,74.16,194.0791715,194.0791715,194.0791715,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:448,resnet101_w1_0
+Image Classification,Offline,72.78,335.6471812,335.6471812,335.6471812,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:432,resnet50_w1_0
+Image Classification,Offline,72.33,311.8160564,311.8160564,311.8160564,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:448,resnet50_w1_0
+Image Classification,Offline,74.99,208.1117673,208.1117673,208.1117673,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:432,resnet101_w1_0
+Image Classification,Offline,59.74,642.6677437,642.6677437,642.6677437,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:432,mobilenetv2_w1_0
+Image Classification,Offline,61.84,753.543862,753.543862,753.543862,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:400,mobilenetv2_w1_0
+Image Classification,Offline,63.54,821.8448128,821.8448128,821.8448128,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:384,mobilenetv2_w1_0
+Image Classification,Offline,63.89,870.521968,870.521968,870.521968,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:368,mobilenetv2_w1_0
+Image Classification,Offline,66.18,1430.886879,1430.886879,1430.886879,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:304,mobilenetv2_w1_0
+Image Classification,Offline,77.73,477.544579,477.544579,477.544579,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:272,resnet101_w1_0
+Image Classification,Offline,75.84,732.5818277,732.5818277,732.5818277,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:272,resnet50_w1_0
+Image Classification,Offline,66.24,1795.700995,1795.700995,1795.700995,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:272,mobilenetv2_w1_0
+Image Classification,Offline,73.5,380.7219172,380.7219172,380.7219172,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:416,resnet50_w1_0
+Image Classification,Offline,61.62,704.7248559,704.7248559,704.7248559,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:416,mobilenetv2_w1_0
+Image Classification,Offline,75.93,234.0698042,234.0698042,234.0698042,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:400,resnet101_w1_0
+Image Classification,Offline,73.81,379.8579989,379.8579989,379.8579989,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:400,resnet50_w1_0
+Image Classification,Offline,77.62,317.6067215,317.6067215,317.6067215,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:336,resnet101_w1_0
+Image Classification,Offline,65.91,1246.19371,1246.19371,1246.19371,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:320,mobilenetv2_w1_0
+Image Classification,Offline,60.06,613.3336595,613.3336595,613.3336595,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:448,mobilenetv2_w1_0
+Image Classification,Offline,75.62,252.0527857,252.0527857,252.0527857,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:416,resnet101_w1_0
+Image Classification,Offline,76.37,290.309616,290.309616,290.309616,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:384,resnet101_w1_0
+Image Classification,Offline,74.65,437.4498331,437.4498331,437.4498331,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:384,resnet50_w1_0
+Image Classification,Offline,74.59,431.5378317,431.5378317,431.5378317,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:368,resnet50_w1_0
+Image Classification,Offline,75.43,520.4059768,520.4059768,520.4059768,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:352,resnet50_w1_0
+Image Classification,Offline,64.8,1125.023071,1125.023071,1125.023071,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:336,mobilenetv2_w1_0
+Image Classification,Offline,75.56,595.9656644,595.9656644,595.9656644,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:320,resnet50_w1_0
+Image Classification,Offline,77.63,406.3156145,406.3156145,406.3156145,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:304,resnet101_w1_0
+Image Classification,Offline,75.27,609.2702965,609.2702965,609.2702965,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:304,resnet50_w1_0
+Image Classification,Offline,77.92,458.2733288,458.2733288,458.2733288,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:288,resnet101_w1_0
+Image Classification,Offline,75.64,712.3869179,712.3869179,712.3869179,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:288,resnet50_w1_0
+Image Classification,Offline,66.78,1665.23624,1665.23624,1665.23624,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:288,mobilenetv2_w1_0
+Image Classification,Offline,76.58,264.7458713,264.7458713,264.7458713,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:368,resnet101_w1_0
+Image Classification,Offline,76.74,346.0781523,346.0781523,346.0781523,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:352,resnet101_w1_0
+Image Classification,Offline,65.27,1100.31144,1100.31144,1100.31144,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:352,mobilenetv2_w1_0
+Image Classification,Offline,75.13,520.4391424,520.4391424,520.4391424,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:336,resnet50_w1_0
+Image Classification,Offline,77.5,393.5466512,393.5466512,393.5466512,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:320,resnet101_w1_0
+Image Classification,Offline,77.51,641.5474065,641.5474065,641.5474065,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:208,resnet101_w1_0
+Image Classification,Offline,75.53,1035.405381,1035.405381,1035.405381,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:208,resnet50_w1_0
+Image Classification,Offline,65.43,3064.928468,3064.928468,3064.928468,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:208,mobilenetv2_w1_0
+Image Classification,Offline,74.64,1106.428368,1106.428368,1106.428368,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:192,resnet50_w1_0
+Image Classification,Offline,72.61,767.7491583,767.7491583,767.7491583,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:144,resnet101_w1_0
+Image Classification,Offline,66.69,1288.621957,1288.621957,1288.621957,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:128,resnet50_w1_0
+Image Classification,Offline,65.08,817.6422097,817.6422097,817.6422097,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:112,resnet101_w1_0
+Image Classification,Offline,46.81,842.7130558,842.7130558,842.7130558,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:80,resnet101_w1_0
+Image Classification,Offline,31.39,841.9186819,841.9186819,841.9186819,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:64,resnet101_w1_0
+Image Classification,Offline,16.46,4662.846125,4662.846125,4662.846125,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:64,mobilenetv2_w1_0
+Image Classification,Offline,15.57,851.5818863,851.5818863,851.5818863,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:48,resnet101_w1_0
+Image Classification,Offline,66.97,2223.099607,2223.099607,2223.099607,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:256,mobilenetv2_w1_0
+Image Classification,Offline,78.05,556.0050827,556.0050827,556.0050827,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:240,resnet101_w1_0
+Image Classification,Offline,66.5,2529.713614,2529.713614,2529.713614,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:240,mobilenetv2_w1_0
+Image Classification,Offline,76.15,738.4292386,738.4292386,738.4292386,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:176,resnet101_w1_0
+Image Classification,Offline,74.73,751.1388994,751.1388994,751.1388994,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:160,resnet101_w1_0
+Image Classification,Offline,61.58,4234.95213,4234.95213,4234.95213,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:160,mobilenetv2_w1_0
+Image Classification,Offline,53.85,1319.0378,1319.0378,1319.0378,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:96,resnet50_w1_0
+Image Classification,Offline,78.16,573.0055869,573.0055869,573.0055869,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:256,resnet101_w1_0
+Image Classification,Offline,76.05,894.0471933,894.0471933,894.0471933,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:256,resnet50_w1_0
+Image Classification,Offline,75.81,886.4433406,886.4433406,886.4433406,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:240,resnet50_w1_0
+Image Classification,Offline,77,929.2567305,929.2567305,929.2567305,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:224,resnet50_w1_0
+Image Classification,Offline,76.83,686.8357284,686.8357284,686.8357284,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:192,resnet101_w1_0
+Image Classification,Offline,73.34,1186.701425,1186.701425,1186.701425,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:176,resnet50_w1_0
+Image Classification,Offline,64.06,3943.626404,3943.626404,3943.626404,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:176,mobilenetv2_w1_0
+Image Classification,Offline,69.98,1225.130221,1225.130221,1225.130221,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:144,resnet50_w1_0
+Image Classification,Offline,58.74,4373.757148,4373.757148,4373.757148,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:144,mobilenetv2_w1_0
+Image Classification,Offline,53.99,4518.953119,4518.953119,4518.953119,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:128,mobilenetv2_w1_0
+Image Classification,Offline,62.32,1289.498766,1289.498766,1289.498766,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:112,resnet50_w1_0
+Image Classification,Offline,48.52,4584.11647,4584.11647,4584.11647,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:112,mobilenetv2_w1_0
+Image Classification,Offline,56.57,824.1075168,824.1075168,824.1075168,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:96,resnet101_w1_0
+Image Classification,Offline,39.02,4584.249284,4584.249284,4584.249284,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:96,mobilenetv2_w1_0
+Image Classification,Offline,43.84,1333.759187,1333.759187,1333.759187,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:80,resnet50_w1_0
+Image Classification,Offline,29.29,4677.061823,4677.061823,4677.061823,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:80,mobilenetv2_w1_0
+Image Classification,Offline,28.76,1346.565592,1346.565592,1346.565592,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:64,resnet50_w1_0
+Image Classification,Offline,6.7,4749.765265,4749.765265,4749.765265,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:48,mobilenetv2_w1_0
+Image Classification,Offline,79.06,586.8981976,586.8981976,586.8981976,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:224,resnet101_w1_0
+Image Classification,Offline,68.11,2825.915681,2825.915681,2825.915681,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:224,mobilenetv2_w1_0
+Image Classification,Offline,65.09,3827.921379,3827.921379,3827.921379,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:192,mobilenetv2_w1_0
+Image Classification,Offline,72.18,1185.946579,1185.946579,1185.946579,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:160,resnet50_w1_0
+Image Classification,Offline,69.85,810.3249529,810.3249529,810.3249529,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:128,resnet101_w1_0
+Image Classification,Offline,13.38,1367.601931,1367.601931,1367.601931,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.1.0, FW: 2.4.0, DXRT: 3.1.0, RT Drivet:1.8.0)",inputResolution:48,resnet50_w1_0
+Image Classification,Offline,60.06,2913.391834,2913.391834,2913.391834,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:448,mobilenetv2_w1_0
+Image Classification,Offline,72.21,555.8806171,555.8806171,555.8806171,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:448,resnet50_w1_0
+Image Classification,Offline,74.07,320.3418229,320.3418229,320.3418229,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:448,resnet101_w1_0
+Image Classification,Offline,60.91,2953.618979,2953.618979,2953.618979,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:432,mobilenetv2_w1_0
+Image Classification,Offline,72.41,575.1954659,575.1954659,575.1954659,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:432,resnet50_w1_0
+Image Classification,Offline,74.87,320.0037045,320.0037045,320.0037045,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:432,resnet101_w1_0
+Image Classification,Offline,61.14,3210.926927,3210.926927,3210.926927,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:416,mobilenetv2_w1_0
+Image Classification,Offline,73.27,627.6794581,627.6794581,627.6794581,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:416,resnet50_w1_0
+Image Classification,Offline,75.55,346.7784044,346.7784044,346.7784044,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:416,resnet101_w1_0
+Image Classification,Offline,61.49,3330.917915,3330.917915,3330.917915,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:400,mobilenetv2_w1_0
+Image Classification,Offline,73.09,637.121011,637.121011,637.121011,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:400,resnet50_w1_0
+Image Classification,Offline,76.13,348.0723172,348.0723172,348.0723172,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:400,resnet101_w1_0
+Image Classification,Offline,63.4,3762.576604,3762.576604,3762.576604,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:384,mobilenetv2_w1_0
+Image Classification,Offline,73.82,700.9742474,700.9742474,700.9742474,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:384,resnet50_w1_0
+Image Classification,Offline,76.57,408.8676873,408.8676873,408.8676873,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:384,resnet101_w1_0
+Image Classification,Offline,63.32,4619.847465,4619.847465,4619.847465,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:368,mobilenetv2_w1_0
+Image Classification,Offline,73.93,734.6572608,734.6572608,734.6572608,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:368,resnet50_w1_0
+Image Classification,Offline,76.79,412.8096399,412.8096399,412.8096399,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:368,resnet101_w1_0
+Image Classification,Offline,64.09,3990.920032,3990.920032,3990.920032,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:352,mobilenetv2_w1_0
+Image Classification,Offline,75,886.7088762,886.7088762,886.7088762,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:352,resnet50_w1_0
+Image Classification,Offline,76.99,472.0505381,472.0505381,472.0505381,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:352,resnet101_w1_0
+Image Classification,Offline,64.33,4138.38082,4138.38082,4138.38082,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:336,mobilenetv2_w1_0
+Image Classification,Offline,74.91,991.5027985,991.5027985,991.5027985,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:336,resnet50_w1_0
+Image Classification,Offline,77.28,564.8689704,564.8689704,564.8689704,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:336,resnet101_w1_0
+Image Classification,Offline,65.31,4882.486168,4882.486168,4882.486168,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:320,mobilenetv2_w1_0
+Image Classification,Offline,75.15,1082.208459,1082.208459,1082.208459,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:320,resnet50_w1_0
+Image Classification,Offline,77.33,610.2365479,610.2365479,610.2365479,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:320,resnet101_w1_0
+Image Classification,Offline,65.74,5298.663335,5298.663335,5298.663335,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:304,mobilenetv2_w1_0
+Image Classification,Offline,75.49,1130.008426,1130.008426,1130.008426,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:304,resnet50_w1_0
+Image Classification,Offline,77.52,644.0368806,644.0368806,644.0368806,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:304,resnet101_w1_0
+Image Classification,Offline,66.72,5512.334316,5512.334316,5512.334316,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:288,mobilenetv2_w1_0
+Image Classification,Offline,75.64,1167.938453,1167.938453,1167.938453,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:288,resnet50_w1_0
+Image Classification,Offline,77.88,673.0617919,673.0617919,673.0617919,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:288,resnet101_w1_0
+Image Classification,Offline,66.06,6923.729987,6923.729987,6923.729987,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:272,mobilenetv2_w1_0
+Image Classification,Offline,75.65,1258.56421,1258.56421,1258.56421,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:272,resnet50_w1_0
+Image Classification,Offline,77.88,690.3017751,690.3017751,690.3017751,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:272,resnet101_w1_0
+Image Classification,Offline,66.55,6070.965672,6070.965672,6070.965672,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:256,mobilenetv2_w1_0
+Image Classification,Offline,75.78,1604.843652,1604.843652,1604.843652,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:256,resnet50_w1_0
+Image Classification,Offline,77.76,1070.267237,1070.267237,1070.267237,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:256,resnet101_w1_0
+Image Classification,Offline,66.14,7001.049578,7001.049578,7001.049578,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:240,mobilenetv2_w1_0
+Image Classification,Offline,75.59,1715.770567,1715.770567,1715.770567,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:240,resnet50_w1_0
+Image Classification,Offline,77.99,1120.783969,1120.783969,1120.783969,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:240,resnet101_w1_0
+Image Classification,Offline,67.57,7152.899231,7152.899231,7152.899231,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:224,mobilenetv2_w1_0
+Image Classification,Offline,76.83,1823.919917,1823.919917,1823.919917,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:224,resnet50_w1_0
+Image Classification,Offline,79.24,1178.529828,1178.529828,1178.529828,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:224,resnet101_w1_0
+Image Classification,Offline,64.72,9121.491347,9121.491347,9121.491347,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:208,mobilenetv2_w1_0
+Image Classification,Offline,75.32,1933.675122,1933.675122,1933.675122,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:208,resnet50_w1_0
+Image Classification,Offline,77.48,1213.096079,1213.096079,1213.096079,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:208,resnet101_w1_0
+Image Classification,Offline,64.67,8615.7411,8615.7411,8615.7411,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:192,mobilenetv2_w1_0
+Image Classification,Offline,74.45,1922.025337,1922.025337,1922.025337,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:192,resnet50_w1_0
+Image Classification,Offline,76.62,1208.019378,1208.019378,1208.019378,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:192,resnet101_w1_0
+Image Classification,Offline,63.19,9333.998444,9333.998444,9333.998444,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:176,mobilenetv2_w1_0
+Image Classification,Offline,73.33,2103.977201,2103.977201,2103.977201,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:176,resnet50_w1_0
+Image Classification,Offline,76.06,1281.114031,1281.114031,1281.114031,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:176,resnet101_w1_0
+Image Classification,Offline,61.07,10882.80887,10882.80887,10882.80887,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:160,mobilenetv2_w1_0
+Image Classification,Offline,72.14,2215.07144,2215.07144,2215.07144,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:160,resnet50_w1_0
+Image Classification,Offline,74.63,1314.261683,1314.261683,1314.261683,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:160,resnet101_w1_0
+Image Classification,Offline,57.82,10701.83237,10701.83237,10701.83237,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:144,mobilenetv2_w1_0
+Image Classification,Offline,69.96,2224.282691,2224.282691,2224.282691,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:144,resnet50_w1_0
+Image Classification,Offline,72.75,1329.822162,1329.822162,1329.822162,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:144,resnet101_w1_0
+Image Classification,Offline,53.73,11101.41917,11101.41917,11101.41917,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:128,mobilenetv2_w1_0
+Image Classification,Offline,66.49,2277.254456,2277.254456,2277.254456,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:128,resnet50_w1_0
+Image Classification,Offline,69.99,1348.034467,1348.034467,1348.034467,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:128,resnet101_w1_0
+Image Classification,Offline,47.98,12163.27005,12163.27005,12163.27005,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:112,mobilenetv2_w1_0
+Image Classification,Offline,62.3,2318.298535,2318.298535,2318.298535,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:112,resnet50_w1_0
+Image Classification,Offline,64.71,1358.699838,1358.699838,1358.699838,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:112,resnet101_w1_0
+Image Classification,Offline,38.69,12753.23107,12753.23107,12753.23107,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:96,mobilenetv2_w1_0
+Image Classification,Offline,53.95,2354.778039,2354.778039,2354.778039,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:96,resnet50_w1_0
+Image Classification,Offline,56.65,1374.156849,1374.156849,1374.156849,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:96,resnet101_w1_0
+Image Classification,Offline,29.21,13689.27527,13689.27527,13689.27527,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:80,mobilenetv2_w1_0
+Image Classification,Offline,43.89,2388.788868,2388.788868,2388.788868,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:80,resnet50_w1_0
+Image Classification,Offline,46.6,1379.166619,1379.166619,1379.166619,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:80,resnet101_w1_0
+Image Classification,Offline,16.21,14013.40272,14013.40272,14013.40272,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:64,mobilenetv2_w1_0
+Image Classification,Offline,28.74,2404.842723,2404.842723,2404.842723,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:64,resnet50_w1_0
+Image Classification,Offline,31.38,1386.451448,1386.451448,1386.451448,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:64,resnet101_w1_0
+Image Classification,Offline,6.63,14019.18874,14019.18874,14019.18874,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:48,mobilenetv2_w1_0
+Image Classification,Offline,13.73,2406.721668,2406.721668,2406.721668,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:48,resnet50_w1_0
+Image Classification,Offline,15.92,1387.366539,1387.366539,1387.366539,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64",inputResolution:48,resnet101_w1_0
+Image Classification,Offline,74.2,169.279212,169.279212,169.279212,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:448,resnet101_w1_0
+Image Classification,Offline,72.07,268.4843721,268.4843721,268.4843721,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:448,resnet50_w1_0
+Image Classification,Offline,59.45,631.9857473,631.9857473,631.9857473,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:448,mobilenetv2_w1_0
+Image Classification,Offline,74.81,170.7815268,170.7815268,170.7815268,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:432,resnet101_w1_0
+Image Classification,Offline,72.58,272.2689108,272.2689108,272.2689108,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:432,resnet50_w1_0
+Image Classification,Offline,59.49,655.8145833,655.8145833,655.8145833,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:432,mobilenetv2_w1_0
+Image Classification,Offline,75.52,177.6581136,177.6581136,177.6581136,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:416,resnet101_w1_0
+Image Classification,Offline,73.2,286.6545049,286.6545049,286.6545049,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:416,resnet50_w1_0
+Image Classification,Offline,61.15,722.3438338,722.3438338,722.3438338,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:416,mobilenetv2_w1_0
+Image Classification,Offline,76.03,177.4002259,177.4002259,177.4002259,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:400,resnet101_w1_0
+Image Classification,Offline,73.44,287.7129384,287.7129384,287.7129384,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:400,resnet50_w1_0
+Image Classification,Offline,61.62,743.9515818,743.9515818,743.9515818,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:400,mobilenetv2_w1_0
+Image Classification,Offline,76.36,221.8220758,221.8220758,221.8220758,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:384,resnet101_w1_0
+Image Classification,Offline,74.22,348.820189,348.820189,348.820189,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:384,resnet50_w1_0
+Image Classification,Offline,63.25,835.9498703,835.9498703,835.9498703,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:384,mobilenetv2_w1_0
+Image Classification,Offline,76.91,219.3297504,219.3297504,219.3297504,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:368,resnet101_w1_0
+Image Classification,Offline,74.29,344.9471988,344.9471988,344.9471988,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:368,resnet50_w1_0
+Image Classification,Offline,63.62,890.5494995,890.5494995,890.5494995,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:368,mobilenetv2_w1_0
+Image Classification,Offline,76.95,229.8298253,229.8298253,229.8298253,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:352,resnet101_w1_0
+Image Classification,Offline,75.17,368.6815072,368.6815072,368.6815072,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:352,resnet50_w1_0
+Image Classification,Offline,65.06,996.7817343,996.7817343,996.7817343,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:352,mobilenetv2_w1_0
+Image Classification,Offline,77.46,217.8614789,217.8614789,217.8614789,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:336,resnet101_w1_0
+Image Classification,Offline,75.04,360.8083476,360.8083476,360.8083476,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:336,resnet50_w1_0
+Image Classification,Offline,64.65,1032.024465,1032.024465,1032.024465,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:336,mobilenetv2_w1_0
+Image Classification,Offline,77.54,270.6651234,270.6651234,270.6651234,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:320,resnet101_w1_0
+Image Classification,Offline,75.36,435.261014,435.261014,435.261014,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:320,resnet50_w1_0
+Image Classification,Offline,65.74,1239.684633,1239.684633,1239.684633,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:320,mobilenetv2_w1_0
+Image Classification,Offline,77.81,287.4895505,287.4895505,287.4895505,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:304,resnet101_w1_0
+Image Classification,Offline,75.46,450.0306761,450.0306761,450.0306761,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:304,resnet50_w1_0
+Image Classification,Offline,66.25,1314.286198,1314.286198,1314.286198,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:304,mobilenetv2_w1_0
+Image Classification,Offline,77.94,363.7658974,363.7658974,363.7658974,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:288,resnet101_w1_0
+Image Classification,Offline,75.47,547.9238649,547.9238649,547.9238649,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:288,resnet50_w1_0
+Image Classification,Offline,66.86,1494.991441,1494.991441,1494.991441,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:288,mobilenetv2_w1_0
+Image Classification,Offline,78.02,376.9594583,376.9594583,376.9594583,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:272,resnet101_w1_0
+Image Classification,Offline,75.78,533.3020813,533.3020813,533.3020813,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:272,resnet50_w1_0
+Image Classification,Offline,66.49,1537.594751,1537.594751,1537.594751,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:272,mobilenetv2_w1_0
+Image Classification,Offline,78.31,491.0260632,491.0260632,491.0260632,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:256,resnet101_w1_0
+Image Classification,Offline,75.81,677.130474,677.130474,677.130474,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:256,resnet50_w1_0
+Image Classification,Offline,67.24,1825.275112,1825.275112,1825.275112,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:256,mobilenetv2_w1_0
+Image Classification,Offline,78.14,497.3394741,497.3394741,497.3394741,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:240,resnet101_w1_0
+Image Classification,Offline,75.81,688.3122974,688.3122974,688.3122974,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:240,resnet50_w1_0
+Image Classification,Offline,66.64,2040.565301,2040.565301,2040.565301,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:240,mobilenetv2_w1_0
+Image Classification,Offline,79.22,550.0132686,550.0132686,550.0132686,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:224,resnet101_w1_0
+Image Classification,Offline,76.91,797.7809274,797.7809274,797.7809274,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:224,resnet50_w1_0
+Image Classification,Offline,68.18,2223.391483,2223.391483,2223.391483,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:224,mobilenetv2_w1_0
+Image Classification,Offline,77.69,556.1069619,556.1069619,556.1069619,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:208,resnet101_w1_0
+Image Classification,Offline,75.52,809.4370912,809.4370912,809.4370912,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:208,resnet50_w1_0
+Image Classification,Offline,65.47,2439.611601,2439.611601,2439.611601,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:208,mobilenetv2_w1_0
+Image Classification,Offline,76.89,581.4365622,581.4365622,581.4365622,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:192,resnet101_w1_0
+Image Classification,Offline,74.78,864.6088981,864.6088981,864.6088981,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:192,resnet50_w1_0
+Image Classification,Offline,64.86,2719.137716,2719.137716,2719.137716,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:192,mobilenetv2_w1_0
+Image Classification,Offline,76.36,584.2130101,584.2130101,584.2130101,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:176,resnet101_w1_0
+Image Classification,Offline,73.54,873.2516445,873.2516445,873.2516445,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:176,resnet50_w1_0
+Image Classification,Offline,64.02,2775.336768,2775.336768,2775.336768,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:176,mobilenetv2_w1_0
+Image Classification,Offline,75.08,614.5351112,614.5351112,614.5351112,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:160,resnet101_w1_0
+Image Classification,Offline,72.39,941.2107943,941.2107943,941.2107943,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:160,resnet50_w1_0
+Image Classification,Offline,61.88,3057.909037,3057.909037,3057.909037,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:160,mobilenetv2_w1_0
+Image Classification,Offline,72.72,626.2934678,626.2934678,626.2934678,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:144,resnet101_w1_0
+Image Classification,Offline,70.18,965.4221093,965.4221093,965.4221093,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:144,resnet50_w1_0
+Image Classification,Offline,58.76,3139.938895,3139.938895,3139.938895,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:144,mobilenetv2_w1_0
+Image Classification,Offline,69.8,648.6771554,648.6771554,648.6771554,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:128,resnet101_w1_0
+Image Classification,Offline,66.9,1020.07902,1020.07902,1020.07902,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:128,resnet50_w1_0
+Image Classification,Offline,54.4,3529.966838,3529.966838,3529.966838,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:128,mobilenetv2_w1_0
+Image Classification,Offline,65.32,651.7557649,651.7557649,651.7557649,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:112,resnet101_w1_0
+Image Classification,Offline,62.48,1031.439981,1031.439981,1031.439981,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:112,resnet50_w1_0
+Image Classification,Offline,48.88,3698.263987,3698.263987,3698.263987,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:112,mobilenetv2_w1_0
+Image Classification,Offline,56.84,658.7389465,658.7389465,658.7389465,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:96,resnet101_w1_0
+Image Classification,Offline,54.12,1044.018185,1044.018185,1044.018185,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:96,resnet50_w1_0
+Image Classification,Offline,39.72,3979.766985,3979.766985,3979.766985,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:96,mobilenetv2_w1_0
+Image Classification,Offline,46.81,662.9431931,662.9431931,662.9431931,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:80,resnet101_w1_0
+Image Classification,Offline,43.77,1058.887834,1058.887834,1058.887834,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:80,resnet50_w1_0
+Image Classification,Offline,29.54,4050.605595,4050.605595,4050.605595,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:80,mobilenetv2_w1_0
+Image Classification,Offline,31.84,665.6243046,665.6243046,665.6243046,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:64,resnet101_w1_0
+Image Classification,Offline,29.18,1063.595145,1063.595145,1063.595145,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:64,resnet50_w1_0
+Image Classification,Offline,16.79,4525.385012,4525.385012,4525.385012,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:64,mobilenetv2_w1_0
+Image Classification,Offline,16.06,664.1440122,664.1440122,664.1440122,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:48,resnet101_w1_0
+Image Classification,Offline,14.04,1069.762227,1069.762227,1069.762227,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:48,resnet50_w1_0
+Image Classification,Offline,6.86,4703.559832,4703.559832,4703.559832,Apple M4 ANE,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),inputResolution:48,mobilenetv2_w1_0
+Image Classification,Offline,74.21,8.81788361,8.81788361,8.81788361,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:448,resnet101_w1_0
+Image Classification,Offline,72.05,16.79883343,16.79883343,16.79883343,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:448,resnet50_w1_0
+Image Classification,Offline,59.46,129.8966948,129.8966948,129.8966948,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:448,mobilenetv2_w1_0
+Image Classification,Offline,74.86,9.299826335,9.299826335,9.299826335,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:432,resnet101_w1_0
+Image Classification,Offline,72.64,17.76895404,17.76895404,17.76895404,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:432,resnet50_w1_0
+Image Classification,Offline,59.54,136.4947131,136.4947131,136.4947131,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:432,mobilenetv2_w1_0
+Image Classification,Offline,75.53,10.10560037,10.10560037,10.10560037,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:416,resnet101_w1_0
+Image Classification,Offline,73.21,19.15745046,19.15745046,19.15745046,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:416,resnet50_w1_0
+Image Classification,Offline,61.12,148.4810122,148.4810122,148.4810122,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:416,mobilenetv2_w1_0
+Image Classification,Offline,76.07,11.00448976,11.00448976,11.00448976,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:400,resnet101_w1_0
+Image Classification,Offline,73.46,20.47974376,20.47974376,20.47974376,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:400,resnet50_w1_0
+Image Classification,Offline,61.6,158.6038239,158.6038239,158.6038239,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:400,mobilenetv2_w1_0
+Image Classification,Offline,76.37,12.38409941,12.38409941,12.38409941,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:384,resnet101_w1_0
+Image Classification,Offline,74.22,22.92527805,22.92527805,22.92527805,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:384,resnet50_w1_0
+Image Classification,Offline,63.23,173.8050344,173.8050344,173.8050344,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:384,mobilenetv2_w1_0
+Image Classification,Offline,76.91,12.82736297,12.82736297,12.82736297,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:368,resnet101_w1_0
+Image Classification,Offline,74.25,24.16421592,24.16421592,24.16421592,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:368,resnet50_w1_0
+Image Classification,Offline,63.57,184.9294945,184.9294945,184.9294945,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:368,mobilenetv2_w1_0
+Image Classification,Offline,76.95,14.47200863,14.47200863,14.47200863,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:352,resnet101_w1_0
+Image Classification,Offline,75.17,27.35076125,27.35076125,27.35076125,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:352,resnet50_w1_0
+Image Classification,Offline,65.04,203.8971249,203.8971249,203.8971249,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:352,mobilenetv2_w1_0
+Image Classification,Offline,77.49,15.38029522,15.38029522,15.38029522,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:336,resnet101_w1_0
+Image Classification,Offline,75.02,29.3810261,29.3810261,29.3810261,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:336,resnet50_w1_0
+Image Classification,Offline,64.63,223.2165902,223.2165902,223.2165902,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:336,mobilenetv2_w1_0
+Image Classification,Offline,77.53,17.55257441,17.55257441,17.55257441,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:320,resnet101_w1_0
+Image Classification,Offline,75.32,33.2699502,33.2699502,33.2699502,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:320,resnet50_w1_0
+Image Classification,Offline,65.69,248.696822,248.696822,248.696822,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:320,mobilenetv2_w1_0
+Image Classification,Offline,77.86,18.6155226,18.6155226,18.6155226,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:304,resnet101_w1_0
+Image Classification,Offline,75.49,34.9769685,34.9769685,34.9769685,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:304,resnet50_w1_0
+Image Classification,Offline,66.2,267.7781221,267.7781221,267.7781221,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:304,mobilenetv2_w1_0
+Image Classification,Offline,77.95,20.77397015,20.77397015,20.77397015,Apple M4 CPU,Apple M4 CPU,(OpenMP Enabled),inputResolution:288,resnet101_w1_0
+Image Classification,Offline,75.47,39.68991584,39.68991584,39.68991584,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:288,resnet50_w1_0
+Image Classification,Offline,66.86,298.2734862,298.2734862,298.2734862,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:288,mobilenetv2_w1_0
+Image Classification,Offline,78.03,22.84366252,22.84366252,22.84366252,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:272,resnet101_w1_0
+Image Classification,Offline,75.8,43.24306638,43.24306638,43.24306638,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:272,resnet50_w1_0
+Image Classification,Offline,66.52,326.1045266,326.1045266,326.1045266,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:272,mobilenetv2_w1_0
+Image Classification,Offline,78.33,26.7018843,26.7018843,26.7018843,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:256,resnet101_w1_0
+Image Classification,Offline,75.82,51.35024528,51.35024528,51.35024528,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:256,resnet50_w1_0
+Image Classification,Offline,67.15,382.1999365,382.1999365,382.1999365,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:256,mobilenetv2_w1_0
+Image Classification,Offline,78.16,27.7212161,27.7212161,27.7212161,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:240,resnet101_w1_0
+Image Classification,Offline,75.81,54.53022191,54.53022191,54.53022191,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:240,resnet50_w1_0
+Image Classification,Offline,66.68,415.1126396,415.1126396,415.1126396,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:240,mobilenetv2_w1_0
+Image Classification,Offline,79.21,32.12077662,32.12077662,32.12077662,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:224,resnet101_w1_0
+Image Classification,Offline,76.88,62.48417116,62.48417116,62.48417116,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:224,resnet50_w1_0
+Image Classification,Offline,68.22,470.7263395,470.7263395,470.7263395,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:224,mobilenetv2_w1_0
+Image Classification,Offline,77.71,36.00706595,36.00706595,36.00706595,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:208,resnet101_w1_0
+Image Classification,Offline,75.54,69.239505,69.239505,69.239505,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:208,resnet50_w1_0
+Image Classification,Offline,65.41,521.1279096,521.1279096,521.1279096,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:208,mobilenetv2_w1_0
+Image Classification,Offline,76.92,44.91202919,44.91202919,44.91202919,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:192,resnet101_w1_0
+Image Classification,Offline,74.79,85.1247031,85.1247031,85.1247031,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:192,resnet50_w1_0
+Image Classification,Offline,64.82,619.7067878,619.7067878,619.7067878,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:192,mobilenetv2_w1_0
+Image Classification,Offline,76.34,50.41064867,50.41064867,50.41064867,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:176,resnet101_w1_0
+Image Classification,Offline,73.53,94.79933227,94.79933227,94.79933227,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:176,resnet50_w1_0
+Image Classification,Offline,64.02,696.170124,696.170124,696.170124,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:176,mobilenetv2_w1_0
+Image Classification,Offline,75.09,61.71560729,61.71560729,61.71560729,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:160,resnet101_w1_0
+Image Classification,Offline,72.4,116.2290126,116.2290126,116.2290126,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:160,resnet50_w1_0
+Image Classification,Offline,61.85,837.1842941,837.1842941,837.1842941,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:160,mobilenetv2_w1_0
+Image Classification,Offline,72.72,70.64830323,70.64830323,70.64830323,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:144,resnet101_w1_0
+Image Classification,Offline,70.19,132.0602396,132.0602396,132.0602396,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:144,resnet50_w1_0
+Image Classification,Offline,58.76,933.3940305,933.3940305,933.3940305,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:144,mobilenetv2_w1_0
+Image Classification,Offline,69.79,100.5947831,100.5947831,100.5947831,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:128,resnet101_w1_0
+Image Classification,Offline,66.87,188.8896521,188.8896521,188.8896521,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:128,resnet50_w1_0
+Image Classification,Offline,54.45,1219.865118,1219.865118,1219.865118,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:128,mobilenetv2_w1_0
+Image Classification,Offline,65.36,110.6095497,110.6095497,110.6095497,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:112,resnet101_w1_0
+Image Classification,Offline,62.46,216.0686871,216.0686871,216.0686871,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:112,resnet50_w1_0
+Image Classification,Offline,48.95,1372.224903,1372.224903,1372.224903,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:112,mobilenetv2_w1_0
+Image Classification,Offline,56.85,142.6769209,142.6769209,142.6769209,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:96,resnet101_w1_0
+Image Classification,Offline,54.12,270.9007551,270.9007551,270.9007551,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:96,resnet50_w1_0
+Image Classification,Offline,39.67,1678.068356,1678.068356,1678.068356,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:96,mobilenetv2_w1_0
+Image Classification,Offline,46.83,175.3199074,175.3199074,175.3199074,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:80,resnet101_w1_0
+Image Classification,Offline,43.82,327.6700155,327.6700155,327.6700155,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:80,resnet50_w1_0
+Image Classification,Offline,29.53,1985.072494,1985.072494,1985.072494,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:80,mobilenetv2_w1_0
+Image Classification,Offline,31.73,285.1789779,285.1789779,285.1789779,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:64,resnet101_w1_0
+Image Classification,Offline,29.2,497.5577499,497.5577499,497.5577499,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:64,resnet50_w1_0
+Image Classification,Offline,16.8,2712.780515,2712.780515,2712.780515,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:64,mobilenetv2_w1_0
+Image Classification,Offline,16.08,310.4584659,310.4584659,310.4584659,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:48,resnet101_w1_0
+Image Classification,Offline,14.06,563.3867335,563.3867335,563.3867335,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:48,resnet50_w1_0
+Image Classification,Offline,6.87,3118.24675,3118.24675,3118.24675,Apple M4 CPU,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),inputResolution:48,mobilenetv2_w1_0
+Image Classification,Offline,75.13,78.23995024,78.23995024,78.23995024,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:448,resnet101_w1_0
+Image Classification,Offline,72.57,124.9951631,124.9951631,124.9951631,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:448,resnet50_w1_0
+Image Classification,Offline,61.3,373.3335598,373.3335598,373.3335598,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:448,mobilenetv2_w1_0
+Image Classification,Offline,75.4,78.2478745,78.2478745,78.2478745,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:432,resnet101_w1_0
+Image Classification,Offline,72.85,115.3108721,115.3108721,115.3108721,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:432,resnet50_w1_0
+Image Classification,Offline,61.07,389.5864476,389.5864476,389.5864476,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:432,mobilenetv2_w1_0
+Image Classification,Offline,75.86,79.56354302,79.56354302,79.56354302,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:416,resnet101_w1_0
+Image Classification,Offline,73.39,133.6171582,133.6171582,133.6171582,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:416,resnet50_w1_0
+Image Classification,Offline,62.49,399.6501799,399.6501799,399.6501799,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:416,mobilenetv2_w1_0
+Image Classification,Offline,76.68,79.89182059,79.89182059,79.89182059,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:400,resnet101_w1_0
+Image Classification,Offline,73.41,131.0582088,131.0582088,131.0582088,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:400,resnet50_w1_0
+Image Classification,Offline,62.9,420.597728,420.597728,420.597728,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:400,mobilenetv2_w1_0
+Image Classification,Offline,76.93,115.5778036,115.5778036,115.5778036,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:384,resnet101_w1_0
+Image Classification,Offline,74.24,177.6384079,177.6384079,177.6384079,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:384,resnet50_w1_0
+Image Classification,Offline,64.13,481.544667,481.544667,481.544667,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:384,mobilenetv2_w1_0
+Image Classification,Offline,77.42,116.3812283,116.3812283,116.3812283,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:368,resnet101_w1_0
+Image Classification,Offline,74.47,182.3256774,182.3256774,182.3256774,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:368,resnet50_w1_0
+Image Classification,Offline,64.17,458.4678771,458.4678771,458.4678771,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:368,mobilenetv2_w1_0
+Image Classification,Offline,77.34,120.2324998,120.2324998,120.2324998,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:352,resnet101_w1_0
+Image Classification,Offline,74.97,191.3517159,191.3517159,191.3517159,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:352,resnet50_w1_0
+Image Classification,Offline,65.33,513.124492,513.124492,513.124492,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:352,mobilenetv2_w1_0
+Image Classification,Offline,77.66,117.6471014,117.6471014,117.6471014,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:336,resnet101_w1_0
+Image Classification,Offline,74.6,178.6698101,178.6698101,178.6698101,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:336,resnet50_w1_0
+Image Classification,Offline,64.92,556.0971121,556.0971121,556.0971121,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:336,mobilenetv2_w1_0
+Image Classification,Offline,77.97,131.666773,131.666773,131.666773,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:320,resnet101_w1_0
+Image Classification,Offline,75.54,206.546419,206.546419,206.546419,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:320,resnet50_w1_0
+Image Classification,Offline,66.03,571.7977738,571.7977738,571.7977738,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:320,mobilenetv2_w1_0
+Image Classification,Offline,77.87,130.3357717,130.3357717,130.3357717,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:304,resnet101_w1_0
+Image Classification,Offline,75.42,207.9750978,207.9750978,207.9750978,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:304,resnet50_w1_0
+Image Classification,Offline,66.25,610.9196842,610.9196842,610.9196842,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:304,mobilenetv2_w1_0
+Image Classification,Offline,78.22,136.6994998,136.6994998,136.6994998,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:288,resnet101_w1_0
+Image Classification,Offline,75.67,224.8773461,224.8773461,224.8773461,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:288,resnet50_w1_0
+Image Classification,Offline,67.05,671.1794526,671.1794526,671.1794526,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:288,mobilenetv2_w1_0
+Image Classification,Offline,78.3,140.5428492,140.5428492,140.5428492,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:272,resnet101_w1_0
+Image Classification,Offline,75.87,232.3390302,232.3390302,232.3390302,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:272,resnet50_w1_0
+Image Classification,Offline,66.32,674.7776972,674.7776972,674.7776972,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:272,mobilenetv2_w1_0
+Image Classification,Offline,78.41,205.8402315,205.8402315,205.8402315,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:256,resnet101_w1_0
+Image Classification,Offline,75.75,308.9269113,308.9269113,308.9269113,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:256,resnet50_w1_0
+Image Classification,Offline,67.12,745.7361442,745.7361442,745.7361442,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:256,mobilenetv2_w1_0
+Image Classification,Offline,78.37,225.4091046,225.4091046,225.4091046,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:240,resnet101_w1_0
+Image Classification,Offline,75.77,329.9604404,329.9604404,329.9604404,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:240,resnet50_w1_0
+Image Classification,Offline,66.63,851.1592018,851.1592018,851.1592018,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:240,mobilenetv2_w1_0
+Image Classification,Offline,79.26,220.3448044,220.3448044,220.3448044,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:224,resnet101_w1_0
+Image Classification,Offline,76.62,329.2726265,329.2726265,329.2726265,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:224,resnet50_w1_0
+Image Classification,Offline,68.14,814.9153347,814.9153347,814.9153347,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:224,mobilenetv2_w1_0
+Image Classification,Offline,77.75,241.9636477,241.9636477,241.9636477,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:208,resnet101_w1_0
+Image Classification,Offline,75.07,357.018697,357.018697,357.018697,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:208,resnet50_w1_0
+Image Classification,Offline,65.31,972.2626448,972.2626448,972.2626448,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:208,mobilenetv2_w1_0
+Image Classification,Offline,76.91,251.9534931,251.9534931,251.9534931,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:192,resnet101_w1_0
+Image Classification,Offline,74.54,403.7432449,403.7432449,403.7432449,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:192,resnet50_w1_0
+Image Classification,Offline,64.89,1037.370436,1037.370436,1037.370436,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:192,mobilenetv2_w1_0
+Image Classification,Offline,76.26,249.4357346,249.4357346,249.4357346,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:176,resnet101_w1_0
+Image Classification,Offline,73.29,390.9086304,390.9086304,390.9086304,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:176,resnet50_w1_0
+Image Classification,Offline,64.17,1050.776028,1050.776028,1050.776028,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:176,mobilenetv2_w1_0
+Image Classification,Offline,74.66,250.6932305,250.6932305,250.6932305,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:160,resnet101_w1_0
+Image Classification,Offline,72.04,397.5774937,397.5774937,397.5774937,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:160,resnet50_w1_0
+Image Classification,Offline,61.43,1005.870142,1005.870142,1005.870142,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:160,mobilenetv2_w1_0
+Image Classification,Offline,72.6,182.0797023,182.0797023,182.0797023,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:144,resnet101_w1_0
+Image Classification,Offline,69.97,291.5557471,291.5557471,291.5557471,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:144,resnet50_w1_0
+Image Classification,Offline,58.44,638.7313384,638.7313384,638.7313384,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:144,mobilenetv2_w1_0
+Image Classification,Offline,69.74,208.0611145,208.0611145,208.0611145,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:128,resnet101_w1_0
+Image Classification,Offline,66.41,309.2967585,309.2967585,309.2967585,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:128,resnet50_w1_0
+Image Classification,Offline,54.08,682.8910818,682.8910818,682.8910818,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:128,mobilenetv2_w1_0
+Image Classification,Offline,65.02,207.4252043,207.4252043,207.4252043,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:112,resnet101_w1_0
+Image Classification,Offline,62.33,296.4150191,296.4150191,296.4150191,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:112,resnet50_w1_0
+Image Classification,Offline,48.09,601.7427525,601.7427525,601.7427525,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:112,mobilenetv2_w1_0
+Image Classification,Offline,56.76,205.3554703,205.3554703,205.3554703,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:96,resnet101_w1_0
+Image Classification,Offline,54.09,309.1056327,309.1056327,309.1056327,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:96,resnet50_w1_0
+Image Classification,Offline,39.36,665.1312323,665.1312323,665.1312323,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:96,mobilenetv2_w1_0
+Image Classification,Offline,46.76,210.6379716,210.6379716,210.6379716,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:80,resnet101_w1_0
+Image Classification,Offline,43.72,306.109658,306.109658,306.109658,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:80,resnet50_w1_0
+Image Classification,Offline,29.37,620.2897481,620.2897481,620.2897481,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:80,mobilenetv2_w1_0
+Image Classification,Offline,31.49,214.5907938,214.5907938,214.5907938,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:64,resnet101_w1_0
+Image Classification,Offline,28.94,314.1551162,314.1551162,314.1551162,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:64,resnet50_w1_0
+Image Classification,Offline,16.4,628.8789989,628.8789989,628.8789989,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:64,mobilenetv2_w1_0
+Image Classification,Offline,15.94,213.8529993,213.8529993,213.8529993,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:48,resnet101_w1_0
+Image Classification,Offline,13.72,314.4853619,314.4853619,314.4853619,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:48,resnet50_w1_0
+Image Classification,Offline,6.84,703.6891924,703.6891924,703.6891924,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,inputResolution:48,mobilenetv2_w1_0
+Image Classification,Offline,74.21,375.8179434,388.8672004,395.6301185,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (448),inputResolution:448,resnet101_w1_0
+Image Classification,Offline,72.05,542.5083424,550.9599579,555.2350138,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (448),inputResolution:448,resnet50_w1_0
+Image Classification,Offline,59.46,916.8971331,1004.692149,1048.607574,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (448),inputResolution:448,mobilenetv2_w1_0
+Image Classification,Offline,74.86,414.6716342,421.5256887,427.6480185,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (432),inputResolution:432,resnet101_w1_0
+Image Classification,Offline,72.64,609.9510051,621.8474394,637.5494917,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (432),inputResolution:432,resnet50_w1_0
+Image Classification,Offline,59.54,1147.125643,1247.574005,1297.855289,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (432),inputResolution:432,mobilenetv2_w1_0
+Image Classification,Offline,75.53,462.5759954,474.1204964,480.5766405,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (416),inputResolution:416,resnet101_w1_0
+Image Classification,Offline,73.21,674.5237594,686.7520314,693.5851068,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (416),inputResolution:416,resnet50_w1_0
+Image Classification,Offline,61.12,1259.089181,1357.114863,1406.279765,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (416),inputResolution:416,mobilenetv2_w1_0
+Image Classification,Offline,76.07,483.5868128,495.7116883,508.1109081,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (400),inputResolution:400,resnet101_w1_0
+Image Classification,Offline,73.46,689.8892184,709.277209,720.6755548,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (400),inputResolution:400,resnet50_w1_0
+Image Classification,Offline,61.6,1339.963311,1454.311734,1511.613241,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (400),inputResolution:400,mobilenetv2_w1_0
+Image Classification,Offline,76.37,510.3671634,523.3456113,530.5243475,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (384),inputResolution:384,resnet101_w1_0
+Image Classification,Offline,74.22,699.6303719,713.8107623,721.2372258,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (384),inputResolution:384,resnet50_w1_0
+Image Classification,Offline,63.23,1141.952651,1245.425769,1297.269135,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (384),inputResolution:384,mobilenetv2_w1_0
+Image Classification,Offline,76.91,556.9698076,572.9012005,582.216743,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (368),inputResolution:368,resnet101_w1_0
+Image Classification,Offline,74.25,798.5580978,816.6238513,827.199921,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (368),inputResolution:368,resnet50_w1_0
+Image Classification,Offline,63.57,1397.645997,1525.193451,1589.660798,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (368),inputResolution:368,mobilenetv2_w1_0
+Image Classification,Offline,76.95,609.0600915,628.2412723,638.2246178,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (352),inputResolution:352,resnet101_w1_0
+Image Classification,Offline,75.17,888.0921747,903.6958618,911.8942456,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (352),inputResolution:352,resnet50_w1_0
+Image Classification,Offline,65.04,1565.076201,1711.580038,1790.973227,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (352),inputResolution:352,mobilenetv2_w1_0
+Image Classification,Offline,77.49,623.5061996,651.350417,665.4454052,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (336),inputResolution:336,resnet101_w1_0
+Image Classification,Offline,75.02,886.9493977,923.1558558,942.8491538,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (336),inputResolution:336,resnet50_w1_0
+Image Classification,Offline,64.63,1452.614776,1587.616534,1743.337589,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (336),inputResolution:336,mobilenetv2_w1_0
+Image Classification,Offline,77.53,688.7606233,716.8536039,735.6729574,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (320),inputResolution:320,resnet101_w1_0
+Image Classification,Offline,75.32,982.8035219,1013.575201,1029.351509,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (320),inputResolution:320,resnet50_w1_0
+Image Classification,Offline,65.69,1613.655107,1785.070327,1871.335853,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (320),inputResolution:320,mobilenetv2_w1_0
+Image Classification,Offline,77.86,795.1268769,840.4448928,868.2199376,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (304),inputResolution:304,resnet101_w1_0
+Image Classification,Offline,75.49,1130.194303,1194.732803,1244.112828,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (304),inputResolution:304,resnet50_w1_0
+Image Classification,Offline,66.2,2001.455778,2198.981908,2331.248497,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (304),inputResolution:304,mobilenetv2_w1_0
+Image Classification,Offline,77.95,817.0706363,882.6223825,920.3034685,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (288),inputResolution:288,resnet101_w1_0
+Image Classification,Offline,75.47,1233.033751,1275.729205,1298.011482,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (288),inputResolution:288,resnet50_w1_0
+Image Classification,Offline,66.86,1998.226571,2270.363259,2408.856545,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (288),inputResolution:288,mobilenetv2_w1_0
+Image Classification,Offline,78.03,955.1759748,1004.367483,1029.871922,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (272),inputResolution:272,resnet101_w1_0
+Image Classification,Offline,75.8,1409.338719,1450.062836,1476.714277,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (272),inputResolution:272,resnet50_w1_0
+Image Classification,Offline,66.52,2456.026795,2794.635415,2989.525184,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (272),inputResolution:272,mobilenetv2_w1_0
+Image Classification,Offline,78.33,1118.583478,1166.562264,1191.066615,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (256),inputResolution:256,resnet101_w1_0
+Image Classification,Offline,75.82,1627.886513,1648.89799,1682.745938,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (256),inputResolution:256,resnet50_w1_0
+Image Classification,Offline,67.15,2545.162687,2934.255682,3142.833587,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (256),inputResolution:256,mobilenetv2_w1_0
+Image Classification,Offline,78.16,1223.055148,1261.855428,1292.058514,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (240),inputResolution:240,resnet101_w1_0
+Image Classification,Offline,75.81,1777.398682,1836.953571,1868.32983,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (240),inputResolution:240,resnet50_w1_0
+Image Classification,Offline,66.68,2660.476005,3138.578996,3413.409813,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (240),inputResolution:240,mobilenetv2_w1_0
+Image Classification,Offline,79.21,1317.351443,1352.117227,1391.21351,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (224),inputResolution:224,resnet101_w1_0
+Image Classification,Offline,76.88,2028.523297,2085.586081,2131.983793,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (224),inputResolution:224,resnet50_w1_0
+Image Classification,Offline,68.22,3039.891241,3623.488918,3955.807906,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (224),inputResolution:224,mobilenetv2_w1_0
+Image Classification,Offline,77.71,1544.179932,1600.681933,1631.106931,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (208),inputResolution:208,resnet101_w1_0
+Image Classification,Offline,75.54,2332.854529,2400.203017,2434.35255,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (208),inputResolution:208,resnet50_w1_0
+Image Classification,Offline,65.41,3415.455784,4023.849592,4342.704249,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (208),inputResolution:208,mobilenetv2_w1_0
+Image Classification,Offline,76.92,1806.674863,1903.729708,1952.351993,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (192),inputResolution:192,resnet101_w1_0
+Image Classification,Offline,74.79,2842.645733,2946.621244,3002.691472,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (192),inputResolution:192,resnet50_w1_0
+Image Classification,Offline,64.82,4265.654849,5369.409871,5929.347951,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (192),inputResolution:192,mobilenetv2_w1_0
+Image Classification,Offline,76.34,1922.552311,2015.852313,2081.235269,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (176),inputResolution:176,resnet101_w1_0
+Image Classification,Offline,73.53,2985.575551,3151.05737,3251.42286,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (176),inputResolution:176,resnet50_w1_0
+Image Classification,Offline,64.02,4311.414449,5415.840671,6014.982499,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (176),inputResolution:176,mobilenetv2_w1_0
+Image Classification,Offline,75.09,2110.427653,2234.850838,2304.547803,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (160),inputResolution:160,resnet101_w1_0
+Image Classification,Offline,72.4,3387.416841,3562.686846,3668.453435,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (160),inputResolution:160,resnet50_w1_0
+Image Classification,Offline,61.85,4762.485848,6295.377207,7090.256788,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (160),inputResolution:160,mobilenetv2_w1_0
+Image Classification,Offline,72.72,2388.698749,2565.517686,2668.653544,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (144),inputResolution:144,resnet101_w1_0
+Image Classification,Offline,70.19,4024.791687,4311.839414,4466.02762,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (144),inputResolution:144,resnet50_w1_0
+Image Classification,Offline,58.76,6014.727292,8337.098652,9508.286941,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (144),inputResolution:144,mobilenetv2_w1_0
+Image Classification,Offline,69.79,2565.758507,2833.755952,2968.098822,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (128),inputResolution:128,resnet101_w1_0
+Image Classification,Offline,66.87,4814.633255,5101.670244,5249.177754,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (128),inputResolution:128,resnet50_w1_0
+Image Classification,Offline,54.45,6910.049805,9881.790846,11632.76191,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (128),inputResolution:128,mobilenetv2_w1_0
+Image Classification,Offline,65.36,3064.325702,3328.464273,3464.525002,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (112),inputResolution:112,resnet101_w1_0
+Image Classification,Offline,62.46,5009.412084,5535.11034,5879.404516,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (112),inputResolution:112,resnet50_w1_0
+Image Classification,Offline,48.95,8076.442765,11911.94957,13869.94425,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (112),inputResolution:112,mobilenetv2_w1_0
+Image Classification,Offline,56.85,3346.890806,3654.040811,3810.718766,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (96),inputResolution:96,resnet101_w1_0
+Image Classification,Offline,54.12,5887.831107,6366.788572,6621.968415,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (96),inputResolution:96,resnet50_w1_0
+Image Classification,Offline,39.67,8362.330709,13528.59107,16287.07067,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (96),inputResolution:96,mobilenetv2_w1_0
+Image Classification,Offline,46.83,3655.343666,3978.536861,4147.623351,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (80),inputResolution:80,resnet101_w1_0
+Image Classification,Offline,43.82,6538.037514,7076.307867,7374.6304,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (80),inputResolution:80,resnet50_w1_0
+Image Classification,Offline,29.53,9695.295541,16419.96694,20022.37508,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (80),inputResolution:80,mobilenetv2_w1_0
+Image Classification,Offline,31.73,3827.571975,4213.94847,4411.842992,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (64),inputResolution:64,resnet101_w1_0
+Image Classification,Offline,29.2,7059.002736,7699.307816,8028.646837,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (64),inputResolution:64,resnet50_w1_0
+Image Classification,Offline,16.8,10099.71742,18246.18039,22454.69971,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (64),inputResolution:64,mobilenetv2_w1_0
+Image Classification,Offline,16.08,3965.018628,4351.713639,4551.778936,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (48),inputResolution:48,resnet101_w1_0
+Image Classification,Offline,14.06,7481.171918,8090.485073,8423.822141,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (48),inputResolution:48,resnet50_w1_0
+Image Classification,Offline,6.87,10087.75524,20339.1911,25602.30476,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996) + inputResolution (48),inputResolution:48,mobilenetv2_w1_0

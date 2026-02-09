@@ -1,0 +1,13 @@
+case,type,device,score,n_devices
+UDS_AccuracyStrict,UDS_Basic,Mobilint-ARIES,0.8125903662565372,5
+UDS_LatencyFirst,UDS_Basic,Mobilint-ARIES,0.7890575398415782,5
+UDS_ThptFirst,UDS_Basic,Mobilint-ARIES,0.83006153977291,5
+UDS_AccuracyStrict_with_fixed_inputRes,UDS_Basic,RTX PRO 6000 Max-Q,0.886789062651864,5
+UDS_LatencyFirst_with_fixed_inputRes,UDS_Basic,RTX PRO 6000 Max-Q,0.8480786074190432,5
+UDS_ThptFirst_with_fixed_inputRes,UDS_Basic,RTX PRO 6000 Max-Q,0.8783282939896281,5
+EXT_AccStrict_Both,UDS_Extended,DeepX M1,0.8040496265279189,5
+EXT_LatFirst_Both,UDS_Extended,DeepX M1,0.7856898278567963,5
+EXT_ThptFirst_Both,UDS_Extended,DeepX M1,0.7954381011932374,5
+EXT_AccStrict_Both_with_fixed_inputRes,UDS_Extended,DeepX M1,0.7852221126622456,5
+EXT_LatFirst_Both_with_fixed_inputRes,UDS_Extended,DeepX M1,0.7668623139911233,5
+EXT_ThptFirst_Both_with_fixed_inputRes,UDS_Extended,Mobilint-ARIES,0.7869180814267857,5

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Distribution / Build
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Byte-compiled / optimized
+*.pyc
+*.pyo

@@ -1,0 +1,13 @@
+case,type,S1,S2,S3,S4,S5,S6,S7
+UDS_AccuracyStrict,UDS_Basic,0.15,0.2,0.15,0.3,0.2,0.0,0.0
+UDS_LatencyFirst,UDS_Basic,0.15,0.3,0.15,0.2,0.2,0.0,0.0
+UDS_ThptFirst,UDS_Basic,0.15,0.2,0.15,0.2,0.3,0.0,0.0
+UDS_AccuracyStrict_with_fixed_inputRes,UDS_Basic,0.18,0.24,0.0,0.34,0.24,0.0,0.0
+UDS_LatencyFirst_with_fixed_inputRes,UDS_Basic,0.18,0.34,0.0,0.24,0.24,0.0,0.0
+UDS_ThptFirst_with_fixed_inputRes,UDS_Basic,0.18,0.24,0.0,0.24,0.34,0.0,0.0
+EXT_AccStrict_Both,UDS_Extended,0.13,0.13,0.13,0.18,0.13,0.15,0.15
+EXT_LatFirst_Both,UDS_Extended,0.13,0.18,0.13,0.13,0.13,0.15,0.15
+EXT_ThptFirst_Both,UDS_Extended,0.13,0.13,0.13,0.13,0.18,0.15,0.15
+EXT_AccStrict_Both_with_fixed_inputRes,UDS_Extended,0.16,0.16,0.0,0.21,0.16,0.155,0.155
+EXT_LatFirst_Both_with_fixed_inputRes,UDS_Extended,0.16,0.21,0.0,0.16,0.16,0.155,0.155
+EXT_ThptFirst_Both_with_fixed_inputRes,UDS_Extended,0.16,0.16,0.0,0.16,0.21,0.155,0.155
