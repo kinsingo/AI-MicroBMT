@@ -14,6 +14,7 @@ This repository contains the complete pipeline to **reproduce all scores, rankin
 ## Table of Contents
 
 - [Requirements](#requirements)
+- [Evaluation Guide — Raw Data Collection](#evaluation-guide--raw-data-collection)
 - [Quick Start](#quick-start)
 - [Repository Structure](#repository-structure)
 - [Part 1 — UDS Scoring Pipeline](#part-1--uds-scoring-pipeline)
@@ -48,6 +49,57 @@ seaborn
 ```bash
 pip install pandas numpy matplotlib seaborn
 ```
+
+---
+
+## Evaluation Guide — Raw Data Collection
+
+Before running any analysis scripts, you must first **collect raw benchmark data** by evaluating your target devices with the AI-BMT program. Follow the steps below.
+
+### Step 0 — Download the AI-BMT Program
+
+1. Visit **[https://www.ai-bmt.com/](https://www.ai-bmt.com/)** and download the **User Manual**.
+   - Alternatively, access the manual directly from [https://github.com/kinsingo/SNU_BMT_DOCX](https://github.com/kinsingo/SNU_BMT_DOCX).
+2. Refer to the manual and download the **AI-BMT application** that matches your evaluation environment:
+   - **Architecture**: x64 / ARM64
+   - **OS**: Windows, Linux, or macOS
+3. Install and launch the AI-BMT program.
+
+### Step 1 — Download Models & Datasets
+
+Open the AI-BMT application and navigate to the **Data Download** tab, then download the required models and datasets as shown below:
+
+![Download Models & Datasets](download_model_dataset.png)
+
+| # | Action | Description |
+|---|--------|-------------|
+| ① | **Go to the Data Download tab** | Click the database icon in the toolbar to open the download page |
+| ② | **Download 67 MicroBMT classification ONNX models** | Click the download button under the Classification section to fetch all 67 benchmark models |
+| ③ | **Download the ImageNet V2 dataset** | Downloads 10,000 evaluation images + 120 test images for classification benchmarking |
+
+> **Tip**: Repeat for other task types (Object Detection, Semantic Segmentation, LLM Tasks) if your evaluation scope extends beyond classification.
+
+### Step 2 — Run Benchmarks on Your Devices
+
+1. Follow the User Manual instructions to configure and execute benchmarks on each target device.
+2. Your evaluation data will be **automatically uploaded** to the server once each evaluation is finished. You can then **download the results as CSV** from the database — either through the AI-BMT application or the web interface (refer to the User Manual for details).
+3. Organize the downloaded CSVs into the folder structure expected by the analysis pipeline (see [Repository Structure](#repository-structure)).
+
+### Reference: Accelerator Evaluation Scripts
+
+The `accelerator_AIBMT_evalution_scripts/` folder contains **C++ based example evaluation scripts** for the hardware platforms used in the paper:
+
+```
+accelelerator_AIBMT_evalution_scripts/
+├── Apple M4 (CPU/ANE)/
+├── DeepX M1/
+├── Hailo-8/
+├── Mobilint-ARIES/
+├── RTX PRO 6000 Max-Q/
+└── Rubic pi 3 (QCS6490)/
+```
+
+Use these scripts as reference when integrating a new accelerator into the benchmark pipeline.
 
 ---
 
