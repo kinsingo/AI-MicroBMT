@@ -1,7 +1,7 @@
 # AI-MicroBMT: Reproducibility Artifacts
 
 **Companion code for the paper:**  
-> *AI-MicroBMT: A Micro-Benchmark Toolkit for Evaluating Edge AI Accelerator Deployment*  
+> *AI-MicroBMT: Microbenchmark-Driven Quantization-Aware Performance Characterization of NPUs*  
 > KDD 2026 — Dataset & Benchmark Track
 
 This repository contains the complete pipeline to **reproduce all scores, rankings, and figures** presented in the paper. It is organized in two parts:
@@ -70,12 +70,6 @@ Before running any analysis scripts, you must first **collect raw benchmark data
 Open the AI-BMT application and navigate to the **Data Download** tab, then download the required models and datasets as shown below:
 
 ![Download Models & Datasets](download_model_dataset.png)
-
-| # | Action | Description |
-|---|--------|-------------|
-| ① | **Go to the Data Download tab** | Click the database icon in the toolbar to open the download page |
-| ② | **Download 67 MicroBMT classification ONNX models** | Click the download button under the Classification section to fetch all 67 benchmark models |
-| ③ | **Download the ImageNet V2 dataset** | Downloads 10,000 evaluation images + 120 test images for classification benchmarking |
 
 > **Tip**: Repeat for other task types (Object Detection, Semantic Segmentation, LLM Tasks) if your evaluation scope extends beyond classification.
 
@@ -164,15 +158,15 @@ python generate_cases_analysis.py
 
 ### Sub-Scores (S1–S7)
 
-| Score | Name | Description | Data Source |
-|-------|------|-------------|-------------|
-| S1 | Coverage | Fraction of models that pass the feasibility gate | Base Suite |
-| S2 | Efficiency | Average latency speedup vs. CPU baseline (log-scaled) | Base Suite |
-| S3 | Scaling | Resolution-robust scaling ability across input sizes | Resolution Sweep |
-| S4 | Accuracy Retention | How well accuracy is preserved after quantization/compilation | Base Suite |
-| S5 | Throughput Gain | Offline throughput improvement vs. CPU (log-scaled) | Base Suite |
-| S6 | Peak Compute Efficiency | Throughput normalized by vendor-reported peak TOPS (optional) | Base Suite |
-| S7 | Power Efficiency | Throughput normalized by device power consumption (optional) | Base Suite |
+| Score | Name | Description |
+|-------|------|-------------|
+| S1 | Coverage | Fraction of models that pass the feasibility gate |
+| S2 | Efficiency | Average latency speedup vs. CPU baseline (log-scaled) |
+| S3 | Scaling | Resolution-robust scaling ability across input sizes | 
+| S4 | Accuracy Retention | How well accuracy is preserved after quantization/compilation | 
+| S5 | Throughput Gain | Offline throughput improvement vs. CPU (log-scaled) | 
+| S6 | Peak Compute Efficiency | Throughput normalized by vendor-reported peak TOPS (optional) | 
+| S7 | Power Efficiency | Throughput normalized by device power consumption (optional) | 
 
 ### Input Data Format
 
@@ -319,7 +313,6 @@ analysis_charts/
 2. In `analysis_config.py`:
    - Add to `ALL_ACCELERATORS` (order = chart display order)
    - Add a color entry to `ACCELERATOR_COLORS`
-   - If the device is an NPU, it will be auto-derived from `ALL_ACCELERATORS` minus `BASELINE_DEVICE`
 
 ### Adding a New Model Family
 
@@ -355,7 +348,7 @@ Profiles with `_with_fixed_inputRes` suffix set `S3 = 0` (useful when only a sin
 
 | Parameter | Default | Effect |
 |-----------|---------|--------|
-| `TAU_ACC` | 4.0 | Max tolerable accuracy drop (%) from CPU baseline. Increase for leniency. |
+| `TAU_ACC` | 4.0 | Max tolerable accuracy drop (%) from CPU baseline. |
 | `THETA_SPEEDUP` | 1.0 | Min required speedup vs CPU. Set >1 for stricter latency requirements. |
 | `A_MIN` | 15.0 | Min absolute accuracy (%). Filters out trivially bad compilation results. |
 
@@ -382,7 +375,7 @@ Profiles with `_with_fixed_inputRes` suffix set `S3 = 0` (useful when only a sin
 
 ## Example End-to-End Workflow
 
-1. **Run benchmarks** on your devices using the MLPerf Tiny / AI-MicroBMT framework
+1. **Run benchmarks** on your devices using the AI-BMT framework
 2. **Organize CSV results** into `<model_family> variant/` folders
 3. **Edit `1. Create UDS Scores.py`**: add your device to `HARDWARE_POWER` / `HARDWARE_PEAK_COMPUTE`; add data folders to `DATA_FOLDERS_BASE`
 4. **Edit `analysis_config.py`**: add your device to `ALL_ACCELERATORS` and `ACCELERATOR_COLORS`
