@@ -1,22 +1,22 @@
-task,scenario,accuracy,epoch_samples_per_second_min,samples_per_second,epoch_samples_per_second_max,cpu_type,accelerator_type,submitter,benchmark_model
-Image Classification,Offline,70.71,2307.765901,2307.765901,2307.765901,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",shufflenet_v2_x1_0
-Image Classification,Offline,74.34,1865.512379,1865.512379,1865.512379,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",shufflenet_v2_x1_5
-Image Classification,Offline,76.84,1393.089736,1393.089736,1393.089736,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",shufflenet_v2_x2_0
-Image Classification,Offline,70.53,9713.782767,9713.782767,9713.782767,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",shufflenet_v2_x1_0
-Image Classification,Offline,73.64,6033.683346,6033.683346,6033.683346,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",shufflenet_v2_x1_5
-Image Classification,Offline,76.59,3825.578675,3825.578675,3825.578675,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",shufflenet_v2_x2_0
-Image Classification,Offline,70.59,3256.504286,3256.504286,3256.504286,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",shufflenet_v2_x1_0
-Image Classification,Offline,73.02,2099.347104,2099.347104,2099.347104,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",shufflenet_v2_x1_5
-Image Classification,Offline,76.51,1602.88958,1602.88958,1602.88958,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",shufflenet_v2_x2_0
-Image Classification,Offline,77.42,347.3240081,347.3240081,347.3240081,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),shufflenet_v2_x2_0
-Image Classification,Offline,74.42,602.309746,602.309746,602.309746,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),shufflenet_v2_x1_5
-Image Classification,Offline,70.89,1049.930327,1049.930327,1049.930327,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),shufflenet_v2_x1_0
-Image Classification,Offline,77.43,344.4517703,344.4517703,344.4517703,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),shufflenet_v2_x2_0
-Image Classification,Offline,74.44,627.2319292,627.2319292,627.2319292,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),shufflenet_v2_x1_5
-Image Classification,Offline,70.92,1068.784916,1068.784916,1068.784916,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),shufflenet_v2_x1_0
-Image Classification,Offline,77.43,3529.681464,3946.951999,4159.379838,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),shufflenet_v2_x2_0
-Image Classification,Offline,74.44,4218.624346,4635.872012,4879.943696,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),shufflenet_v2_x1_5
-Image Classification,Offline,70.92,4713.481788,5102.246671,5302.597598,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),shufflenet_v2_x1_0
-Image Classification,Offline,70.43,565.6750298,565.6750298,565.6750298,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,shufflenet_v2_x1_0
-Image Classification,Offline,73.55,539.2833515,539.2833515,539.2833515,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,shufflenet_v2_x1_5
-Image Classification,Offline,70.13,334.72648,334.72648,334.72648,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,shufflenet_v2_x2_0
+task,scenario,accuracy,samples_per_second,accelerator_type,benchmark_model
+Image Classification,Offline,70.71,2307.765901,Hailo-8,shufflenet_v2_x1_0
+Image Classification,Offline,74.34,1865.512379,Hailo-8,shufflenet_v2_x1_5
+Image Classification,Offline,76.84,1393.089736,Hailo-8,shufflenet_v2_x2_0
+Image Classification,Offline,70.53,9713.782767,Mobilint-ARIES,shufflenet_v2_x1_0
+Image Classification,Offline,73.64,6033.683346,Mobilint-ARIES,shufflenet_v2_x1_5
+Image Classification,Offline,76.59,3825.578675,Mobilint-ARIES,shufflenet_v2_x2_0
+Image Classification,Offline,70.59,3256.504286,DeepX M1,shufflenet_v2_x1_0
+Image Classification,Offline,73.02,2099.347104,DeepX M1,shufflenet_v2_x1_5
+Image Classification,Offline,76.51,1602.88958,DeepX M1,shufflenet_v2_x2_0
+Image Classification,Offline,77.42,347.3240081,Apple M4 ANE,shufflenet_v2_x2_0
+Image Classification,Offline,74.42,602.309746,Apple M4 ANE,shufflenet_v2_x1_5
+Image Classification,Offline,70.89,1049.930327,Apple M4 ANE,shufflenet_v2_x1_0
+Image Classification,Offline,77.43,344.4517703,Apple M4 CPU,shufflenet_v2_x2_0
+Image Classification,Offline,74.44,627.2319292,Apple M4 CPU,shufflenet_v2_x1_5
+Image Classification,Offline,70.92,1068.784916,Apple M4 CPU,shufflenet_v2_x1_0
+Image Classification,Offline,77.43,3946.951999,RTX PRO 6000 Max-Q,shufflenet_v2_x2_0
+Image Classification,Offline,74.44,4635.872012,RTX PRO 6000 Max-Q,shufflenet_v2_x1_5
+Image Classification,Offline,70.92,5102.246671,RTX PRO 6000 Max-Q,shufflenet_v2_x1_0
+Image Classification,Offline,70.43,565.6750298,Qualcomm QCS6490,shufflenet_v2_x1_0
+Image Classification,Offline,73.55,539.2833515,Qualcomm QCS6490,shufflenet_v2_x1_5
+Image Classification,Offline,70.13,334.72648,Qualcomm QCS6490,shufflenet_v2_x2_0

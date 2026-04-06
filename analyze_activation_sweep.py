@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Activation Function Sweep Analysis for ICML 2026
+Activation Function Sweep Analysis
 Focus: NPU activation function support, latency and accuracy (single-stream scenario)
 Baseline: Apple M4 CPU (floating-point reference)
 """
@@ -28,8 +28,7 @@ from analysis_config import (
     OUTPUT_SUBDIR_ACTIVATION_SWEEP,
 )
 
-# Set style for ICML 2026 1-column figures (3.25" width)
-# Generate large figures with readable fonts that scale well when reduced in LaTeX
+# Chart formatting settings
 plt.rcParams['figure.max_open_warning'] = 50
 plt.rcParams['font.size'] = 11           # Base font size
 plt.rcParams['axes.labelsize'] = 12      # Axis labels
@@ -41,9 +40,9 @@ try:
     plt.rcParams['legend.title_fontsize'] = 11 # Legend title
 except KeyError:
     pass  # older matplotlib versions don't support this
-plt.rcParams['lines.linewidth'] = 1.2    # Line width (ICML requires ≥0.5pt)
+plt.rcParams['lines.linewidth'] = 1.2
 plt.rcParams['axes.linewidth'] = 0.8     # Axis border width
-plt.rcParams['figure.titlesize'] = 0     # Not used (ICML requires captions, not titles)
+plt.rcParams['figure.titlesize'] = 0
 sns.set_palette("Set2")
 
 # Create output directory
@@ -615,9 +614,9 @@ def generate_summary_statistics(combined_deg):
     print(f"  - Max degradation: {combined_deg['Degradation_Percentage'].max():.2f}%")
 
 def main():
-    """Main analysis pipeline for ICML 2026"""
+    """Main analysis pipeline"""
     print("="*80)
-    print("NPU Activation Function Support Analysis for ICML 2026")
+    print("NPU Activation Function Support Analysis")
     print("Focus: Quantization impact vs CPU baseline")
     print("="*80)
     

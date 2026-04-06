@@ -1,16 +1,16 @@
-task,scenario,accuracy,epoch_samples_per_second_min,samples_per_second,epoch_samples_per_second_max,cpu_type,accelerator_type,submitter,benchmark_model
-Image Classification,Offline,75.93,1868.707307,1868.707307,1868.707307,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",densenet121
-Image Classification,Offline,77.32,1191.806389,1191.806389,1191.806389,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",densenet169
-Image Classification,Offline,78,618.555262,618.555262,618.555262,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",densenet201
-Image Classification,Offline,77.97,582.8520621,582.8520621,582.8520621,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),densenet201
-Image Classification,Offline,77.84,879.5927138,879.5927138,879.5927138,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),densenet169
-Image Classification,Offline,76.18,635.5998182,635.5998182,635.5998182,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),densenet121
-Image Classification,Offline,77.94,52.27869709,52.27869709,52.27869709,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),densenet201
-Image Classification,Offline,77.77,66.71119805,66.71119805,66.71119805,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),densenet169
-Image Classification,Offline,76.19,81.03998306,81.03998306,81.03998306,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),densenet121
-Image Classification,Offline,77.94,1026.524622,1065.76008,1089.582129,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),densenet201
-Image Classification,Offline,77.77,1292.602771,1345.88887,1372.556835,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),densenet169
-Image Classification,Offline,76.19,1660.171117,1749.523456,1794.538903,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),densenet121
-Image Classification,Offline,74.85,13.25490889,13.25490889,13.25490889,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,densenet201
-Image Classification,Offline,75.92,17.00539692,17.00539692,17.00539692,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,densenet169
-Image Classification,Offline,71.7,23.44619857,23.44619857,23.44619857,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,densenet121
+task,scenario,accuracy,samples_per_second,accelerator_type,benchmark_model
+Image Classification,Offline,75.93,1868.707307,Mobilint-ARIES,densenet121
+Image Classification,Offline,77.32,1191.806389,Mobilint-ARIES,densenet169
+Image Classification,Offline,78.0,618.555262,Mobilint-ARIES,densenet201
+Image Classification,Offline,77.97,582.8520621,Apple M4 ANE,densenet201
+Image Classification,Offline,77.84,879.5927138,Apple M4 ANE,densenet169
+Image Classification,Offline,76.18,635.5998182,Apple M4 ANE,densenet121
+Image Classification,Offline,77.94,52.27869709,Apple M4 CPU,densenet201
+Image Classification,Offline,77.77,66.71119805,Apple M4 CPU,densenet169
+Image Classification,Offline,76.19,81.03998306,Apple M4 CPU,densenet121
+Image Classification,Offline,77.94,1065.76008,RTX PRO 6000 Max-Q,densenet201
+Image Classification,Offline,77.77,1345.88887,RTX PRO 6000 Max-Q,densenet169
+Image Classification,Offline,76.19,1749.523456,RTX PRO 6000 Max-Q,densenet121
+Image Classification,Offline,74.85,13.25490889,Qualcomm QCS6490,densenet201
+Image Classification,Offline,75.92,17.00539692,Qualcomm QCS6490,densenet169
+Image Classification,Offline,71.7,23.44619857,Qualcomm QCS6490,densenet121

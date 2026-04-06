@@ -18,7 +18,7 @@ import re
 import numpy as np
 import matplotlib.pyplot as plt
 
-# ICML 2026 formatting for 2-column figures (full page width ~6.75")
+# Chart formatting settings
 plt.rcParams['font.size'] = 10
 plt.rcParams['axes.labelsize'] = 11
 plt.rcParams['axes.titlesize'] = 12
@@ -27,7 +27,7 @@ plt.rcParams['ytick.labelsize'] = 9
 plt.rcParams['legend.fontsize'] = 9
 plt.rcParams['lines.linewidth'] = 1.0
 plt.rcParams['axes.linewidth'] = 0.7
-plt.rcParams['figure.titlesize'] = 0  # No titles (use captions)
+plt.rcParams['figure.titlesize'] = 0
 
 # Create output directory for input resolution analysis
 output_dir = BASE_OUTPUT_DIR / OUTPUT_SUBDIR_INPUT_RES_SINGLESTREAM

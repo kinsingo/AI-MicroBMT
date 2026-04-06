@@ -1,22 +1,22 @@
-task,scenario,accuracy,epoch_samples_per_second_min,samples_per_second,epoch_samples_per_second_max,cpu_type,accelerator_type,submitter,benchmark_model
-Image Classification,Offline,6.56,70.19001825,70.19001825,70.19001825,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",hf_vit_base_patch16_224
-Image Classification,Offline,0.08,145.3562187,145.3562187,145.3562187,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",hf_vit_small_patch16_224
-Image Classification,Offline,0.1,341.5315425,341.5315425,341.5315425,Broadcom BCM2712 quad-core Arm Cortex A76 processor @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, Offlinemode)",hf_vit_tiny_patch16_224
-Image Classification,Offline,78.2,142.4155551,142.4155551,142.4155551,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",hf_vit_base_patch16_224
-Image Classification,Offline,76.43,578.1848269,578.1848269,578.1848269,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",hf_vit_small_patch16_224
-Image Classification,Offline,48.01,1539.024234,1539.024234,1539.024234,N/A,Mobilint-ARIES,"mobilint(cpp) multi, maxMultiThreads=64, Compiler = 1.0.1, RT version=v1.0.0",hf_vit_tiny_patch16_224
-Image Classification,Offline,0.1,66.64453762,66.64453762,66.64453762,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",hf_vit_base_patch16_224
-Image Classification,Offline,0.1,162.3495871,162.3495871,162.3495871,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",hf_vit_small_patch16_224
-Image Classification,Offline,0.07,371.9934205,371.9934205,371.9934205,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",hf_vit_tiny_patch16_224
-Image Classification,Offline,48.43,71.35966011,71.35966011,71.35966011,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),hf_vit_tiny_patch16_224
-Image Classification,Offline,76.56,36.0585048,36.0585048,36.0585048,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),hf_vit_small_patch16_224
-Image Classification,Offline,78.03,12.56804649,12.56804649,12.56804649,Apple M4,Apple M4 ANE,Apple M4 ANE (OpenMP Enabled),hf_vit_base_patch16_224
-Image Classification,Offline,48.42,193.1672657,193.1672657,193.1672657,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),hf_vit_tiny_patch16_224
-Image Classification,Offline,76.59,57.73109864,57.73109864,57.73109864,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),hf_vit_small_patch16_224
-Image Classification,Offline,78.02,15.82035849,15.82035849,15.82035849,Apple M4,Apple M4 CPU,Apple M4 CPU (OpenMP Enabled),hf_vit_base_patch16_224
-Image Classification,Offline,48.42,2818.261518,2841.37754,2874.221981,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),hf_vit_tiny_patch16_224
-Image Classification,Offline,76.59,1355.676759,1361.569544,1367.872748,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),hf_vit_small_patch16_224
-Image Classification,Offline,78.02,410.570339,412.2743105,414.6389775,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),hf_vit_base_patch16_224
-Image Classification,Offline,22.26,7.14244944,7.14244944,7.14244944,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,hf_vit_base_patch16_224
-Image Classification,Offline,14.47,16.29771956,16.29771956,16.29771956,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,hf_vit_small_patch16_224
-Image Classification,Offline,0.16,26.92346318,26.92346318,26.92346318,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,useOpenMP,hf_vit_tiny_patch16_224
+task,scenario,accuracy,samples_per_second,accelerator_type,benchmark_model
+Image Classification,Offline,6.56,70.19001825,Hailo-8,hf_vit_base_patch16_224
+Image Classification,Offline,0.08,145.3562187,Hailo-8,hf_vit_small_patch16_224
+Image Classification,Offline,0.1,341.5315425,Hailo-8,hf_vit_tiny_patch16_224
+Image Classification,Offline,78.2,142.4155551,Mobilint-ARIES,hf_vit_base_patch16_224
+Image Classification,Offline,76.43,578.1848269,Mobilint-ARIES,hf_vit_small_patch16_224
+Image Classification,Offline,48.01,1539.024234,Mobilint-ARIES,hf_vit_tiny_patch16_224
+Image Classification,Offline,0.1,66.64453762,DeepX M1,hf_vit_base_patch16_224
+Image Classification,Offline,0.1,162.3495871,DeepX M1,hf_vit_small_patch16_224
+Image Classification,Offline,0.07,371.9934205,DeepX M1,hf_vit_tiny_patch16_224
+Image Classification,Offline,48.43,71.35966011,Apple M4 ANE,hf_vit_tiny_patch16_224
+Image Classification,Offline,76.56,36.0585048,Apple M4 ANE,hf_vit_small_patch16_224
+Image Classification,Offline,78.03,12.56804649,Apple M4 ANE,hf_vit_base_patch16_224
+Image Classification,Offline,48.42,193.1672657,Apple M4 CPU,hf_vit_tiny_patch16_224
+Image Classification,Offline,76.59,57.73109864,Apple M4 CPU,hf_vit_small_patch16_224
+Image Classification,Offline,78.02,15.82035849,Apple M4 CPU,hf_vit_base_patch16_224
+Image Classification,Offline,48.42,2841.37754,RTX PRO 6000 Max-Q,hf_vit_tiny_patch16_224
+Image Classification,Offline,76.59,1361.569544,RTX PRO 6000 Max-Q,hf_vit_small_patch16_224
+Image Classification,Offline,78.02,412.2743105,RTX PRO 6000 Max-Q,hf_vit_base_patch16_224
+Image Classification,Offline,22.26,7.14244944,Qualcomm QCS6490,hf_vit_base_patch16_224
+Image Classification,Offline,14.47,16.29771956,Qualcomm QCS6490,hf_vit_small_patch16_224
+Image Classification,Offline,0.16,26.92346318,Qualcomm QCS6490,hf_vit_tiny_patch16_224

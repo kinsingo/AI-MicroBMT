@@ -1,106 +1,106 @@
-task,scenario,accuracy,epoch_sample_latency_average_min,sample_latency_average,epoch_sample_latency_average_max,cpu_type,accelerator_type,submitter,benchmark_model
-Image Classification,Single-Stream,79.21,83.41364822,83.42526393,83.43969332,Apple M4,Apple M4 CPU,N/A,resnet101_w1_0
-Image Classification,Single-Stream,79.22,158.6476735,158.6679167,158.7030264,Apple M4,Apple M4 CPU,N/A,resnet50_w2_0
-Image Classification,Single-Stream,78.56,90.57262987,90.60120102,90.62452864,Apple M4,Apple M4 CPU,N/A,resnet50_w1_5
-Image Classification,Single-Stream,76.88,43.4770464,43.50225789,43.51585148,Apple M4,Apple M4 CPU,N/A,resnet50_w1_0
-Image Classification,Single-Stream,75.69,25.03032027,25.04371203,25.05102651,Apple M4,Apple M4 CPU,N/A,resnet50_w0_75
-Image Classification,Single-Stream,64.55,3.971585576,3.972552385,3.973172853,Apple M4,Apple M4 CPU,N/A,resnet50_w0_25
-Image Classification,Single-Stream,72.83,12.31551389,12.3180832,12.31986594,Apple M4,Apple M4 CPU,N/A,resnet50_w0_5
-Image Classification,Single-Stream,75.34,39.47708313,39.48170176,39.48835981,Apple M4,Apple M4 CPU,N/A,resnet34_w1_0
-Image Classification,Single-Stream,75.51,68.88015017,68.88580777,68.89070177,Apple M4,Apple M4 CPU,N/A,resnet18_w2_0
-Image Classification,Single-Stream,74.76,40.1020544,40.10451786,40.10919076,Apple M4,Apple M4 CPU,N/A,resnet18_w1_5
-Image Classification,Single-Stream,71.66,19.74411022,19.74787246,19.75394584,Apple M4,Apple M4 CPU,N/A,resnet18_w1_0
-Image Classification,Single-Stream,69.25,11.6307132,11.63483679,11.63901786,Apple M4,Apple M4 CPU,N/A,resnet18_w0_75
-Image Classification,Single-Stream,51.88,2.09782737,2.099303711,2.100890085,Apple M4,Apple M4 CPU,N/A,resnet18_w0_25
-Image Classification,Single-Stream,63.65,5.888663686,5.891118804,5.892627656,Apple M4,Apple M4 CPU,N/A,resnet18_w0_5
-Image Classification,Single-Stream,64.76,9.854773326,9.861117656,9.87376687,Apple M4,Apple M4 CPU,N/A,resnet10_w1_0
-Image Classification,Single-Stream,64.75,0.855370193,0.855370193,0.855370193,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet10_w1_0
-Image Classification,Single-Stream,63.13,0.81400709,0.81400709,0.81400709,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet18_w0_5
-Image Classification,Single-Stream,51.4,0.749761966,0.749761966,0.749761966,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet18_w0_25
-Image Classification,Single-Stream,69.08,1.013236811,1.013236811,1.013236811,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet18_w0_75
-Image Classification,Single-Stream,71.35,1.136146149,1.136146149,1.136146149,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet18_w1_0
-Image Classification,Single-Stream,74.63,2.285937674,2.285937674,2.285937674,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet18_w1_5
-Image Classification,Single-Stream,75.63,2.953909975,2.953909975,2.953909975,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet18_w2_0
-Image Classification,Single-Stream,75.35,1.678148741,1.678148741,1.678148741,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet34_w1_0
-Image Classification,Single-Stream,72.4,1.035470736,1.035470736,1.035470736,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet50_w0_5
-Image Classification,Single-Stream,64.42,0.844728804,0.844728804,0.844728804,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet50_w0_25
-Image Classification,Single-Stream,75.62,1.543313092,1.543313092,1.543313092,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet50_w0_75
-Image Classification,Single-Stream,76.83,2.002279683,2.002279683,2.002279683,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet50_w1_0
-Image Classification,Single-Stream,78.4,5.988042766,5.988042766,5.988042766,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet50_w1_5
-Image Classification,Single-Stream,79.02,8.61590343,8.61590343,8.61590343,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet50_w2_0
-Image Classification,Single-Stream,79.24,2.905530099,2.905530099,2.905530099,N/A,Mobilint-ARIES,"mobilint(cpp) single, Compiler = 1.0.1, RT version=v1.0.0",resnet101_w1_0
-Image Classification,Single-Stream,63.54,1.407738847,1.407738847,1.407738847,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet18_w0_5
-Image Classification,Single-Stream,51.27,1.2003854,1.2003854,1.2003854,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet18_w0_25
-Image Classification,Single-Stream,68.58,1.755143048,1.755143048,1.755143048,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet18_w0_75
-Image Classification,Single-Stream,71.25,1.972113277,1.972113277,1.972113277,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet18_w1_0
-Image Classification,Single-Stream,74.49,3.423763958,3.423763958,3.423763958,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet18_w1_5
-Image Classification,Single-Stream,75.69,4.430880597,4.430880597,4.430880597,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet18_w2_0
-Image Classification,Single-Stream,75.19,2.758296091,2.758296091,2.758296091,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet34_w1_0
-Image Classification,Single-Stream,72.65,1.679324005,1.679324005,1.679324005,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet50_w0_5
-Image Classification,Single-Stream,64.6,1.232942131,1.232942131,1.232942131,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet50_w0_25
-Image Classification,Single-Stream,75.71,2.338976595,2.338976595,2.338976595,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet50_w0_75
-Image Classification,Single-Stream,76.97,3.114551185,3.114551185,3.114551185,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet50_w1_0
-Image Classification,Single-Stream,78.73,5.446885414,5.446885414,5.446885414,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet50_w1_5
-Image Classification,Single-Stream,79.32,7.975937622,7.975937622,7.975937622,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet50_w2_0
-Image Classification,Single-Stream,78.95,4.862682461,4.862682461,4.862682461,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet101_w1_0
-Image Classification,Single-Stream,64.48,1.498347644,1.498347644,1.498347644,Rockchip RK3588,DeepX M1,"DeepX(DX-COM:2.2.0, FW: 2.5.0, DXRT: 3.2.0, RT Drivet:2.1.0)",resnet10_w1_0
-Image Classification,Single-Stream,79.11,36.71644945,36.71766845,36.71929818,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet101_w1_0
-Image Classification,Single-Stream,64.77,1.052110527,1.052341196,1.052638609,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet10_w1_0
-Image Classification,Single-Stream,51.59,0.8117921,0.81260268,0.813255652,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet18_w0_25
-Image Classification,Single-Stream,63.53,0.808431023,0.808613889,0.808713577,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet18_w0_5
-Image Classification,Single-Stream,69.13,1.087276862,1.087745539,1.088598644,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet18_w0_75
-Image Classification,Single-Stream,71.52,1.521724441,1.521988368,1.522506103,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet18_w1_0
-Image Classification,Single-Stream,74.18,3.133018979,3.133516795,3.134321014,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet18_w1_5
-Image Classification,Single-Stream,75.4,36.44412248,36.44515357,36.44672003,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet18_w2_0
-Image Classification,Single-Stream,74.96,3.598365218,3.598948333,3.599921088,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet34_w1_0
-Image Classification,Single-Stream,64.41,0.923468702,0.923945714,0.924583932,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet50_w0_25
-Image Classification,Single-Stream,72.46,1.515160611,1.515255209,1.515404055,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet50_w0_5
-Image Classification,Single-Stream,75.52,2.366689351,2.367631584,2.36853478,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet50_w0_75
-Image Classification,Single-Stream,77.08,4.036403873,4.036999383,4.038027544,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet50_w1_0
-Image Classification,Single-Stream,78.38,44.20750479,44.20789696,44.20866567,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet50_w1_5
-Image Classification,Single-Stream,79,75.41874735,75.4199848,75.42091819,Broadcom BCM2712 quad-core Arm Cortex A76 @ 2.4GHz,Hailo-8,"Hailo(Compiler : 3.31v, Runtime : v4.23, SingleMode)",resnet50_w2_0
-Image Classification,Single-Stream,79.22,1.822593521,1.823237953,1.823803426,Apple M4,Apple M4 ANE,N/A,resnet101_w1_0
-Image Classification,Single-Stream,79.22,4.456981489,4.458707667,4.46059915,Apple M4,Apple M4 ANE,N/A,resnet50_w2_0
-Image Classification,Single-Stream,78.55,2.647041464,2.648082686,2.649100106,Apple M4,Apple M4 ANE,N/A,resnet50_w1_5
-Image Classification,Single-Stream,76.91,1.256025599,1.256205393,1.256354158,Apple M4,Apple M4 ANE,N/A,resnet50_w1_0
-Image Classification,Single-Stream,75.65,0.796845928,0.797046324,0.797391173,Apple M4,Apple M4 ANE,N/A,resnet50_w0_75
-Image Classification,Single-Stream,64.6,0.270652438,0.270965409,0.271411281,Apple M4,Apple M4 ANE,N/A,resnet50_w0_25
-Image Classification,Single-Stream,72.85,0.476882936,0.477425292,0.477878364,Apple M4,Apple M4 ANE,N/A,resnet50_w0_5
-Image Classification,Single-Stream,75.33,0.99095774,0.991463437,0.991790966,Apple M4,Apple M4 ANE,N/A,resnet34_w1_0
-Image Classification,Single-Stream,75.54,1.913367495,1.914752738,1.915582645,Apple M4,Apple M4 ANE,N/A,resnet18_w2_0
-Image Classification,Single-Stream,74.77,1.163843165,1.164107519,1.164406464,Apple M4,Apple M4 ANE,N/A,resnet18_w1_5
-Image Classification,Single-Stream,71.67,0.628934631,0.629060952,0.62928416,Apple M4,Apple M4 ANE,N/A,resnet18_w1_0
-Image Classification,Single-Stream,69.25,0.442134202,0.442536802,0.442789574,Apple M4,Apple M4 ANE,N/A,resnet18_w0_75
-Image Classification,Single-Stream,51.86,0.176335311,0.176611826,0.176811191,Apple M4,Apple M4 ANE,N/A,resnet18_w0_25
-Image Classification,Single-Stream,63.61,0.283876316,0.285043279,0.285681865,Apple M4,Apple M4 ANE,N/A,resnet18_w0_5
-Image Classification,Single-Stream,64.74,0.39547739,0.396390541,0.397152138,Apple M4,Apple M4 ANE,N/A,resnet10_w1_0
-Image Classification,Single-Stream,78.8,13.03674449,13.16632811,13.34108577,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet50_w2_0
-Image Classification,Single-Stream,78.05,8.593538211,8.619271758,8.661643501,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet50_w1_5
-Image Classification,Single-Stream,76.47,4.196876942,4.238527982,4.274252439,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet50_w1_0
-Image Classification,Single-Stream,75.73,3.13773644,3.184296012,3.257066315,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet50_w0_75
-Image Classification,Single-Stream,72.4,2.330291969,2.381230007,2.417628157,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet50_w0_5
-Image Classification,Single-Stream,64.42,1.827945837,1.860398399,1.90518797,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet50_w0_25
-Image Classification,Single-Stream,75.29,3.780089874,3.801886235,3.81778804,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet34_w1_0
-Image Classification,Single-Stream,75.53,6.108053449,6.120752313,6.141557611,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet18_w2_0
-Image Classification,Single-Stream,74.54,3.992269729,4.038510878,4.08247159,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet18_w1_5
-Image Classification,Single-Stream,71.37,2.630534959,2.684377926,2.786112717,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet18_w1_0
-Image Classification,Single-Stream,68.88,2.290953992,2.353077977,2.390803712,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet18_w0_75
-Image Classification,Single-Stream,63.37,1.769756471,1.78534362,1.801418174,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet18_w0_5
-Image Classification,Single-Stream,51.67,1.531234967,1.553813604,1.582926862,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet18_w0_25
-Image Classification,Single-Stream,64.75,2.0940714,2.142495452,2.184268782,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet10_w1_0
-Image Classification,Single-Stream,79.25,6.318750665,6.335469145,6.34998161,Qualcomm Kryo 670 (Rubik Pi3),Qualcomm QCS6490,N/A,resnet101_w1_0
-Image Classification,Single-Stream,79.21,6.555812719,6.558203572,6.560237336,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet101_w1_0
-Image Classification,Single-Stream,79.22,7.419148012,7.423236597,7.425322641,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet50_w2_0
-Image Classification,Single-Stream,78.56,5.724865352,5.725646195,5.726285184,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet50_w1_5
-Image Classification,Single-Stream,76.88,3.517215406,3.520070045,3.525373526,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet50_w1_0
-Image Classification,Single-Stream,75.69,2.720947405,2.721727921,2.72267868,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet50_w0_75
-Image Classification,Single-Stream,64.55,1.173717925,1.176645531,1.178581308,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet50_w0_25
-Image Classification,Single-Stream,72.83,1.559407737,1.562555092,1.566210283,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet50_w0_5
-Image Classification,Single-Stream,75.34,2.956717296,2.958810153,2.960280565,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet34_w1_0
-Image Classification,Single-Stream,75.51,4.389006025,4.393188671,4.401134032,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet18_w2_0
-Image Classification,Single-Stream,74.76,2.482290278,2.482833636,2.483301296,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet18_w1_5
-Image Classification,Single-Stream,71.66,1.425595094,1.428458304,1.430112605,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet18_w1_0
-Image Classification,Single-Stream,69.25,1.091855701,1.093151174,1.094851831,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet18_w0_75
-Image Classification,Single-Stream,51.88,0.599865396,0.602324806,0.604191733,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet18_w0_25
-Image Classification,Single-Stream,63.65,0.805868678,0.809221248,0.812137455,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet18_w0_5
-Image Classification,Single-Stream,64.76,0.714857685,0.719145115,0.72384646,INTEL(R) XEON(R) GOLD 6544Y,RTX PRO 6000 Max-Q,CUDA 13.0 + cuDNN 9.1.0 + ONNX Runtime 1.19.2 + maxBatchSize (32) + RAMChunk (996),resnet10_w1_0
+task,scenario,accuracy,sample_latency_average,accelerator_type,benchmark_model
+Image Classification,Single-Stream,79.21,83.42526393,Apple M4 CPU,resnet101_w1_0
+Image Classification,Single-Stream,79.22,158.6679167,Apple M4 CPU,resnet50_w2_0
+Image Classification,Single-Stream,78.56,90.60120102,Apple M4 CPU,resnet50_w1_5
+Image Classification,Single-Stream,76.88,43.50225789,Apple M4 CPU,resnet50_w1_0
+Image Classification,Single-Stream,75.69,25.04371203,Apple M4 CPU,resnet50_w0_75
+Image Classification,Single-Stream,64.55,3.972552385,Apple M4 CPU,resnet50_w0_25
+Image Classification,Single-Stream,72.83,12.3180832,Apple M4 CPU,resnet50_w0_5
+Image Classification,Single-Stream,75.34,39.48170176,Apple M4 CPU,resnet34_w1_0
+Image Classification,Single-Stream,75.51,68.88580777,Apple M4 CPU,resnet18_w2_0
+Image Classification,Single-Stream,74.76,40.10451786,Apple M4 CPU,resnet18_w1_5
+Image Classification,Single-Stream,71.66,19.74787246,Apple M4 CPU,resnet18_w1_0
+Image Classification,Single-Stream,69.25,11.63483679,Apple M4 CPU,resnet18_w0_75
+Image Classification,Single-Stream,51.88,2.099303711,Apple M4 CPU,resnet18_w0_25
+Image Classification,Single-Stream,63.65,5.891118804,Apple M4 CPU,resnet18_w0_5
+Image Classification,Single-Stream,64.76,9.861117656,Apple M4 CPU,resnet10_w1_0
+Image Classification,Single-Stream,64.75,0.855370193,Mobilint-ARIES,resnet10_w1_0
+Image Classification,Single-Stream,63.13,0.81400709,Mobilint-ARIES,resnet18_w0_5
+Image Classification,Single-Stream,51.4,0.749761966,Mobilint-ARIES,resnet18_w0_25
+Image Classification,Single-Stream,69.08,1.013236811,Mobilint-ARIES,resnet18_w0_75
+Image Classification,Single-Stream,71.35,1.136146149,Mobilint-ARIES,resnet18_w1_0
+Image Classification,Single-Stream,74.63,2.285937674,Mobilint-ARIES,resnet18_w1_5
+Image Classification,Single-Stream,75.63,2.953909975,Mobilint-ARIES,resnet18_w2_0
+Image Classification,Single-Stream,75.35,1.678148741,Mobilint-ARIES,resnet34_w1_0
+Image Classification,Single-Stream,72.4,1.035470736,Mobilint-ARIES,resnet50_w0_5
+Image Classification,Single-Stream,64.42,0.844728804,Mobilint-ARIES,resnet50_w0_25
+Image Classification,Single-Stream,75.62,1.543313092,Mobilint-ARIES,resnet50_w0_75
+Image Classification,Single-Stream,76.83,2.002279683,Mobilint-ARIES,resnet50_w1_0
+Image Classification,Single-Stream,78.4,5.988042766,Mobilint-ARIES,resnet50_w1_5
+Image Classification,Single-Stream,79.02,8.61590343,Mobilint-ARIES,resnet50_w2_0
+Image Classification,Single-Stream,79.24,2.905530099,Mobilint-ARIES,resnet101_w1_0
+Image Classification,Single-Stream,63.54,1.407738847,DeepX M1,resnet18_w0_5
+Image Classification,Single-Stream,51.27,1.2003854,DeepX M1,resnet18_w0_25
+Image Classification,Single-Stream,68.58,1.755143048,DeepX M1,resnet18_w0_75
+Image Classification,Single-Stream,71.25,1.972113277,DeepX M1,resnet18_w1_0
+Image Classification,Single-Stream,74.49,3.423763958,DeepX M1,resnet18_w1_5
+Image Classification,Single-Stream,75.69,4.430880597,DeepX M1,resnet18_w2_0
+Image Classification,Single-Stream,75.19,2.758296091,DeepX M1,resnet34_w1_0
+Image Classification,Single-Stream,72.65,1.679324005,DeepX M1,resnet50_w0_5
+Image Classification,Single-Stream,64.6,1.232942131,DeepX M1,resnet50_w0_25
+Image Classification,Single-Stream,75.71,2.338976595,DeepX M1,resnet50_w0_75
+Image Classification,Single-Stream,76.97,3.114551185,DeepX M1,resnet50_w1_0
+Image Classification,Single-Stream,78.73,5.446885414,DeepX M1,resnet50_w1_5
+Image Classification,Single-Stream,79.32,7.975937622,DeepX M1,resnet50_w2_0
+Image Classification,Single-Stream,78.95,4.862682461,DeepX M1,resnet101_w1_0
+Image Classification,Single-Stream,64.48,1.498347644,DeepX M1,resnet10_w1_0
+Image Classification,Single-Stream,79.11,36.71766845,Hailo-8,resnet101_w1_0
+Image Classification,Single-Stream,64.77,1.052341196,Hailo-8,resnet10_w1_0
+Image Classification,Single-Stream,51.59,0.81260268,Hailo-8,resnet18_w0_25
+Image Classification,Single-Stream,63.53,0.808613889,Hailo-8,resnet18_w0_5
+Image Classification,Single-Stream,69.13,1.087745539,Hailo-8,resnet18_w0_75
+Image Classification,Single-Stream,71.52,1.521988368,Hailo-8,resnet18_w1_0
+Image Classification,Single-Stream,74.18,3.133516795,Hailo-8,resnet18_w1_5
+Image Classification,Single-Stream,75.4,36.44515357,Hailo-8,resnet18_w2_0
+Image Classification,Single-Stream,74.96,3.598948333,Hailo-8,resnet34_w1_0
+Image Classification,Single-Stream,64.41,0.923945714,Hailo-8,resnet50_w0_25
+Image Classification,Single-Stream,72.46,1.515255209,Hailo-8,resnet50_w0_5
+Image Classification,Single-Stream,75.52,2.367631584,Hailo-8,resnet50_w0_75
+Image Classification,Single-Stream,77.08,4.036999383,Hailo-8,resnet50_w1_0
+Image Classification,Single-Stream,78.38,44.20789696,Hailo-8,resnet50_w1_5
+Image Classification,Single-Stream,79.0,75.4199848,Hailo-8,resnet50_w2_0
+Image Classification,Single-Stream,79.22,1.823237953,Apple M4 ANE,resnet101_w1_0
+Image Classification,Single-Stream,79.22,4.458707667,Apple M4 ANE,resnet50_w2_0
+Image Classification,Single-Stream,78.55,2.648082686,Apple M4 ANE,resnet50_w1_5
+Image Classification,Single-Stream,76.91,1.256205393,Apple M4 ANE,resnet50_w1_0
+Image Classification,Single-Stream,75.65,0.797046324,Apple M4 ANE,resnet50_w0_75
+Image Classification,Single-Stream,64.6,0.270965409,Apple M4 ANE,resnet50_w0_25
+Image Classification,Single-Stream,72.85,0.477425292,Apple M4 ANE,resnet50_w0_5
+Image Classification,Single-Stream,75.33,0.991463437,Apple M4 ANE,resnet34_w1_0
+Image Classification,Single-Stream,75.54,1.914752738,Apple M4 ANE,resnet18_w2_0
+Image Classification,Single-Stream,74.77,1.164107519,Apple M4 ANE,resnet18_w1_5
+Image Classification,Single-Stream,71.67,0.629060952,Apple M4 ANE,resnet18_w1_0
+Image Classification,Single-Stream,69.25,0.442536802,Apple M4 ANE,resnet18_w0_75
+Image Classification,Single-Stream,51.86,0.176611826,Apple M4 ANE,resnet18_w0_25
+Image Classification,Single-Stream,63.61,0.285043279,Apple M4 ANE,resnet18_w0_5
+Image Classification,Single-Stream,64.74,0.396390541,Apple M4 ANE,resnet10_w1_0
+Image Classification,Single-Stream,78.8,13.16632811,Qualcomm QCS6490,resnet50_w2_0
+Image Classification,Single-Stream,78.05,8.619271758,Qualcomm QCS6490,resnet50_w1_5
+Image Classification,Single-Stream,76.47,4.238527982,Qualcomm QCS6490,resnet50_w1_0
+Image Classification,Single-Stream,75.73,3.184296012,Qualcomm QCS6490,resnet50_w0_75
+Image Classification,Single-Stream,72.4,2.381230007,Qualcomm QCS6490,resnet50_w0_5
+Image Classification,Single-Stream,64.42,1.860398399,Qualcomm QCS6490,resnet50_w0_25
+Image Classification,Single-Stream,75.29,3.801886235,Qualcomm QCS6490,resnet34_w1_0
+Image Classification,Single-Stream,75.53,6.120752313,Qualcomm QCS6490,resnet18_w2_0
+Image Classification,Single-Stream,74.54,4.038510878,Qualcomm QCS6490,resnet18_w1_5
+Image Classification,Single-Stream,71.37,2.684377926,Qualcomm QCS6490,resnet18_w1_0
+Image Classification,Single-Stream,68.88,2.353077977,Qualcomm QCS6490,resnet18_w0_75
+Image Classification,Single-Stream,63.37,1.78534362,Qualcomm QCS6490,resnet18_w0_5
+Image Classification,Single-Stream,51.67,1.553813604,Qualcomm QCS6490,resnet18_w0_25
+Image Classification,Single-Stream,64.75,2.142495452,Qualcomm QCS6490,resnet10_w1_0
+Image Classification,Single-Stream,79.25,6.335469145,Qualcomm QCS6490,resnet101_w1_0
+Image Classification,Single-Stream,79.21,6.558203572,RTX PRO 6000 Max-Q,resnet101_w1_0
+Image Classification,Single-Stream,79.22,7.423236597,RTX PRO 6000 Max-Q,resnet50_w2_0
+Image Classification,Single-Stream,78.56,5.725646195,RTX PRO 6000 Max-Q,resnet50_w1_5
+Image Classification,Single-Stream,76.88,3.520070045,RTX PRO 6000 Max-Q,resnet50_w1_0
+Image Classification,Single-Stream,75.69,2.721727921,RTX PRO 6000 Max-Q,resnet50_w0_75
+Image Classification,Single-Stream,64.55,1.176645531,RTX PRO 6000 Max-Q,resnet50_w0_25
+Image Classification,Single-Stream,72.83,1.562555092,RTX PRO 6000 Max-Q,resnet50_w0_5
+Image Classification,Single-Stream,75.34,2.958810153,RTX PRO 6000 Max-Q,resnet34_w1_0
+Image Classification,Single-Stream,75.51,4.393188671,RTX PRO 6000 Max-Q,resnet18_w2_0
+Image Classification,Single-Stream,74.76,2.482833636,RTX PRO 6000 Max-Q,resnet18_w1_5
+Image Classification,Single-Stream,71.66,1.428458304,RTX PRO 6000 Max-Q,resnet18_w1_0
+Image Classification,Single-Stream,69.25,1.093151174,RTX PRO 6000 Max-Q,resnet18_w0_75
+Image Classification,Single-Stream,51.88,0.602324806,RTX PRO 6000 Max-Q,resnet18_w0_25
+Image Classification,Single-Stream,63.65,0.809221248,RTX PRO 6000 Max-Q,resnet18_w0_5
+Image Classification,Single-Stream,64.76,0.719145115,RTX PRO 6000 Max-Q,resnet10_w1_0

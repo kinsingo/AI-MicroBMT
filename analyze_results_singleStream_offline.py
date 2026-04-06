@@ -13,7 +13,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from math import pi
 
-# ICML 2026 formatting
+# Chart formatting settings
 plt.rcParams['font.size'] = 10
 plt.rcParams['axes.labelsize'] = 10
 plt.rcParams['legend.fontsize'] = 9
