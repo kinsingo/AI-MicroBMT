@@ -29,14 +29,17 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 
-CSV = "UDS_scores_summary.csv"  # Place in the same folder or specify the path
+OUTPUT_DIR = Path(__file__).parent / 'analysis_charts' / 'UDS metrics'
+OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+CSV = OUTPUT_DIR / "UDS_scores_summary.csv"  # Read from output dir
 
 df = pd.read_csv(CSV)
 
 # Output CSV files
-OUTPUT_UDS_CASES = "UDS_cases_results.csv"  # Full results for all 16 cases
-OUTPUT_UDS_WINNERS = "UDS_cases_winners.csv"  # Winner only for each case
-OUTPUT_WEIGHT_PROFILES = "UDS_weight_profiles.csv"  # Weight definitions for all 16 cases
+OUTPUT_UDS_CASES = OUTPUT_DIR / "UDS_cases_results.csv"  # Full results for all 16 cases
+OUTPUT_UDS_WINNERS = OUTPUT_DIR / "UDS_cases_winners.csv"  # Winner only for each case
+OUTPUT_WEIGHT_PROFILES = OUTPUT_DIR / "UDS_weight_profiles.csv"  # Weight definitions for all 16 cases
 
 # 1) Auto-detect device column (typically 'device'/'hardware'/'Device', etc.)
 device_col = None

@@ -1160,12 +1160,14 @@ def main():
     
     # Save results
     print("\n[7/8] Saving results...")
-    uds_scores.to_csv(base_path / OUTPUT_SUMMARY_CSV, index=False)
-    print(f"  UDS summary saved to: {OUTPUT_SUMMARY_CSV}")
+    output_dir = base_path / 'analysis_charts' / 'UDS metrics'
+    output_dir.mkdir(parents=True, exist_ok=True)
+    uds_scores.to_csv(output_dir / OUTPUT_SUMMARY_CSV, index=False)
+    print(f"  UDS summary saved to: {output_dir / OUTPUT_SUMMARY_CSV}")
     
     if SAVE_DETAILED_RESULTS:
-        save_detailed_results(metrics_df_base, base_path / OUTPUT_CSV_BASE, 'base')
-        save_detailed_results(metrics_df_res, base_path / OUTPUT_CSV_RES, 'resolution')
+        save_detailed_results(metrics_df_base, output_dir / OUTPUT_CSV_BASE, 'base')
+        save_detailed_results(metrics_df_res, output_dir / OUTPUT_CSV_RES, 'resolution')
     
     # Print data statistics
     print("\n[8/8] Data statistics...")
