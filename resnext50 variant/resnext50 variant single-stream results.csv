@@ -26,3 +26,7 @@ Image Classification,Single-Stream,79.1,5.161503265,RTX PRO 6000 Max-Q,resnext50
 Image Classification,Single-Stream,79.9,3.692858548,RTX PRO 6000 Max-Q,resnext50_c32_w1_0
 Image Classification,Single-Stream,79.25,2.506436687,RTX PRO 6000 Max-Q,resnext50_c16_w1_0
 Image Classification,Single-Stream,77.07,1.926864334,RTX PRO 6000 Max-Q,resnext50_c8_w1_0
+Image Classification,Single-Stream,84.167,33.725,NVIDIA Jetson Orin,resnext50_c64_w1_0
+Image Classification,Single-Stream,87.5,20.414,NVIDIA Jetson Orin,resnext50_c32_w1_0
+Image Classification,Single-Stream,85.0,15.241,NVIDIA Jetson Orin,resnext50_c16_w1_0
+Image Classification,Single-Stream,83.333,12.459000000000001,NVIDIA Jetson Orin,resnext50_c8_w1_0

@@ -1,10 +1,10 @@
 task,scenario,accuracy,sample_latency_average,accelerator_type,benchmark_model
-Image Classification,Single-Stream,72.47,0.731058339,Apple M4 ANE,resnet18_silu_w1_0
+Image Classification,Single-Stream,72.47,0.7310583390000001,Apple M4 ANE,resnet18_silu_w1_0
 Image Classification,Single-Stream,66.81,5.467745496,Apple M4 ANE,resnet18_selu_w1_0
 Image Classification,Single-Stream,71.22,0.645661806,Apple M4 ANE,resnet18_relu6_w1_0
 Image Classification,Single-Stream,71.04,0.625275215,Apple M4 ANE,resnet18_relu_w1_0
 Image Classification,Single-Stream,69.95,0.626477424,Apple M4 ANE,resnet18_prelu_w1_0
-Image Classification,Single-Stream,71.97,11.0977932,Apple M4 ANE,resnet18_mish_w1_0
+Image Classification,Single-Stream,71.97,11.097793199999998,Apple M4 ANE,resnet18_mish_w1_0
 Image Classification,Single-Stream,71.5,0.625300861,Apple M4 ANE,resnet18_leakyrelu_w1_0
 Image Classification,Single-Stream,71.44,0.77168316,Apple M4 ANE,resnet18_hardswish_w1_0
 Image Classification,Single-Stream,72.23,10.21005335,Apple M4 ANE,resnet18_gelu_w1_0
@@ -36,9 +36,9 @@ Image Classification,Single-Stream,71.86,2.002164135,DeepX M1,resnet18_mish_w1_0
 Image Classification,Single-Stream,0.1,3.339365892,DeepX M1,resnet18_prelu_w1_0
 Image Classification,Single-Stream,71.03,1.936261809,DeepX M1,resnet18_relu6_w1_0
 Image Classification,Single-Stream,70.91,1.980617082,DeepX M1,resnet18_relu_w1_0
-Image Classification,Single-Stream,66.72,166.2684338,DeepX M1,resnet18_selu_w1_0
+Image Classification,Single-Stream,66.72,166.26843380000003,DeepX M1,resnet18_selu_w1_0
 Image Classification,Single-Stream,71.84,2.018686159,DeepX M1,resnet18_silu_w1_0
-Image Classification,Single-Stream,68.47,1.588744927,Hailo-8,resnet18_elu_w1_0
+Image Classification,Single-Stream,68.47,1.5887449269999998,Hailo-8,resnet18_elu_w1_0
 Image Classification,Single-Stream,71.56,1.57680364,Hailo-8,resnet18_gelu_w1_0
 Image Classification,Single-Stream,70.79,1.583346111,Hailo-8,resnet18_hardswish_w1_0
 Image Classification,Single-Stream,71.35,1.591245319,Hailo-8,resnet18_leakyrelu_w1_0
@@ -65,5 +65,15 @@ Image Classification,Single-Stream,69.95,1.491306978,RTX PRO 6000 Max-Q,resnet18
 Image Classification,Single-Stream,71.96,1.749570022,RTX PRO 6000 Max-Q,resnet18_mish_w1_0
 Image Classification,Single-Stream,71.54,1.368702,RTX PRO 6000 Max-Q,resnet18_leakyrelu_w1_0
 Image Classification,Single-Stream,71.43,1.770342399,RTX PRO 6000 Max-Q,resnet18_hardswish_w1_0
-Image Classification,Single-Stream,72.21,1.460630131,RTX PRO 6000 Max-Q,resnet18_gelu_w1_0
+Image Classification,Single-Stream,72.21,1.4606301309999998,RTX PRO 6000 Max-Q,resnet18_gelu_w1_0
 Image Classification,Single-Stream,68.68,1.507290864,RTX PRO 6000 Max-Q,resnet18_elu_w1_0
+Image Classification,Single-Stream,82.5,8.138,NVIDIA Jetson Orin,resnet18_silu_w1_0
+Image Classification,Single-Stream,79.167,8.497,NVIDIA Jetson Orin,resnet18_selu_w1_0
+Image Classification,Single-Stream,80.833,8.118,NVIDIA Jetson Orin,resnet18_relu6_w1_0
+Image Classification,Single-Stream,85.833,8.015,NVIDIA Jetson Orin,resnet18_relu_w1_0
+Image Classification,Single-Stream,75.833,7.888,NVIDIA Jetson Orin,resnet18_prelu_w1_0
+Image Classification,Single-Stream,80.833,8.59,NVIDIA Jetson Orin,resnet18_mish_w1_0
+Image Classification,Single-Stream,82.5,8.28,NVIDIA Jetson Orin,resnet18_leakyrelu_w1_0
+Image Classification,Single-Stream,80.0,8.963,NVIDIA Jetson Orin,resnet18_hardswish_w1_0
+Image Classification,Single-Stream,77.5,8.037,NVIDIA Jetson Orin,resnet18_gelu_w1_0
+Image Classification,Single-Stream,82.5,8.349,NVIDIA Jetson Orin,resnet18_elu_w1_0

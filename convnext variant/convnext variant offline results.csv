@@ -15,8 +15,11 @@ Image Classification,Offline,83.26,46.48559535,Apple M4 CPU,convnext_tiny
 Image Classification,Offline,84.32,24.82061663,Apple M4 CPU,convnext_small
 Image Classification,Offline,84.52,15.30701126,Apple M4 CPU,convnext_base
 Image Classification,Offline,83.26,1127.162698,RTX PRO 6000 Max-Q,convnext_tiny
-Image Classification,Offline,84.32,655.5449263,RTX PRO 6000 Max-Q,convnext_small
+Image Classification,Offline,84.32,655.5449262999998,RTX PRO 6000 Max-Q,convnext_small
 Image Classification,Offline,84.52,411.3296311,RTX PRO 6000 Max-Q,convnext_base
 Image Classification,Offline,81.21,5.331936783,Qualcomm QCS6490,convnext_base
-Image Classification,Offline,79.95,6.498368333,Qualcomm QCS6490,convnext_small
+Image Classification,Offline,79.95,6.498368332999999,Qualcomm QCS6490,convnext_small
 Image Classification,Offline,81.04,11.35123669,Qualcomm QCS6490,convnext_tiny
+Image Classification,Offline,90.833,83.546,NVIDIA Jetson Orin,convnext_tiny
+Image Classification,Offline,91.667,53.571000000000005,NVIDIA Jetson Orin,convnext_small
+Image Classification,Offline,89.167,24.718000000000004,NVIDIA Jetson Orin,convnext_base

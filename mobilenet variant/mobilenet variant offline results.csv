@@ -1,7 +1,7 @@
 task,scenario,accuracy,samples_per_second,accelerator_type,benchmark_model
 Image Classification,Offline,48.16,3318.792091,Hailo-8,mobilenetv2_w0_25
 Image Classification,Offline,60.36,3065.045213,Hailo-8,mobilenetv2_w0_5
-Image Classification,Offline,65.8,2207.742069,Hailo-8,mobilenetv2_w0_75
+Image Classification,Offline,65.8,2207.742069000001,Hailo-8,mobilenetv2_w0_75
 Image Classification,Offline,67.89,2227.877554,Hailo-8,mobilenetv2_w1_0
 Image Classification,Offline,71.44,1498.208945,Hailo-8,mobilenetv2_w1_5
 Image Classification,Offline,73.05,1064.815063,Hailo-8,mobilenetv2_w2_0
@@ -19,8 +19,8 @@ Image Classification,Offline,71.27,1873.613349,DeepX M1,mobilenetv2_w1_5
 Image Classification,Offline,72.93,1570.097591,DeepX M1,mobilenetv2_w2_0
 Image Classification,Offline,73.1,1062.513127,Apple M4 ANE,mobilenetv2_w2_0
 Image Classification,Offline,71.65,1468.419525,Apple M4 ANE,mobilenetv2_w1_5
-Image Classification,Offline,68.18,2235.695276,Apple M4 ANE,mobilenetv2_w1_0
-Image Classification,Offline,66.17,2474.07446,Apple M4 ANE,mobilenetv2_w0_75
+Image Classification,Offline,68.18,2235.695276000001,Apple M4 ANE,mobilenetv2_w1_0
+Image Classification,Offline,66.17,2474.0744600000007,Apple M4 ANE,mobilenetv2_w0_75
 Image Classification,Offline,48.59,3891.353109,Apple M4 ANE,mobilenetv2_w0_25
 Image Classification,Offline,60.64,3377.159074,Apple M4 ANE,mobilenetv2_w0_5
 Image Classification,Offline,73.11,162.0845456,Apple M4 CPU,mobilenetv2_w2_0
@@ -33,7 +33,7 @@ Image Classification,Offline,73.11,2378.15595,RTX PRO 6000 Max-Q,mobilenetv2_w2_
 Image Classification,Offline,71.6,2852.26924,RTX PRO 6000 Max-Q,mobilenetv2_w1_5
 Image Classification,Offline,68.22,3620.165054,RTX PRO 6000 Max-Q,mobilenetv2_w1_0
 Image Classification,Offline,66.19,3892.554385,RTX PRO 6000 Max-Q,mobilenetv2_w0_75
-Image Classification,Offline,48.62,5007.671223,RTX PRO 6000 Max-Q,mobilenetv2_w0_25
+Image Classification,Offline,48.62,5007.6712229999985,RTX PRO 6000 Max-Q,mobilenetv2_w0_25
 Image Classification,Offline,60.62,4592.489054,RTX PRO 6000 Max-Q,mobilenetv2_w0_5
 Image Classification,Offline,72.87,471.3479393,Qualcomm QCS6490,mobilenetv2_w2_0
 Image Classification,Offline,71.5,586.3421577,Qualcomm QCS6490,mobilenetv2_w1_5
@@ -41,3 +41,9 @@ Image Classification,Offline,68.14,789.994835,Qualcomm QCS6490,mobilenetv2_w1_0
 Image Classification,Offline,65.58,827.0704111,Qualcomm QCS6490,mobilenetv2_w0_75
 Image Classification,Offline,59.91,936.8591771,Qualcomm QCS6490,mobilenetv2_w0_5
 Image Classification,Offline,47.36,1006.441663,Qualcomm QCS6490,mobilenetv2_w0_25
+Image Classification,Offline,77.5,116.382,NVIDIA Jetson Orin,mobilenetv2_w2_0
+Image Classification,Offline,85.833,139.597,NVIDIA Jetson Orin,mobilenetv2_w1_5
+Image Classification,Offline,76.667,182.998,NVIDIA Jetson Orin,mobilenetv2_w1_0
+Image Classification,Offline,77.5,196.896,NVIDIA Jetson Orin,mobilenetv2_w0_75
+Image Classification,Offline,60.0,269.629,NVIDIA Jetson Orin,mobilenetv2_w0_25
+Image Classification,Offline,74.167,181.50799999999998,NVIDIA Jetson Orin,mobilenetv2_w0_5

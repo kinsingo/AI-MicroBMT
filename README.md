@@ -100,6 +100,9 @@ Use these scripts as reference when integrating a new accelerator into the bench
 ## Quick Start
 
 ```bash
+# --- Step 0: Convert raw CSV (if starting from AI-BMT platform export) ---
+python convert_and_evaluate.py --input newEvalResults.csv --append
+
 # --- Part 1: UDS Scoring ---
 python "1. Create UDS Scores.py"   # Compute sub-scores S1~S7
 python "2. UDS cases.py"           # Weighted rankings for 16 use-case profiles
@@ -118,6 +121,7 @@ python generate_cases_analysis.py
 
 ```
 .
+├── convert_and_evaluate.py                         # Step 0: raw CSV → variant folder conversion
 ├── 1. Create UDS Scores.py                        # Step 1: sub-score calculation
 ├── 2. UDS cases.py                                # Step 2: weighted UDS rankings
 ├── analysis_config.py                             # Centralized config for analysis scripts
@@ -149,10 +153,77 @@ python generate_cases_analysis.py
 
 ---
 
+## Part 0 — Raw Data Conversion (`convert_and_evaluate.py`)
+
+If your benchmark results are in the **raw CSV format** exported from the AI-BMT platform (e.g., `newEvalResults.csv`), use `convert_and_evaluate.py` to convert them into the variant-folder CSV format required by the scoring and analysis scripts.
+
+### What it does
+
+1. **Loads** the raw CSV (60+ columns) and extracts the 6–7 essential columns
+2. **Normalizes** model names (strips `_trained_opset13`, `_pretrained_opset14`, etc.)
+3. **Normalizes** device names (e.g., `NVIDIA Jetson Orin` from verbose accelerator strings)
+4. **Classifies** each model into: base variant, activation variant, or input-resolution variant
+5. **Splits** by scenario (Single-Stream / Offline) into separate CSV files
+6. **Writes** output CSVs into the correct `<family> variant/` folders
+7. **Prints** an evaluation summary (latency, throughput, accuracy statistics)
+8. **Checks** pipeline compatibility and lists required config changes for new devices
+
+### Usage
+
+```bash
+# Basic: convert default newEvalResults.csv (overwrites existing data for same device)
+python convert_and_evaluate.py
+
+# Append to existing variant CSVs (preserves data from other devices)
+python convert_and_evaluate.py --append
+
+# Use a different input file
+python convert_and_evaluate.py --input my_results.csv --append
+
+# Override the device name in the output
+python convert_and_evaluate.py --device-name "My Custom Device" --append
+```
+
+### Command-Line Options
+
+| Flag | Description |
+|------|-------------|
+| `--input`, `-i` | Input CSV file path (default: `newEvalResults.csv`) |
+| `--device-name`, `-d` | Override `accelerator_type` to this name |
+| `--append`, `-a` | Append to existing CSVs instead of overwriting |
+| `--output-dir`, `-o` | Base output directory (default: current directory) |
+| `--no-summary` | Skip the evaluation summary printout |
+| `--no-compat-check` | Skip the pipeline compatibility check |
+
+### Pipeline Compatibility
+
+After conversion, the script automatically checks whether the device(s) in the data are registered in the pipeline configuration. If a new device is detected, it prints the exact config changes you need to make:
+
+- **`analysis_config.py`**: `ALL_ACCELERATORS`, `ACCELERATOR_COLORS`, `CASE_ANALYSIS_NPUS`
+- **`1. Create UDS Scores.py`**: `HARDWARE_POWER`, `HARDWARE_PEAK_COMPUTE`, `normalize_device_name()`
+
+> **Note**: For devices already registered (e.g., Hailo-8, Apple M4 CPU), no additional config changes are needed — just run `convert_and_evaluate.py --append` and proceed to scoring.
+
+### Device Name Normalization
+
+The script automatically normalizes common device name patterns:
+
+| Raw CSV Value | Normalized Name |
+|---------------|-----------------|
+| `CUDA 12.6 + cuDNN ... ONNX Runtime ...` (with "jetson" or "orin") | `NVIDIA Jetson Orin` |
+| `hailo-8`, `Hailo 8` | `Hailo-8` |
+| `deepx`, `DeepX-M1` | `DeepX M1` |
+| `qualcomm`, `QCS6490` | `Qualcomm QCS6490` |
+
+You can add more patterns in `convert_and_evaluate.py` → `DEVICE_NAME_NORMALIZE`.
+
+---
+
 ## Part 1 — UDS Scoring Pipeline
 
 | Step | Script | Description |
 |------|--------|-------------|
+| 0 | `convert_and_evaluate.py` | Converts raw AI-BMT CSV to variant folder format |
 | 1 | `1. Create UDS Scores.py` | Computes 7 individual sub-scores (S1–S7) from raw benchmark data |
 | 2 | `2. UDS cases.py` | Applies user-defined weight profiles to produce weighted UDS rankings |
 
@@ -376,12 +447,14 @@ Profiles with `_with_fixed_inputRes` suffix set `S3 = 0` (useful when only a sin
 ## Example End-to-End Workflow
 
 1. **Run benchmarks** on your devices using the AI-BMT framework
-2. **Organize CSV results** into `<model_family> variant/` folders
-3. **Edit `1. Create UDS Scores.py`**: add your device to `HARDWARE_POWER` / `HARDWARE_PEAK_COMPUTE`; add data folders to `DATA_FOLDERS_BASE`
-4. **Edit `analysis_config.py`**: add your device to `ALL_ACCELERATORS` and `ACCELERATOR_COLORS`
-5. **Run scoring**: `python "1. Create UDS Scores.py"` then `python "2. UDS cases.py"`
-6. **Run analysis**: execute the 5 analysis scripts listed in [Quick Start](#quick-start)
-7. **Review** output CSVs and charts in `analysis_charts/`
+2. **Download CSV** from the AI-BMT platform (e.g., `newEvalResults.csv`)
+3. **Convert data**: `python convert_and_evaluate.py --input newEvalResults.csv --append`
+4. **Review compatibility output**: the script will list any required config changes
+5. **(If new device)** Edit `1. Create UDS Scores.py`: add your device to `HARDWARE_POWER` / `HARDWARE_PEAK_COMPUTE` / `normalize_device_name()`
+6. **(If new device)** Edit `analysis_config.py`: add your device to `ALL_ACCELERATORS`, `ACCELERATOR_COLORS`, and optionally `CASE_ANALYSIS_NPUS`
+7. **Run scoring**: `python "1. Create UDS Scores.py"` then `python "2. UDS cases.py"`
+8. **Run analysis**: execute the 5 analysis scripts listed in [Quick Start](#quick-start)
+9. **Review** output CSVs and charts in `analysis_charts/`
 
 ---
 

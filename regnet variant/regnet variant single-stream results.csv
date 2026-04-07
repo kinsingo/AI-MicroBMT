@@ -10,7 +10,7 @@ Image Classification,Single-Stream,79.75,2.86329746,Mobilint-ARIES,regnet_x_1_6g
 Image Classification,Single-Stream,81.24,3.803237981,Mobilint-ARIES,regnet_x_3_2gf
 Image Classification,Single-Stream,82.51,8.421582613,Mobilint-ARIES,regnet_x_8gf
 Image Classification,Single-Stream,75.49,1.293855402,Mobilint-ARIES,regnet_x_400mf
-Image Classification,Single-Stream,78.28,1.784762988,Mobilint-ARIES,regnet_x_800mf
+Image Classification,Single-Stream,78.28,1.7847629880000002,Mobilint-ARIES,regnet_x_800mf
 Image Classification,Single-Stream,81.86,4.165160141,Mobilint-ARIES,regnet_y_1_6gf
 Image Classification,Single-Stream,82.15,7.34609392,Mobilint-ARIES,regnet_y_3_2gf
 Image Classification,Single-Stream,83.52,14.67188183,Mobilint-ARIES,regnet_y_8gf
@@ -34,7 +34,7 @@ Image Classification,Single-Stream,81.54,2.948639938,Qualcomm QCS6490,regnet_y_1
 Image Classification,Single-Stream,78.6,2.074029698,Qualcomm QCS6490,regnet_x_1_6gf
 Image Classification,Single-Stream,77.78,1.400555144,Qualcomm QCS6490,regnet_x_800mf
 Image Classification,Single-Stream,79.45,1.702030215,Qualcomm QCS6490,regnet_y_800mf
-Image Classification,Single-Stream,75.77,1.406132527,Qualcomm QCS6490,regnet_x_400mf
+Image Classification,Single-Stream,75.77,1.4061325269999998,Qualcomm QCS6490,regnet_x_400mf
 Image Classification,Single-Stream,77.56,1.941520516,Qualcomm QCS6490,regnet_y_400mf
 Image Classification,Single-Stream,80.29,0.474628011,Apple M4 ANE,regnet_y_800mf
 Image Classification,Single-Stream,77.72,0.382531692,Apple M4 ANE,regnet_y_400mf
@@ -57,12 +57,22 @@ Image Classification,Single-Stream,82.56,81.48289616,Apple M4 CPU,regnet_x_8gf
 Image Classification,Single-Stream,81.82,35.50264245,Apple M4 CPU,regnet_x_3_2gf
 Image Classification,Single-Stream,80.43,19.33186034,Apple M4 CPU,regnet_x_1_6gf
 Image Classification,Single-Stream,80.32,1.586866231,RTX PRO 6000 Max-Q,regnet_y_800mf
-Image Classification,Single-Stream,77.7,1.713100112,RTX PRO 6000 Max-Q,regnet_y_400mf
+Image Classification,Single-Stream,77.7,1.7131001119999998,RTX PRO 6000 Max-Q,regnet_y_400mf
 Image Classification,Single-Stream,83.8,4.068486731,RTX PRO 6000 Max-Q,regnet_y_8gf
 Image Classification,Single-Stream,82.56,2.827367226,RTX PRO 6000 Max-Q,regnet_y_3_2gf
-Image Classification,Single-Stream,82.18,3.071141966,RTX PRO 6000 Max-Q,regnet_y_1_6gf
-Image Classification,Single-Stream,78.55,1.298402451,RTX PRO 6000 Max-Q,regnet_x_800mf
+Image Classification,Single-Stream,82.18,3.0711419660000003,RTX PRO 6000 Max-Q,regnet_y_1_6gf
+Image Classification,Single-Stream,78.55,1.2984024509999998,RTX PRO 6000 Max-Q,regnet_x_800mf
 Image Classification,Single-Stream,76.34,1.668272777,RTX PRO 6000 Max-Q,regnet_x_400mf
 Image Classification,Single-Stream,82.56,4.272186835,RTX PRO 6000 Max-Q,regnet_x_8gf
 Image Classification,Single-Stream,81.82,2.643562776,RTX PRO 6000 Max-Q,regnet_x_3_2gf
 Image Classification,Single-Stream,80.43,1.702352884,RTX PRO 6000 Max-Q,regnet_x_1_6gf
+Image Classification,Single-Stream,85.833,9.941,NVIDIA Jetson Orin,regnet_y_800mf
+Image Classification,Single-Stream,83.333,13.106,NVIDIA Jetson Orin,regnet_y_400mf
+Image Classification,Single-Stream,91.667,23.673000000000002,NVIDIA Jetson Orin,regnet_y_8gf
+Image Classification,Single-Stream,88.333,16.455,NVIDIA Jetson Orin,regnet_y_3_2gf
+Image Classification,Single-Stream,89.167,20.498,NVIDIA Jetson Orin,regnet_y_1_6gf
+Image Classification,Single-Stream,85.833,8.124,NVIDIA Jetson Orin,regnet_x_800mf
+Image Classification,Single-Stream,85.0,9.652000000000001,NVIDIA Jetson Orin,regnet_x_400mf
+Image Classification,Single-Stream,85.0,20.566,NVIDIA Jetson Orin,regnet_x_8gf
+Image Classification,Single-Stream,89.167,18.621,NVIDIA Jetson Orin,regnet_x_3_2gf
+Image Classification,Single-Stream,83.333,34.393,NVIDIA Jetson Orin,regnet_x_1_6gf

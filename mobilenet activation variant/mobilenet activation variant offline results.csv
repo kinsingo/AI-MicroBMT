@@ -6,16 +6,16 @@ Image Classification,Offline,67.76,8141.329711,Mobilint-ARIES,mobilenetv2_leakyr
 Image Classification,Offline,68.0,7986.073014,Mobilint-ARIES,mobilenetv2_mish_w1_0
 Image Classification,Offline,67.16,8311.735145,Mobilint-ARIES,mobilenetv2_prelu_w1_0
 Image Classification,Offline,67.16,8221.459473,Mobilint-ARIES,mobilenetv2_relu_w1_0
-Image Classification,Offline,66.94,8109.030151,Mobilint-ARIES,mobilenetv2_relu6_w1_0
+Image Classification,Offline,66.94,8109.030151000001,Mobilint-ARIES,mobilenetv2_relu6_w1_0
 Image Classification,Offline,36.52,8230.697404,Mobilint-ARIES,mobilenetv2_selu_w1_0
-Image Classification,Offline,66.3,8095.83651,Mobilint-ARIES,mobilenetv2_silu_w1_0
+Image Classification,Offline,66.3,8095.836509999999,Mobilint-ARIES,mobilenetv2_silu_w1_0
 Image Classification,Offline,67.74,2849.603634,DeepX M1,mobilenetv2_gelu_w1_0
 Image Classification,Offline,58.84,2887.600411,DeepX M1,mobilenetv2_hardswish_w1_0
 Image Classification,Offline,64.6,2844.417465,DeepX M1,mobilenetv2_leakyrelu_w1_0
-Image Classification,Offline,66.95,2883.251735,DeepX M1,mobilenetv2_mish_w1_0
+Image Classification,Offline,66.95,2883.2517350000007,DeepX M1,mobilenetv2_mish_w1_0
 Image Classification,Offline,0.39,228.16788,DeepX M1,mobilenetv2_prelu_w1_0
 Image Classification,Offline,67.41,2798.68304,DeepX M1,mobilenetv2_relu6_w1_0
-Image Classification,Offline,67.22,2855.545835,DeepX M1,mobilenetv2_relu_w1_0
+Image Classification,Offline,67.22,2855.545835000001,DeepX M1,mobilenetv2_relu_w1_0
 Image Classification,Offline,62.61,12.60119964,DeepX M1,mobilenetv2_selu_w1_0
 Image Classification,Offline,67.28,2900.152868,DeepX M1,mobilenetv2_silu_w1_0
 Image Classification,Offline,65.26,2166.968568,Hailo-8,mobilenetv2_elu_w1_0
@@ -25,7 +25,7 @@ Image Classification,Offline,67.78,2138.538521,Hailo-8,mobilenetv2_leakyrelu_w1_
 Image Classification,Offline,65.97,2170.096497,Hailo-8,mobilenetv2_mish_w1_0
 Image Classification,Offline,68.38,726.4304168,Hailo-8,mobilenetv2_prelu_w1_0
 Image Classification,Offline,67.44,2257.498391,Hailo-8,mobilenetv2_relu6_w1_0
-Image Classification,Offline,67.7,2270.82561,Hailo-8,mobilenetv2_relu_w1_0
+Image Classification,Offline,67.7,2270.825610000001,Hailo-8,mobilenetv2_relu_w1_0
 Image Classification,Offline,65.78,2132.17012,Hailo-8,mobilenetv2_silu_w1_0
 Image Classification,Offline,69.57,1455.804388,Apple M4 ANE,mobilenetv2_silu_w1_0
 Image Classification,Offline,62.68,85.31482879,Apple M4 ANE,mobilenetv2_selu_w1_0
@@ -41,7 +41,7 @@ Image Classification,Offline,69.57,373.8770602,Apple M4 CPU,mobilenetv2_silu_w1_
 Image Classification,Offline,62.73,360.9973858,Apple M4 CPU,mobilenetv2_selu_w1_0
 Image Classification,Offline,67.65,469.3726612,Apple M4 CPU,mobilenetv2_relu6_w1_0
 Image Classification,Offline,67.81,471.968372,Apple M4 CPU,mobilenetv2_relu_w1_0
-Image Classification,Offline,68.62,430.3748377,Apple M4 CPU,mobilenetv2_prelu_w1_0
+Image Classification,Offline,68.62,430.37483770000006,Apple M4 CPU,mobilenetv2_prelu_w1_0
 Image Classification,Offline,69.86,107.3952555,Apple M4 CPU,mobilenetv2_mish_w1_0
 Image Classification,Offline,68.34,469.2128576,Apple M4 CPU,mobilenetv2_leakyrelu_w1_0
 Image Classification,Offline,69.05,357.1834397,Apple M4 CPU,mobilenetv2_hardswish_w1_0
@@ -52,7 +52,7 @@ Image Classification,Offline,62.73,3761.113787,RTX PRO 6000 Max-Q,mobilenetv2_se
 Image Classification,Offline,67.65,3686.864271,RTX PRO 6000 Max-Q,mobilenetv2_relu6_w1_0
 Image Classification,Offline,67.81,3848.748603,RTX PRO 6000 Max-Q,mobilenetv2_relu_w1_0
 Image Classification,Offline,68.62,3743.176637,RTX PRO 6000 Max-Q,mobilenetv2_prelu_w1_0
-Image Classification,Offline,69.86,3162.364553,RTX PRO 6000 Max-Q,mobilenetv2_mish_w1_0
+Image Classification,Offline,69.86,3162.364553000001,RTX PRO 6000 Max-Q,mobilenetv2_mish_w1_0
 Image Classification,Offline,68.34,3723.040783,RTX PRO 6000 Max-Q,mobilenetv2_leakyrelu_w1_0
 Image Classification,Offline,69.05,2973.648594,RTX PRO 6000 Max-Q,mobilenetv2_hardswish_w1_0
 Image Classification,Offline,70.42,3682.271524,RTX PRO 6000 Max-Q,mobilenetv2_gelu_w1_0
@@ -60,10 +60,20 @@ Image Classification,Offline,65.86,3741.208389,RTX PRO 6000 Max-Q,mobilenetv2_el
 Image Classification,Offline,55.19,19.36307486,Qualcomm QCS6490,mobilenetv2_gelu_w1_0
 Image Classification,Offline,36.86,43.86555437,Qualcomm QCS6490,mobilenetv2_hardswish_w1_0
 Image Classification,Offline,61.16,9.862829742,Qualcomm QCS6490,mobilenetv2_mish_w1_0
-Image Classification,Offline,47.99,612.0941754,Qualcomm QCS6490,mobilenetv2_silu_w1_0
-Image Classification,Offline,64.87,615.4906339,Qualcomm QCS6490,mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,47.99,612.0941753999998,Qualcomm QCS6490,mobilenetv2_silu_w1_0
+Image Classification,Offline,64.87,615.4906338999998,Qualcomm QCS6490,mobilenetv2_leakyrelu_w1_0
 Image Classification,Offline,65.69,44.66147512,Qualcomm QCS6490,mobilenetv2_prelu_w1_0
 Image Classification,Offline,60.05,295.9858103,Qualcomm QCS6490,mobilenetv2_elu_w1_0
 Image Classification,Offline,53.02,43.13322073,Qualcomm QCS6490,mobilenetv2_selu_w1_0
-Image Classification,Offline,66.97,803.6876192,Qualcomm QCS6490,mobilenetv2_relu6_w1_0
-Image Classification,Offline,67.15,794.8050104,Qualcomm QCS6490,mobilenetv2_relu_w1_0
+Image Classification,Offline,66.97,803.6876192000002,Qualcomm QCS6490,mobilenetv2_relu6_w1_0
+Image Classification,Offline,67.15,794.8050103999999,Qualcomm QCS6490,mobilenetv2_relu_w1_0
+Image Classification,Offline,78.333,194.57299999999998,NVIDIA Jetson Orin,mobilenetv2_silu_w1_0
+Image Classification,Offline,70.0,193.877,NVIDIA Jetson Orin,mobilenetv2_selu_w1_0
+Image Classification,Offline,75.0,184.293,NVIDIA Jetson Orin,mobilenetv2_relu6_w1_0
+Image Classification,Offline,79.167,194.15,NVIDIA Jetson Orin,mobilenetv2_relu_w1_0
+Image Classification,Offline,80.0,187.636,NVIDIA Jetson Orin,mobilenetv2_prelu_w1_0
+Image Classification,Offline,78.333,140.70600000000002,NVIDIA Jetson Orin,mobilenetv2_mish_w1_0
+Image Classification,Offline,75.833,188.91,NVIDIA Jetson Orin,mobilenetv2_leakyrelu_w1_0
+Image Classification,Offline,78.333,127.648,NVIDIA Jetson Orin,mobilenetv2_hardswish_w1_0
+Image Classification,Offline,80.833,189.542,NVIDIA Jetson Orin,mobilenetv2_gelu_w1_0
+Image Classification,Offline,75.0,196.475,NVIDIA Jetson Orin,mobilenetv2_elu_w1_0

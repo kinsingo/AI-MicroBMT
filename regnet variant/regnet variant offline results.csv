@@ -6,7 +6,7 @@ Image Classification,Offline,78.03,2810.529096,Hailo-8,regnet_x_800mf
 Image Classification,Offline,81.05,366.0036302,Hailo-8,regnet_x_8gf
 Image Classification,Offline,82.37,410.6280649,Hailo-8,regnet_y_3_2gf
 Image Classification,Offline,79.82,1029.017473,Hailo-8,regnet_y_800mf
-Image Classification,Offline,78.84,664.745873,DeepX M1,regnet_x_1_6gf
+Image Classification,Offline,78.84,664.7458730000002,DeepX M1,regnet_x_1_6gf
 Image Classification,Offline,80.99,498.2057369,DeepX M1,regnet_x_3_2gf
 Image Classification,Offline,82.07,241.3991782,DeepX M1,regnet_x_8gf
 Image Classification,Offline,75.98,1184.018077,DeepX M1,regnet_x_400mf
@@ -41,7 +41,7 @@ Image Classification,Offline,77.7,439.2509908,Apple M4 CPU,regnet_y_400mf
 Image Classification,Offline,83.8,30.0480273,Apple M4 CPU,regnet_y_8gf
 Image Classification,Offline,82.56,74.4070418,Apple M4 CPU,regnet_y_3_2gf
 Image Classification,Offline,82.18,131.9442071,Apple M4 CPU,regnet_y_1_6gf
-Image Classification,Offline,78.55,252.4715578,Apple M4 CPU,regnet_x_800mf
+Image Classification,Offline,78.55,252.47155780000003,Apple M4 CPU,regnet_x_800mf
 Image Classification,Offline,76.34,437.5074572,Apple M4 CPU,regnet_x_400mf
 Image Classification,Offline,82.56,32.61210112,Apple M4 CPU,regnet_x_8gf
 Image Classification,Offline,81.82,76.63320405,Apple M4 CPU,regnet_x_3_2gf
@@ -63,6 +63,16 @@ Image Classification,Offline,81.62,359.0831189,Qualcomm QCS6490,regnet_x_3_2gf
 Image Classification,Offline,81.54,333.4168782,Qualcomm QCS6490,regnet_y_1_6gf
 Image Classification,Offline,78.6,461.7005874,Qualcomm QCS6490,regnet_x_1_6gf
 Image Classification,Offline,77.78,681.9154696,Qualcomm QCS6490,regnet_x_800mf
-Image Classification,Offline,79.45,572.0708566,Qualcomm QCS6490,regnet_y_800mf
+Image Classification,Offline,79.45,572.0708566000002,Qualcomm QCS6490,regnet_y_800mf
 Image Classification,Offline,75.77,696.5440476,Qualcomm QCS6490,regnet_x_400mf
 Image Classification,Offline,77.56,470.4351551,Qualcomm QCS6490,regnet_y_400mf
+Image Classification,Offline,85.833,125.258,NVIDIA Jetson Orin,regnet_y_800mf
+Image Classification,Offline,83.333,142.283,NVIDIA Jetson Orin,regnet_y_400mf
+Image Classification,Offline,91.667,39.51,NVIDIA Jetson Orin,regnet_y_8gf
+Image Classification,Offline,88.333,84.02,NVIDIA Jetson Orin,regnet_y_3_2gf
+Image Classification,Offline,89.167,77.939,NVIDIA Jetson Orin,regnet_y_1_6gf
+Image Classification,Offline,85.833,145.87,NVIDIA Jetson Orin,regnet_x_800mf
+Image Classification,Offline,85.0,186.735,NVIDIA Jetson Orin,regnet_x_400mf
+Image Classification,Offline,85.0,71.83800000000001,NVIDIA Jetson Orin,regnet_x_8gf
+Image Classification,Offline,89.167,53.81399999999999,NVIDIA Jetson Orin,regnet_x_3_2gf
+Image Classification,Offline,83.333,124.85,NVIDIA Jetson Orin,regnet_x_1_6gf

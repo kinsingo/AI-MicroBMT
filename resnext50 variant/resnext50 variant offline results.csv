@@ -9,20 +9,24 @@ Image Classification,Offline,79.49,146.4927926,DeepX M1,resnext50_c32_w1_0
 Image Classification,Offline,78.84,798.3447551,Hailo-8,resnext50_c16_w1_0
 Image Classification,Offline,79.36,305.6278833,Hailo-8,resnext50_c32_w1_0
 Image Classification,Offline,78.56,127.1885485,Hailo-8,resnext50_c64_w1_0
-Image Classification,Offline,77.1,1650.093186,Hailo-8,resnext50_c8_w1_0
+Image Classification,Offline,77.1,1650.0931859999996,Hailo-8,resnext50_c8_w1_0
 Image Classification,Offline,79.06,153.6888687,Apple M4 ANE,resnext50_c64_w1_0
 Image Classification,Offline,79.83,445.2293872,Apple M4 ANE,resnext50_c32_w1_0
 Image Classification,Offline,79.28,736.8135844,Apple M4 ANE,resnext50_c16_w1_0
 Image Classification,Offline,77.06,1103.419767,Apple M4 ANE,resnext50_c8_w1_0
 Image Classification,Offline,79.1,15.45510779,Apple M4 CPU,resnext50_c64_w1_0
 Image Classification,Offline,79.9,29.86807304,Apple M4 CPU,resnext50_c32_w1_0
-Image Classification,Offline,79.25,55.5725367,Apple M4 CPU,resnext50_c16_w1_0
+Image Classification,Offline,79.25,55.57253670000001,Apple M4 CPU,resnext50_c16_w1_0
 Image Classification,Offline,77.07,97.99222354,Apple M4 CPU,resnext50_c8_w1_0
-Image Classification,Offline,79.1,665.8079392,RTX PRO 6000 Max-Q,resnext50_c64_w1_0
+Image Classification,Offline,79.1,665.8079392000002,RTX PRO 6000 Max-Q,resnext50_c64_w1_0
 Image Classification,Offline,79.9,1150.98413,RTX PRO 6000 Max-Q,resnext50_c32_w1_0
 Image Classification,Offline,79.25,1675.965986,RTX PRO 6000 Max-Q,resnext50_c16_w1_0
 Image Classification,Offline,77.07,2228.401127,RTX PRO 6000 Max-Q,resnext50_c8_w1_0
 Image Classification,Offline,78.85,90.55563303,Qualcomm QCS6490,resnext50_c64_w1_0
-Image Classification,Offline,79.75,166.2922079,Qualcomm QCS6490,resnext50_c32_w1_0
-Image Classification,Offline,79.2,300.3448908,Qualcomm QCS6490,resnext50_c16_w1_0
+Image Classification,Offline,79.75,166.29220790000005,Qualcomm QCS6490,resnext50_c32_w1_0
+Image Classification,Offline,79.2,300.3448908000001,Qualcomm QCS6490,resnext50_c16_w1_0
 Image Classification,Offline,77.03,462.7585835,Qualcomm QCS6490,resnext50_c8_w1_0
+Image Classification,Offline,84.167,32.579,NVIDIA Jetson Orin,resnext50_c64_w1_0
+Image Classification,Offline,87.5,57.325,NVIDIA Jetson Orin,resnext50_c32_w1_0
+Image Classification,Offline,85.0,48.378,NVIDIA Jetson Orin,resnext50_c16_w1_0
+Image Classification,Offline,83.333,73.992,NVIDIA Jetson Orin,resnext50_c8_w1_0

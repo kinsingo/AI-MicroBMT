@@ -12,7 +12,7 @@ Image Classification,Offline,77.42,347.3240081,Apple M4 ANE,shufflenet_v2_x2_0
 Image Classification,Offline,74.42,602.309746,Apple M4 ANE,shufflenet_v2_x1_5
 Image Classification,Offline,70.89,1049.930327,Apple M4 ANE,shufflenet_v2_x1_0
 Image Classification,Offline,77.43,344.4517703,Apple M4 CPU,shufflenet_v2_x2_0
-Image Classification,Offline,74.44,627.2319292,Apple M4 CPU,shufflenet_v2_x1_5
+Image Classification,Offline,74.44,627.2319292000002,Apple M4 CPU,shufflenet_v2_x1_5
 Image Classification,Offline,70.92,1068.784916,Apple M4 CPU,shufflenet_v2_x1_0
 Image Classification,Offline,77.43,3946.951999,RTX PRO 6000 Max-Q,shufflenet_v2_x2_0
 Image Classification,Offline,74.44,4635.872012,RTX PRO 6000 Max-Q,shufflenet_v2_x1_5
@@ -20,3 +20,6 @@ Image Classification,Offline,70.92,5102.246671,RTX PRO 6000 Max-Q,shufflenet_v2_
 Image Classification,Offline,70.43,565.6750298,Qualcomm QCS6490,shufflenet_v2_x1_0
 Image Classification,Offline,73.55,539.2833515,Qualcomm QCS6490,shufflenet_v2_x1_5
 Image Classification,Offline,70.13,334.72648,Qualcomm QCS6490,shufflenet_v2_x2_0
+Image Classification,Offline,85.833,204.61599999999999,NVIDIA Jetson Orin,shufflenet_v2_x2_0
+Image Classification,Offline,82.5,208.94299999999998,NVIDIA Jetson Orin,shufflenet_v2_x1_5
+Image Classification,Offline,82.5,254.84099999999998,NVIDIA Jetson Orin,shufflenet_v2_x1_0

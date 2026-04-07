@@ -20,3 +20,6 @@ Image Classification,Single-Stream,78.02,153.1529665,Apple M4 CPU,hf_vit_base_pa
 Image Classification,Single-Stream,48.42,1.936013124,RTX PRO 6000 Max-Q,hf_vit_tiny_patch16_224
 Image Classification,Single-Stream,76.59,2.377659151,RTX PRO 6000 Max-Q,hf_vit_small_patch16_224
 Image Classification,Single-Stream,78.02,4.108365129,RTX PRO 6000 Max-Q,hf_vit_base_patch16_224
+Image Classification,Single-Stream,64.167,8.25,NVIDIA Jetson Orin,hf_vit_tiny_patch16_224
+Image Classification,Single-Stream,84.167,11.49,NVIDIA Jetson Orin,hf_vit_small_patch16_224
+Image Classification,Single-Stream,83.333,23.302,NVIDIA Jetson Orin,hf_vit_base_patch16_224

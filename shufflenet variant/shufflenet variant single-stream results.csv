@@ -3,7 +3,7 @@ Image Classification,Single-Stream,70.71,3.493292551,Hailo-8,shufflenet_v2_x1_0
 Image Classification,Single-Stream,74.34,4.979177236,Hailo-8,shufflenet_v2_x1_5
 Image Classification,Single-Stream,76.84,7.71963308,Hailo-8,shufflenet_v2_x2_0
 Image Classification,Single-Stream,70.53,0.649558224,Mobilint-ARIES,shufflenet_v2_x1_0
-Image Classification,Single-Stream,73.64,0.835622217,Mobilint-ARIES,shufflenet_v2_x1_5
+Image Classification,Single-Stream,73.64,0.8356222170000001,Mobilint-ARIES,shufflenet_v2_x1_5
 Image Classification,Single-Stream,76.59,0.990596327,Mobilint-ARIES,shufflenet_v2_x2_0
 Image Classification,Single-Stream,70.59,1.581100573,DeepX M1,shufflenet_v2_x1_0
 Image Classification,Single-Stream,73.02,2.04105948,DeepX M1,shufflenet_v2_x1_5
@@ -14,9 +14,12 @@ Image Classification,Single-Stream,70.43,1.750223127,Qualcomm QCS6490,shufflenet
 Image Classification,Single-Stream,77.42,11.89626326,Apple M4 ANE,shufflenet_v2_x2_0
 Image Classification,Single-Stream,74.42,7.733000988,Apple M4 ANE,shufflenet_v2_x1_5
 Image Classification,Single-Stream,70.89,4.954683368,Apple M4 ANE,shufflenet_v2_x1_0
-Image Classification,Single-Stream,77.43,9.429556034,Apple M4 CPU,shufflenet_v2_x2_0
+Image Classification,Single-Stream,77.43,9.429556033999999,Apple M4 CPU,shufflenet_v2_x2_0
 Image Classification,Single-Stream,74.44,5.491278264,Apple M4 CPU,shufflenet_v2_x1_5
 Image Classification,Single-Stream,70.92,3.258141607,Apple M4 CPU,shufflenet_v2_x1_0
 Image Classification,Single-Stream,77.43,1.349113839,RTX PRO 6000 Max-Q,shufflenet_v2_x2_0
 Image Classification,Single-Stream,74.44,1.299413167,RTX PRO 6000 Max-Q,shufflenet_v2_x1_5
 Image Classification,Single-Stream,70.92,1.251122524,RTX PRO 6000 Max-Q,shufflenet_v2_x1_0
+Image Classification,Single-Stream,85.833,8.091000000000001,NVIDIA Jetson Orin,shufflenet_v2_x2_0
+Image Classification,Single-Stream,82.5,7.4639999999999995,NVIDIA Jetson Orin,shufflenet_v2_x1_5
+Image Classification,Single-Stream,82.5,8.373,NVIDIA Jetson Orin,shufflenet_v2_x1_0

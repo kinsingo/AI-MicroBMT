@@ -12,7 +12,7 @@ Image Classification,Single-Stream,81.7,533.9507232,Qualcomm QCS6490,convnext_ba
 Image Classification,Single-Stream,80.29,451.7396366,Qualcomm QCS6490,convnext_small
 Image Classification,Single-Stream,81.63,241.1747688,Qualcomm QCS6490,convnext_tiny
 Image Classification,Single-Stream,83.27,101.3892713,Apple M4 ANE,convnext_tiny
-Image Classification,Single-Stream,84.31,169.064734,Apple M4 ANE,convnext_small
+Image Classification,Single-Stream,84.31,169.06473400000004,Apple M4 ANE,convnext_small
 Image Classification,Single-Stream,84.53,254.0753909,Apple M4 ANE,convnext_base
 Image Classification,Single-Stream,83.26,66.88334452,Apple M4 CPU,convnext_tiny
 Image Classification,Single-Stream,84.32,127.3870138,Apple M4 CPU,convnext_small
@@ -20,3 +20,6 @@ Image Classification,Single-Stream,84.52,200.0268021,Apple M4 CPU,convnext_base
 Image Classification,Single-Stream,83.26,2.452316338,RTX PRO 6000 Max-Q,convnext_tiny
 Image Classification,Single-Stream,84.32,4.400136241,RTX PRO 6000 Max-Q,convnext_small
 Image Classification,Single-Stream,84.52,5.435085375,RTX PRO 6000 Max-Q,convnext_base
+Image Classification,Single-Stream,90.833,15.433,NVIDIA Jetson Orin,convnext_tiny
+Image Classification,Single-Stream,91.667,24.831,NVIDIA Jetson Orin,convnext_small
+Image Classification,Single-Stream,89.167,110.64,NVIDIA Jetson Orin,convnext_base

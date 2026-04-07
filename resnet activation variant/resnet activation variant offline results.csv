@@ -6,14 +6,14 @@ Image Classification,Offline,70.98,3610.044672,Mobilint-ARIES,resnet18_leakyrelu
 Image Classification,Offline,71.11,3612.694742,Mobilint-ARIES,resnet18_mish_w1_0
 Image Classification,Offline,69.25,3527.123857,Mobilint-ARIES,resnet18_prelu_w1_0
 Image Classification,Offline,70.86,3524.312932,Mobilint-ARIES,resnet18_relu_w1_0
-Image Classification,Offline,71.14,3513.649509,Mobilint-ARIES,resnet18_relu6_w1_0
+Image Classification,Offline,71.14,3513.6495090000008,Mobilint-ARIES,resnet18_relu6_w1_0
 Image Classification,Offline,64.51,3503.623282,Mobilint-ARIES,resnet18_selu_w1_0
 Image Classification,Offline,71.25,3432.336115,Mobilint-ARIES,resnet18_silu_w1_0
 Image Classification,Offline,72.16,1991.020501,DeepX M1,resnet18_gelu_w1_0
 Image Classification,Offline,70.93,2006.213743,DeepX M1,resnet18_hardswish_w1_0
 Image Classification,Offline,71.17,2032.594757,DeepX M1,resnet18_leakyrelu_w1_0
 Image Classification,Offline,71.86,2018.697935,DeepX M1,resnet18_mish_w1_0
-Image Classification,Offline,0.1,763.4139013,DeepX M1,resnet18_prelu_w1_0
+Image Classification,Offline,0.1,763.4139012999998,DeepX M1,resnet18_prelu_w1_0
 Image Classification,Offline,71.03,2037.268891,DeepX M1,resnet18_relu6_w1_0
 Image Classification,Offline,70.91,2079.379586,DeepX M1,resnet18_relu_w1_0
 Image Classification,Offline,66.72,6.625202147,DeepX M1,resnet18_selu_w1_0
@@ -22,13 +22,13 @@ Image Classification,Offline,68.47,2279.295985,Hailo-8,resnet18_elu_w1_0
 Image Classification,Offline,71.56,2281.545987,Hailo-8,resnet18_gelu_w1_0
 Image Classification,Offline,70.79,2314.613761,Hailo-8,resnet18_hardswish_w1_0
 Image Classification,Offline,71.35,2271.363566,Hailo-8,resnet18_leakyrelu_w1_0
-Image Classification,Offline,71.64,2290.245767,Hailo-8,resnet18_mish_w1_0
+Image Classification,Offline,71.64,2290.245767000001,Hailo-8,resnet18_mish_w1_0
 Image Classification,Offline,69.56,1936.905885,Hailo-8,resnet18_prelu_w1_0
 Image Classification,Offline,71.0,2340.283598,Hailo-8,resnet18_relu6_w1_0
 Image Classification,Offline,70.79,2318.781481,Hailo-8,resnet18_relu_w1_0
 Image Classification,Offline,72.09,2261.114978,Hailo-8,resnet18_silu_w1_0
 Image Classification,Offline,72.47,1367.787392,Apple M4 ANE,resnet18_silu_w1_0
-Image Classification,Offline,66.81,159.7532897,Apple M4 ANE,resnet18_selu_w1_0
+Image Classification,Offline,66.81,159.75328969999995,Apple M4 ANE,resnet18_selu_w1_0
 Image Classification,Offline,71.22,1555.670027,Apple M4 ANE,resnet18_relu6_w1_0
 Image Classification,Offline,71.04,1601.95344,Apple M4 ANE,resnet18_relu_w1_0
 Image Classification,Offline,69.95,1599.61758,Apple M4 ANE,resnet18_prelu_w1_0
@@ -37,14 +37,14 @@ Image Classification,Offline,71.5,1598.232775,Apple M4 ANE,resnet18_leakyrelu_w1
 Image Classification,Offline,71.44,1296.863574,Apple M4 ANE,resnet18_hardswish_w1_0
 Image Classification,Offline,72.23,139.553994,Apple M4 ANE,resnet18_gelu_w1_0
 Image Classification,Offline,68.66,161.4118605,Apple M4 ANE,resnet18_elu_w1_0
-Image Classification,Offline,72.54,134.6197953,Apple M4 CPU,resnet18_silu_w1_0
+Image Classification,Offline,72.54,134.61979530000002,Apple M4 CPU,resnet18_silu_w1_0
 Image Classification,Offline,66.79,133.9726785,Apple M4 CPU,resnet18_selu_w1_0
-Image Classification,Offline,71.24,138.3414391,Apple M4 CPU,resnet18_relu6_w1_0
-Image Classification,Offline,71.03,138.6733067,Apple M4 CPU,resnet18_relu_w1_0
+Image Classification,Offline,71.24,138.34143909999997,Apple M4 CPU,resnet18_relu6_w1_0
+Image Classification,Offline,71.03,138.67330669999998,Apple M4 CPU,resnet18_relu_w1_0
 Image Classification,Offline,69.95,136.941907,Apple M4 CPU,resnet18_prelu_w1_0
 Image Classification,Offline,71.96,99.97633618,Apple M4 CPU,resnet18_mish_w1_0
 Image Classification,Offline,71.54,138.16048,Apple M4 CPU,resnet18_leakyrelu_w1_0
-Image Classification,Offline,71.43,134.4506528,Apple M4 CPU,resnet18_hardswish_w1_0
+Image Classification,Offline,71.43,134.45065280000003,Apple M4 CPU,resnet18_hardswish_w1_0
 Image Classification,Offline,72.21,130.3885273,Apple M4 CPU,resnet18_gelu_w1_0
 Image Classification,Offline,68.68,132.552051,Apple M4 CPU,resnet18_elu_w1_0
 Image Classification,Offline,72.54,4096.06584,RTX PRO 6000 Max-Q,resnet18_silu_w1_0
@@ -67,3 +67,13 @@ Image Classification,Offline,68.33,389.222559,Qualcomm QCS6490,resnet18_elu_w1_0
 Image Classification,Offline,66.46,93.3809192,Qualcomm QCS6490,resnet18_selu_w1_0
 Image Classification,Offline,71.03,587.3528919,Qualcomm QCS6490,resnet18_relu6_w1_0
 Image Classification,Offline,71.02,584.1822778,Qualcomm QCS6490,resnet18_relu_w1_0
+Image Classification,Offline,81.667,226.357,NVIDIA Jetson Orin,resnet18_silu_w1_0
+Image Classification,Offline,79.167,226.68,NVIDIA Jetson Orin,resnet18_selu_w1_0
+Image Classification,Offline,80.833,231.457,NVIDIA Jetson Orin,resnet18_relu6_w1_0
+Image Classification,Offline,85.833,228.588,NVIDIA Jetson Orin,resnet18_relu_w1_0
+Image Classification,Offline,75.833,229.407,NVIDIA Jetson Orin,resnet18_prelu_w1_0
+Image Classification,Offline,80.833,198.088,NVIDIA Jetson Orin,resnet18_mish_w1_0
+Image Classification,Offline,82.5,227.084,NVIDIA Jetson Orin,resnet18_leakyrelu_w1_0
+Image Classification,Offline,80.0,190.822,NVIDIA Jetson Orin,resnet18_hardswish_w1_0
+Image Classification,Offline,77.5,244.144,NVIDIA Jetson Orin,resnet18_gelu_w1_0
+Image Classification,Offline,82.5,222.44799999999998,NVIDIA Jetson Orin,resnet18_elu_w1_0

@@ -20,3 +20,6 @@ Image Classification,Offline,78.02,412.2743105,RTX PRO 6000 Max-Q,hf_vit_base_pa
 Image Classification,Offline,22.26,7.14244944,Qualcomm QCS6490,hf_vit_base_patch16_224
 Image Classification,Offline,14.47,16.29771956,Qualcomm QCS6490,hf_vit_small_patch16_224
 Image Classification,Offline,0.16,26.92346318,Qualcomm QCS6490,hf_vit_tiny_patch16_224
+Image Classification,Offline,64.167,201.426,NVIDIA Jetson Orin,hf_vit_tiny_patch16_224
+Image Classification,Offline,84.167,123.2,NVIDIA Jetson Orin,hf_vit_small_patch16_224
+Image Classification,Offline,83.333,57.943000000000005,NVIDIA Jetson Orin,hf_vit_base_patch16_224

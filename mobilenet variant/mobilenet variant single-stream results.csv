@@ -5,7 +5,7 @@ Image Classification,Single-Stream,65.8,1.807231625,Hailo-8,mobilenetv2_w0_75
 Image Classification,Single-Stream,67.89,2.069139341,Hailo-8,mobilenetv2_w1_0
 Image Classification,Single-Stream,71.44,3.057801314,Hailo-8,mobilenetv2_w1_5
 Image Classification,Single-Stream,73.05,3.87684849,Hailo-8,mobilenetv2_w2_0
-Image Classification,Single-Stream,59.83,0.691981047,Mobilint-ARIES,mobilenetv2_w0_5
+Image Classification,Single-Stream,59.83,0.6919810470000001,Mobilint-ARIES,mobilenetv2_w0_5
 Image Classification,Single-Stream,47.84,0.652037286,Mobilint-ARIES,mobilenetv2_w0_25
 Image Classification,Single-Stream,65.24,0.804006531,Mobilint-ARIES,mobilenetv2_w0_75
 Image Classification,Single-Stream,67.24,0.857464879,Mobilint-ARIES,mobilenetv2_w1_0
@@ -19,7 +19,7 @@ Image Classification,Single-Stream,48.59,0.25695028,Apple M4 ANE,mobilenetv2_w0_
 Image Classification,Single-Stream,60.64,0.309789973,Apple M4 ANE,mobilenetv2_w0_5
 Image Classification,Single-Stream,73.11,21.14539736,Apple M4 CPU,mobilenetv2_w2_0
 Image Classification,Single-Stream,71.6,14.567666,Apple M4 CPU,mobilenetv2_w1_5
-Image Classification,Single-Stream,68.22,8.311589617,Apple M4 CPU,mobilenetv2_w1_0
+Image Classification,Single-Stream,68.22,8.311589617000001,Apple M4 CPU,mobilenetv2_w1_0
 Image Classification,Single-Stream,66.19,6.655033343,Apple M4 CPU,mobilenetv2_w0_75
 Image Classification,Single-Stream,48.62,2.205613778,Apple M4 CPU,mobilenetv2_w0_25
 Image Classification,Single-Stream,60.62,3.888707897,Apple M4 CPU,mobilenetv2_w0_5
@@ -30,7 +30,7 @@ Image Classification,Single-Stream,68.28,1.632163347,DeepX M1,mobilenetv2_w1_0
 Image Classification,Single-Stream,71.27,2.081458677,DeepX M1,mobilenetv2_w1_5
 Image Classification,Single-Stream,72.93,2.315242007,DeepX M1,mobilenetv2_w2_0
 Image Classification,Single-Stream,72.93,3.252136344,Qualcomm QCS6490,mobilenetv2_w2_0
-Image Classification,Single-Stream,71.44,2.774440136,Qualcomm QCS6490,mobilenetv2_w1_5
+Image Classification,Single-Stream,71.44,2.7744401360000004,Qualcomm QCS6490,mobilenetv2_w1_5
 Image Classification,Single-Stream,67.94,2.238686049,Qualcomm QCS6490,mobilenetv2_w1_0
 Image Classification,Single-Stream,65.62,2.170663727,Qualcomm QCS6490,mobilenetv2_w0_75
 Image Classification,Single-Stream,59.86,1.938101116,Qualcomm QCS6490,mobilenetv2_w0_5
@@ -40,4 +40,10 @@ Image Classification,Single-Stream,71.6,0.996612974,RTX PRO 6000 Max-Q,mobilenet
 Image Classification,Single-Stream,68.22,0.920899498,RTX PRO 6000 Max-Q,mobilenetv2_w1_0
 Image Classification,Single-Stream,66.19,0.906575665,RTX PRO 6000 Max-Q,mobilenetv2_w0_75
 Image Classification,Single-Stream,48.62,0.848692278,RTX PRO 6000 Max-Q,mobilenetv2_w0_25
-Image Classification,Single-Stream,60.62,0.868025793,RTX PRO 6000 Max-Q,mobilenetv2_w0_5
+Image Classification,Single-Stream,60.62,0.8680257929999999,RTX PRO 6000 Max-Q,mobilenetv2_w0_5
+Image Classification,Single-Stream,77.5,10.935,NVIDIA Jetson Orin,mobilenetv2_w2_0
+Image Classification,Single-Stream,85.833,8.383,NVIDIA Jetson Orin,mobilenetv2_w1_5
+Image Classification,Single-Stream,76.667,6.756,NVIDIA Jetson Orin,mobilenetv2_w1_0
+Image Classification,Single-Stream,77.5,7.13,NVIDIA Jetson Orin,mobilenetv2_w0_75
+Image Classification,Single-Stream,60.0,5.504,NVIDIA Jetson Orin,mobilenetv2_w0_25
+Image Classification,Single-Stream,74.167,10.087,NVIDIA Jetson Orin,mobilenetv2_w0_5

@@ -6,7 +6,7 @@ Image Classification,Single-Stream,67.83,0.401711682,Apple M4 ANE,mobilenetv2_re
 Image Classification,Single-Stream,68.67,0.407435839,Apple M4 ANE,mobilenetv2_prelu_w1_0
 Image Classification,Single-Stream,69.8,26.25819965,Apple M4 ANE,mobilenetv2_mish_w1_0
 Image Classification,Single-Stream,68.38,0.407658383,Apple M4 ANE,mobilenetv2_leakyrelu_w1_0
-Image Classification,Single-Stream,69.09,0.814238787,Apple M4 ANE,mobilenetv2_hardswish_w1_0
+Image Classification,Single-Stream,69.09,0.8142387870000001,Apple M4 ANE,mobilenetv2_hardswish_w1_0
 Image Classification,Single-Stream,70.46,25.11034689,Apple M4 ANE,mobilenetv2_gelu_w1_0
 Image Classification,Single-Stream,65.84,12.21037059,Apple M4 ANE,mobilenetv2_elu_w1_0
 Image Classification,Single-Stream,69.57,9.802363386,Apple M4 CPU,mobilenetv2_silu_w1_0
@@ -15,34 +15,34 @@ Image Classification,Single-Stream,67.65,8.320432676,Apple M4 CPU,mobilenetv2_re
 Image Classification,Single-Stream,67.81,8.290890077,Apple M4 CPU,mobilenetv2_relu_w1_0
 Image Classification,Single-Stream,68.62,8.766328158,Apple M4 CPU,mobilenetv2_prelu_w1_0
 Image Classification,Single-Stream,69.86,20.95798212,Apple M4 CPU,mobilenetv2_mish_w1_0
-Image Classification,Single-Stream,68.34,8.312819302,Apple M4 CPU,mobilenetv2_leakyrelu_w1_0
+Image Classification,Single-Stream,68.34,8.312819302000001,Apple M4 CPU,mobilenetv2_leakyrelu_w1_0
 Image Classification,Single-Stream,69.05,9.638785446,Apple M4 CPU,mobilenetv2_hardswish_w1_0
 Image Classification,Single-Stream,70.42,11.58524334,Apple M4 CPU,mobilenetv2_gelu_w1_0
-Image Classification,Single-Stream,65.86,9.326798826,Apple M4 CPU,mobilenetv2_elu_w1_0
+Image Classification,Single-Stream,65.86,9.326798826000001,Apple M4 CPU,mobilenetv2_elu_w1_0
 Image Classification,Single-Stream,63.4,0.885117285,Mobilint-ARIES,mobilenetv2_elu_w1_0
 Image Classification,Single-Stream,61.65,0.871273669,Mobilint-ARIES,mobilenetv2_gelu_w1_0
 Image Classification,Single-Stream,63.2,0.866056989,Mobilint-ARIES,mobilenetv2_hardswish_w1_0
-Image Classification,Single-Stream,67.76,0.870906503,Mobilint-ARIES,mobilenetv2_leakyrelu_w1_0
+Image Classification,Single-Stream,67.76,0.8709065029999999,Mobilint-ARIES,mobilenetv2_leakyrelu_w1_0
 Image Classification,Single-Stream,68.0,0.864856159,Mobilint-ARIES,mobilenetv2_mish_w1_0
-Image Classification,Single-Stream,67.16,0.860355971,Mobilint-ARIES,mobilenetv2_prelu_w1_0
+Image Classification,Single-Stream,67.16,0.8603559709999999,Mobilint-ARIES,mobilenetv2_prelu_w1_0
 Image Classification,Single-Stream,67.16,0.867001998,Mobilint-ARIES,mobilenetv2_relu_w1_0
 Image Classification,Single-Stream,66.94,0.87275592,Mobilint-ARIES,mobilenetv2_relu6_w1_0
-Image Classification,Single-Stream,36.52,0.874320252,Mobilint-ARIES,mobilenetv2_selu_w1_0
+Image Classification,Single-Stream,36.52,0.8743202520000001,Mobilint-ARIES,mobilenetv2_selu_w1_0
 Image Classification,Single-Stream,66.3,0.868540917,Mobilint-ARIES,mobilenetv2_silu_w1_0
 Image Classification,Single-Stream,67.74,1.577386467,DeepX M1,mobilenetv2_gelu_w1_0
-Image Classification,Single-Stream,58.84,1.543954208,DeepX M1,mobilenetv2_hardswish_w1_0
+Image Classification,Single-Stream,58.84,1.5439542080000002,DeepX M1,mobilenetv2_hardswish_w1_0
 Image Classification,Single-Stream,64.6,1.658994448,DeepX M1,mobilenetv2_leakyrelu_w1_0
-Image Classification,Single-Stream,66.95,1.683143671,DeepX M1,mobilenetv2_mish_w1_0
+Image Classification,Single-Stream,66.95,1.6831436709999998,DeepX M1,mobilenetv2_mish_w1_0
 Image Classification,Single-Stream,0.39,6.892138519,DeepX M1,mobilenetv2_prelu_w1_0
-Image Classification,Single-Stream,67.41,1.650978837,DeepX M1,mobilenetv2_relu6_w1_0
-Image Classification,Single-Stream,67.22,1.666562332,DeepX M1,mobilenetv2_relu_w1_0
+Image Classification,Single-Stream,67.41,1.6509788369999998,DeepX M1,mobilenetv2_relu6_w1_0
+Image Classification,Single-Stream,67.22,1.6665623319999998,DeepX M1,mobilenetv2_relu_w1_0
 Image Classification,Single-Stream,62.61,92.14313292,DeepX M1,mobilenetv2_selu_w1_0
 Image Classification,Single-Stream,67.28,1.652530724,DeepX M1,mobilenetv2_silu_w1_0
-Image Classification,Single-Stream,65.26,2.106636208,Hailo-8,mobilenetv2_elu_w1_0
-Image Classification,Single-Stream,66.72,2.104795613,Hailo-8,mobilenetv2_gelu_w1_0
+Image Classification,Single-Stream,65.26,2.1066362080000003,Hailo-8,mobilenetv2_elu_w1_0
+Image Classification,Single-Stream,66.72,2.1047956130000003,Hailo-8,mobilenetv2_gelu_w1_0
 Image Classification,Single-Stream,55.53,2.103891898,Hailo-8,mobilenetv2_hardswish_w1_0
 Image Classification,Single-Stream,67.78,2.121402656,Hailo-8,mobilenetv2_leakyrelu_w1_0
-Image Classification,Single-Stream,65.97,2.107930394,Hailo-8,mobilenetv2_mish_w1_0
+Image Classification,Single-Stream,65.97,2.1079303940000003,Hailo-8,mobilenetv2_mish_w1_0
 Image Classification,Single-Stream,68.38,6.033577647,Hailo-8,mobilenetv2_prelu_w1_0
 Image Classification,Single-Stream,67.44,2.075760929,Hailo-8,mobilenetv2_relu6_w1_0
 Image Classification,Single-Stream,67.7,2.078007402,Hailo-8,mobilenetv2_relu_w1_0
@@ -50,7 +50,7 @@ Image Classification,Single-Stream,65.78,2.104261286,Hailo-8,mobilenetv2_silu_w1
 Image Classification,Single-Stream,36.86,45.39115182,Qualcomm QCS6490,mobilenetv2_hardswish_w1_0
 Image Classification,Single-Stream,53.02,48.09085003,Qualcomm QCS6490,mobilenetv2_selu_w1_0
 Image Classification,Single-Stream,55.19,110.5390031,Qualcomm QCS6490,mobilenetv2_gelu_w1_0
-Image Classification,Single-Stream,65.7,45.4704906,Qualcomm QCS6490,mobilenetv2_prelu_w1_0
+Image Classification,Single-Stream,65.7,45.47049060000001,Qualcomm QCS6490,mobilenetv2_prelu_w1_0
 Image Classification,Single-Stream,61.16,154.073054,Qualcomm QCS6490,mobilenetv2_mish_w1_0
 Image Classification,Single-Stream,47.86,2.879035089,Qualcomm QCS6490,mobilenetv2_silu_w1_0
 Image Classification,Single-Stream,67.01,2.517316995,Qualcomm QCS6490,mobilenetv2_relu_w1_0
@@ -67,3 +67,13 @@ Image Classification,Single-Stream,68.34,0.940102234,RTX PRO 6000 Max-Q,mobilene
 Image Classification,Single-Stream,69.05,1.226754663,RTX PRO 6000 Max-Q,mobilenetv2_hardswish_w1_0
 Image Classification,Single-Stream,70.42,0.918144522,RTX PRO 6000 Max-Q,mobilenetv2_gelu_w1_0
 Image Classification,Single-Stream,65.86,0.927911143,RTX PRO 6000 Max-Q,mobilenetv2_elu_w1_0
+Image Classification,Single-Stream,78.333,7.479,NVIDIA Jetson Orin,mobilenetv2_silu_w1_0
+Image Classification,Single-Stream,70.0,7.6370000000000005,NVIDIA Jetson Orin,mobilenetv2_selu_w1_0
+Image Classification,Single-Stream,75.0,7.792000000000001,NVIDIA Jetson Orin,mobilenetv2_relu6_w1_0
+Image Classification,Single-Stream,79.167,7.521,NVIDIA Jetson Orin,mobilenetv2_relu_w1_0
+Image Classification,Single-Stream,80.0,6.983,NVIDIA Jetson Orin,mobilenetv2_prelu_w1_0
+Image Classification,Single-Stream,78.333,8.372,NVIDIA Jetson Orin,mobilenetv2_mish_w1_0
+Image Classification,Single-Stream,75.833,7.397,NVIDIA Jetson Orin,mobilenetv2_leakyrelu_w1_0
+Image Classification,Single-Stream,78.333,8.851,NVIDIA Jetson Orin,mobilenetv2_hardswish_w1_0
+Image Classification,Single-Stream,80.833,6.774,NVIDIA Jetson Orin,mobilenetv2_gelu_w1_0
+Image Classification,Single-Stream,75.0,14.927999999999999,NVIDIA Jetson Orin,mobilenetv2_elu_w1_0
