@@ -1,9 +1,5 @@
 # AI-MicroBMT: Reproducibility Artifacts
 
-**Companion code for the paper:**  
-> *AI-MicroBMT: Microbenchmark-Driven Quantization-Aware Performance Characterization of NPUs*  
-> KDD 2026 — Dataset & Benchmark Track
-
 This repository contains the complete pipeline to **reproduce all scores, rankings, and figures** presented in the paper. It is organized in two parts:
 
 1. **UDS Scoring** — computes the Unified Deployment Score (S1–S7) and weighted rankings from raw benchmark CSVs.
